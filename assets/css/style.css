@@ -1,9 +1,8 @@
 /**
-* Template Name: Gp
-* Updated: Jan 09 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-* Author: Lowloofi
-* License: https://bootstrapmade.com/license/
+
+  * Template Name: Amigas y amigos por los cementerios 
+  * Updated: 24-01-24
+  * Author: Daniel Aguilera Campusano
 */
 
 /*--------------------------------------------------------------
@@ -163,7 +162,8 @@ h6 {
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
-  border: 2px solid #ffc451;
+  border: 2px solid #9a6c11;
+  margin-left: 2%;
 }
 
 .get-started-btn:hover {
