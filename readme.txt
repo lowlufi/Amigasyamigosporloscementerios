@@ -1,6 +1,5 @@
-Thanks for downloading this template!
-
-Template Name: Gp
-Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+  <!-- ==================================================
+  * Template Name: Amigas y amigos por los cementerios 
+  * Updated: 24-01-24
+  * Author: Daniel Aguilera Campusano
+  ------================================================= -->
