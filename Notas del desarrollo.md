@@ -2,7 +2,9 @@
 # Miercoles a las 8 de la tarde  
 *TRABAJANDO hoy*
 *--------------------------------------------------*
-Objetivos en seccion de amarillos 
+Objetivos en seccion de amarillos
+El titulo va a ser el parrafo resumido
+
 *--------------------------------------------------*
 Seccion de logos 
 Coalboradores que han confiado en nosotros
@@ -20,6 +22,9 @@ Cambiar tamano de la foto dsesde css [opcional]
 *--------------------------------------------------*
 
 *TRABAJANDO MAÑANA*
+*--------------------------------------------------*
+ver si pongo mision yvision junto a la presentacion 
+una vez alargada la imagen 
 *--------------------------------------------------*
 Estilos de los textos para que se vea bonito
 *--------------------------------------------------*

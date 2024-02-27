@@ -613,9 +613,9 @@ section {
 # Features
 --------------------------------------------------------------*/
 .features {
-  /* padding-top: 20px; */
+  padding-top: 80px;
 
-  
+
 }
 
 .features .content h3 {
@@ -651,7 +651,12 @@ section {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 400px;
+  min-height: 600px;
+
+}
+
+div.presentacion {
+  padding: 20px;
 }
 
 /*--------------------------------------------------------------
