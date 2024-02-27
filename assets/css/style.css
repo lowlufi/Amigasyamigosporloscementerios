@@ -613,8 +613,17 @@ section {
 # Features
 --------------------------------------------------------------*/
 .features {
-  padding-top: 20px;
+  /* padding-top: 20px; */
+
+  
 }
+
+.features .content h3 {
+  font-weight: 700;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+}
+
 
 .features .icon-box {
   padding-left: 15px;
