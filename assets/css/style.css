@@ -122,6 +122,10 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+  /* Blurred apliccado en el header */
+  background-color: rgba(0, 0, 0, 0.5); /* Color negro transparente */
+  backdrop-filter: blur(10px); /* Aplicar desenfoque */
+  -webkit-backdrop-filter: blur(10px); /* Para navegadores webkit como Safari */
 }
 
 #header.header-scrolled,
@@ -612,6 +616,12 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
+
+/* mision y vision */
+#mision{
+  padding-top: 40px;
+}
+
 .features {
   padding-top: 80px;
 
@@ -1416,6 +1426,9 @@ div.presentacion {
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
+
+
+  
 }
 
 #footer .footer-top {
