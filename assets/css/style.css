@@ -507,8 +507,9 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+/* se cambio pading de 60 a 20 */
 section {
-  padding: 60px 0;
+  padding: 30px 0;
   overflow: hidden;
 }
 
@@ -616,14 +617,8 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
-
-/* mision y vision */
-#mision{
-  padding-top: 40px;
-}
-
 .features {
-  padding-top: 80px;
+  padding-top: 50px;
 
 
 }
@@ -1070,10 +1065,12 @@ div.presentacion {
   color: #fff;
 }
 
+/* se cambio el border radios de 80 o 60 creo y el border de 6 a 0  */
+
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
-  border-radius: 50%;
-  border: 6px solid rgba(255, 255, 255, 0.15);
+  border-radius: 40%;
+  border: 0px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
 }
 

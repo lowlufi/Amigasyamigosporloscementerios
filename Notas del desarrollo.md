@@ -2,35 +2,61 @@
 # Miercoles a las 8 de la tarde  
 *TRABAJANDO hoy*
 *--------------------------------------------------*
-Poner fotos actuales 
+
 *--------------------------------------------------*
-Mapa
+
 *--------------------------------------------------*
-En vez de negro seria genial un blurred en el nav
+
 *--------------------------------------------------*
-dejar como rox.cl
+agregar seccion proyectos / seminarios / actividades
+con anos
 *--------------------------------------------------*
-Agregar títulos a misio n y vision
+poner barra nav para telefonos 
 *--------------------------------------------------*
+buscar foto de equipo en las redes sociales
+*--------------------------------------------------*
+
+*--------------------------------------------------*
+
+*--------------------------------------------------*
+limpiar codigo *opcional por ahora*
+limpieza de carpetas y archivos *opcional por ahora*
+*--------------------------------------------------*
+# 7:30 prepararme para reunion y mandar link 
+*--------------------------------------------------*
+
+
+VER VIDEOS DOCUMENTALES dejando notas
+subir con insta pero mostrar en local con FOTOGRAFIA
+
 # importante 
-Ver como añadir directiva completa al sitio web
+
 
 *--------------------------------------------------*
-ver como anadir material audivisual videos
-*--------------------------------------------------*
-ver como anadir proyecto portico junto a los
-planos en pdf 
+\\ preguntas
+Galeria de imagenes de instagram 
+
+
+Con y sin video 
+4ta persona directiva
+Preguntar la direccion para poner en el nav y mapa
 video 
-*--------------------------------------------------*
+quiere que vaya la seccion de testimonios?
+me habia mencionado a un hijo ilustre
+
+[directiva con foto grupal debajo] 
+Quiere que vaya la directiva completa al sitio web?
+
+[pensar]
+Como le gustaria incluir el material audivisual videos?
+Como le gustaria incluir el material del proyecto portico junto a los
+planos en pdf 
+
+
+
 
 *--------------------------------------------------*
-
-*--------------------------------------------------*
-*TRABAJANDO MAÑANA*
-*--------------------------------------------------*
-
-*--------------------------------------------------*
-*Tengo que realizar urgente*
+# # # # # # # # # # # # # # # # # # # # # # # # # #
 
 
 
