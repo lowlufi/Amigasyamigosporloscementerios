@@ -79,3 +79,7 @@ Shift + Alt + F
 
 # preguntas
 que foto le gustarian
+
+transparencia 
+seccion de proyectos
+o seccion de biblioteca o bibliografia 
