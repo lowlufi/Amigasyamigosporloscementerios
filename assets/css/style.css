@@ -725,10 +725,23 @@ div.presentacion {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background-position: center center;
   background-size: cover;
+  position: relative;
   padding: 60px 0;
 }
+
+/* .cta::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+} */
+
 
 .cta h3 {
   color: #fff;
