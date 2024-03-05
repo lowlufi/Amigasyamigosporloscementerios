@@ -300,6 +300,9 @@ h6 {
 /**
 * Mobile Navigation 
 */
+/**
+* Mobile Navigation 
+*/
 .mobile-nav-toggle {
   color: #fff;
   font-size: 28px;
@@ -1465,7 +1468,7 @@ div.presentacion {
 }
 
 #footer .footer-top .footer-info p {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;

@@ -2,32 +2,27 @@
 # Miercoles a las 8 de la tarde  
 *TRABAJANDO hoy*
 *--------------------------------------------------*
-Prepararme para reunion y preparar preguntas mientras
-preparo la pagina
-comprar dominio
-*--------------------------------------------------*
-buscar foto de equipo en las redes sociales
-*--------------------------------------------------*
 poner barra nav para telefonos 
 *--------------------------------------------------*
-limpiar codigo *opcional por ahora*
-limpieza de carpetas y archivos *opcional por ahora*
+Slider en la prsentacion
 *--------------------------------------------------*
-
-
-tilde
+TRABAJAR en seccion de preoyectos
 *--------------------------------------------------*
-justifiacion
+ordenar css
 *--------------------------------------------------*
-
+poner instagram en cta, buscar el insta
 *--------------------------------------------------*
 
 *--------------------------------------------------*
+ comprar dominio
 
 *--------------------------------------------------*
 
 *--------------------------------------------------*
 
+*--------------------------------------------------*
+
+*--------------------------------------------------*
 
 VER VIDEOS DOCUMENTALES dejando notas
 subir con insta pero mostrar en local con FOTOGRAFIA
@@ -38,7 +33,6 @@ subir con insta pero mostrar en local con FOTOGRAFIA
 *--------------------------------------------------*
 \\ preguntas
 Galeria de imagenes de instagram 
-
 
 Con y sin video 
 4ta persona directiva
@@ -82,4 +76,4 @@ que foto le gustarian
 
 transparencia 
 seccion de proyectos
-o seccion de biblioteca o bibliografia 
+o seccion de biblioteca o bibliografia seccion prensa
