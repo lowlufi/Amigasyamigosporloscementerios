@@ -659,9 +659,9 @@ section {
 .features .image {
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* se cambio el size antes era cover  */
+  background-size: 560px;
   min-height: 600px;
-
 }
 
 div.presentacion {

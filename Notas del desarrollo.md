@@ -2,7 +2,13 @@
 # Miercoles a las 8 de la tarde  
 *TRABAJANDO hoy*
 *--------------------------------------------------*
-poner barra nav para telefonos 
+cambiar a color amarillo a #CE5353
+
+*--------------------------------------------------*
+añadir seccion para poner interaccon con los pdf
+*--------------------------------------------------*
+ver donde y como poner trozo de video interesante 
+o video completo
 *--------------------------------------------------*
 Slider en la prsentacion
 *--------------------------------------------------*
@@ -12,23 +18,16 @@ ordenar css
 *--------------------------------------------------*
 poner instagram en cta, buscar el insta
 *--------------------------------------------------*
-
-*--------------------------------------------------*
- comprar dominio
-
+poner barra nav para telefonos 
 *--------------------------------------------------*
 
 *--------------------------------------------------*
 
 *--------------------------------------------------*
-
-*--------------------------------------------------*
-
 VER VIDEOS DOCUMENTALES dejando notas
 subir con insta pero mostrar en local con FOTOGRAFIA
 
 # importante 
-
 
 *--------------------------------------------------*
 \\ preguntas
