@@ -2,15 +2,17 @@
 # Miercoles a las 8 de la tarde  
 *TRABAJANDO hoy*
 *--------------------------------------------------*
-cambiar a color amarillo a #CE5353
-
+Slider en la prsentacion 
+imagen de cada dia de la progrmaacion
+*--------------------------------------------------*
+Centrar la seccion de programacion
 *--------------------------------------------------*
 añadir seccion para poner interaccon con los pdf
 *--------------------------------------------------*
 ver donde y como poner trozo de video interesante 
 o video completo
 *--------------------------------------------------*
-Slider en la prsentacion
+
 *--------------------------------------------------*
 TRABAJAR en seccion de preoyectos
 *--------------------------------------------------*
@@ -20,7 +22,7 @@ poner instagram en cta, buscar el insta
 *--------------------------------------------------*
 poner barra nav para telefonos 
 *--------------------------------------------------*
-
+cambiar a color amarillo a #CE5353
 *--------------------------------------------------*
 
 *--------------------------------------------------*
