@@ -1,6 +1,6 @@
 /**
 
-  * Template Name: Amigas y amigos por los cementerios 
+  * Template Name: Amigas y amigos por los cementerios
   * Updated: 24-01-24
   * Author: Daniel Aguilera Campusano
 */
@@ -123,9 +123,12 @@ h6 {
   z-index: 997;
   padding: 15px 0;
   /* Blurred apliccado en el header */
-  background-color: rgba(0, 0, 0, 0.5); /* Color negro transparente */
-  backdrop-filter: blur(10px); /* Aplicar desenfoque */
-  -webkit-backdrop-filter: blur(10px); /* Para navegadores webkit como Safari */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Color negro transparente */
+  backdrop-filter: blur(10px);
+  /* Aplicar desenfoque */
+  -webkit-backdrop-filter: blur(10px);
+  /* Para navegadores webkit como Safari */
 }
 
 #header.header-scrolled,
@@ -186,7 +189,7 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -298,10 +301,10 @@ h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -410,13 +413,20 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
+
 #hero {
   width: 100%;
   min-height: 100vh;
-  background: url("/assets/img/hero-bg.JPG") top center;
-  
+  background: url("/assets/img/hero-bgg.jpg") top center;
   background-size: cover;
   position: relative;
+}
+
+#background-video {
+  width: 600px;
+  height: 420px;
+
 }
 
 #hero:before {
@@ -621,12 +631,57 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
-.features {
-  padding-top: 50px;
+
+/* BOTONES */
 
 
+button{
+  background:#FFC451;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.3em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#fff;
+  color:#FFC451;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #FFC451;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
 }
 
+
+
+.features {
+  padding-top: 50px;
+}
+/* slider */
+.g-4, .gy-4 {
+  align-items: center;
+  justify-content: center;
+}
 
 
 .features .content h3 {
@@ -664,10 +719,12 @@ section {
   /* se cambio el size antes era cover  */
   background-size: 560px;
   min-height: 600px;
+
 }
 
 div.presentacion {
   padding: 20px;
+
 }
 
 /*--------------------------------------------------------------
@@ -1444,7 +1501,7 @@ div.presentacion {
   font-size: 14px;
 
 
-  
+
 }
 
 #footer .footer-top {
