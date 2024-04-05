@@ -692,18 +692,19 @@ body{
 /* BOTONES */
 
 button{
-  background:#FFC451;
-  color:#fff;
-  border:none;
-  position:relative;
-  height:60px;
-  font-size:1.3em;
-  /* padding:0 2em; */
-  cursor:pointer;
-  transition:800ms ease all;
-  outline:none;
-  justify-content: center;
-  
+  margin-top: 20px;
+margin-left: 40%;
+background:#FFC451;
+color:#fff;
+border:none;
+position:relative;
+height:60px;
+font-size:1.3em;
+/* padding:0 2em; */
+cursor:pointer;
+transition:800ms ease all;
+outline:none;
+justify-content: center;
 }
 button:hover{
   background:#fff;
