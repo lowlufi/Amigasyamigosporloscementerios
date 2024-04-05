@@ -633,7 +633,9 @@ section {
 --------------------------------------------------------------*/
 
 /* BOTONES */
-
+body{
+  background-color: #FEF7EF;
+}
 
 button{
   background:#FFC451;
@@ -963,8 +965,8 @@ div.presentacion {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-  padding-top: 40px;
-}
+   margin-top: 100px;
+} 
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;

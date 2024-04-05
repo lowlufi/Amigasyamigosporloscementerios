@@ -3,41 +3,44 @@
 *ENTREGA hoy*
 *--------------------------------------------------*
 slider con boton a 
-los pdf individual
-al videio docu
-
-
+La programacion de abril
+Los pdf individual
+Al las capsulas para ver los videio docu
 *--------------------------------------------------*
-Centrar la seccion de programacion
+Perzonalizar una pagina y copiarla 
+para solo cambiar el contenido a mostrar
 *--------------------------------------------------*
-añadir seccion para poner interaccon con los pdf
 *--------------------------------------------------*
-ver donde y como poner trozo de video interesante 
-o video completo
-*--------------------------------------------------*
-en seccion de preogramcion
-#raices poner boton en el slider que lleve a 
-la pagina protfolio inner del gp 
-ahi estaria el video o los pdf tmb 
-
-*--------------------------------------------------*
-TRABAJAR en seccion de preoyectos
-*--------------------------------------------------*
-ordenar css
 *--------------------------------------------------*
 poner instagram en cta, buscar el insta
 *--------------------------------------------------*
-poner barra nav para telefonos 
+efect que le guisto a al aditi
 *--------------------------------------------------*
-cambiar a color amarillo a #CE5353
+ordenar css
 *--------------------------------------------------*
-video como background 
+poner barra nav para telefonos  Esn el css del nav
 *--------------------------------------------------*
-VER VIDEOS DOCUMENTALES dejando notas
-subir con insta pero mostrar en local con FOTOGRAFIA
+TRABAJAR en seccion de preoyectos
+*--------------------------------------------------*
 
+*--------------------------------------------------*
+
+*--------------------------------------------------*
+
+*--------------------------------------------------*
+
+*--------------------------------------------------*
+ 
+*--------------------------------------------------*
+
+*--------------------------------------------------*
+
+*--------------------------------------------------*
+
+*--------------------------------------------------*
 # importante 
-
+10 abril despliegue 
+subir al servidor 
 *--------------------------------------------------*
 \\ preguntas
 Galeria de imagenes de instagram 
@@ -78,6 +81,9 @@ ctlr shif p
 
 Shift + Alt + F
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 # preguntas
 que foto le gustarian
