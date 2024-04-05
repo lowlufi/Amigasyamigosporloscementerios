@@ -10,7 +10,9 @@ Al las capsulas para ver los videio docu
 Perzonalizar una pagina y copiarla 
 para solo cambiar el contenido a mostrar
 *--------------------------------------------------*
+ocultar  seccion directiva 
 *--------------------------------------------------*
+
 *--------------------------------------------------*
 poner instagram en cta, buscar el insta
 *--------------------------------------------------*

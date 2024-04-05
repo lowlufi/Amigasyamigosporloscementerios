@@ -632,46 +632,11 @@ section {
 # Features
 --------------------------------------------------------------*/
 
-/* BOTONES */
+
+
+
 body{
   background-color: #FEF7EF;
-}
-
-button{
-  background:#FFC451;
-  color:#fff;
-  border:none;
-  position:relative;
-  height:60px;
-  font-size:1.3em;
-  padding:0 2em;
-  cursor:pointer;
-  transition:800ms ease all;
-  outline:none;
-}
-button:hover{
-  background:#fff;
-  color:#FFC451;
-}
-button:before,button:after{
-  content:'';
-  position:absolute;
-  top:0;
-  right:0;
-  height:2px;
-  width:0;
-  background: #FFC451;
-  transition:400ms ease all;
-}
-button:after{
-  right:inherit;
-  top:inherit;
-  left:0;
-  bottom:0;
-}
-button:hover:before,button:hover:after{
-  width:100%;
-  transition:800ms ease all;
 }
 
 
@@ -723,6 +688,48 @@ button:hover:before,button:hover:after{
   min-height: 600px;
 
 }
+
+/* BOTONES */
+
+button{
+  background:#FFC451;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.3em;
+  /* padding:0 2em; */
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  justify-content: center;
+  
+}
+button:hover{
+  background:#fff;
+  color:#FFC451;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #FFC451;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
 
 div.presentacion {
   padding: 20px;
@@ -990,8 +997,11 @@ div.presentacion {
 }
 
 .portfolio-details .portfolio-info {
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(21, 21, 21, 0.08);
+  /* padding: 30px; */
+  /* box-shadow: 0px 0 30px rgba(21, 21, 21, 0.08); */
+  align-items: center;
+  justify-content: center
+  
 }
 
 .portfolio-details .portfolio-info h3 {
