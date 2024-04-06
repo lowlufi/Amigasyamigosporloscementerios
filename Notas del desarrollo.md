@@ -2,17 +2,19 @@
 # Miercoles a las 8 de la tarde  
 *ENTREGA hoy*
 *--------------------------------------------------*
-slider con boton a 
-La programacion de abril
-Los pdf individual
-Al las capsulas para ver los videio docu
+dejar imagen en vez de slider en programacoon html
+*--------------------------------------------------*
+
 *--------------------------------------------------*
 Perzonalizar una pagina y copiarla 
 para solo cambiar el contenido a mostrar
 *--------------------------------------------------*
 ocultar  seccion directiva 
 *--------------------------------------------------*
-
+slider con boton a 
+La programacion de abril
+Los pdf individual
+Al las capsulas para ver los videio docu
 *--------------------------------------------------*
 poner instagram en cta, buscar el insta
 *--------------------------------------------------*
@@ -24,9 +26,9 @@ poner barra nav para telefonos  Esn el css del nav
 *--------------------------------------------------*
 TRABAJAR en seccion de preoyectos
 *--------------------------------------------------*
-
+links en cada logo imagen de institucion
 *--------------------------------------------------*
-
+visita a cementerio Disidentes, Comité Gestor de Patrimonio ,Valparaíso Creativo -Corfo Otubre 2023
 *--------------------------------------------------*
 
 *--------------------------------------------------*
