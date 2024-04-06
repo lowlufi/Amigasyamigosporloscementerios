@@ -195,6 +195,9 @@ h6 {
 */
 .navbar {
   padding: 0;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .navbar ul {
@@ -203,23 +206,26 @@ h6 {
   display: flex;
   list-style: none;
   align-items: center;
+  
 }
 
 .navbar li {
   position: relative;
+  
 }
 
 .navbar a,
 .navbar a:focus {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 600;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
+  
 }
 
 .navbar a i,
@@ -420,7 +426,7 @@ h6 {
 #hero {
   width: 100%;
   min-height: 100vh;
-  background: url("/assets/img/hero-bg.jpg") top center;
+  background: url("/assets/img/portfolio/portada.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -439,6 +445,7 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
+  opacity: 50%;
 }
 
 #hero .container {
@@ -525,7 +532,7 @@ h6 {
 --------------------------------------------------------------*/
 /* se cambio pading de 60 a 20 */
 section {
-  padding: 30px 0;
+  padding: 50px ;
   overflow: hidden;
 }
 
@@ -1229,7 +1236,9 @@ div.presentacion {
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
     width: 80%;
+
   }
+  
 }
 
 /*--------------------------------------------------------------
