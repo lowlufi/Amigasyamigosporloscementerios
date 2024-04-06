@@ -426,7 +426,7 @@ h6 {
 #hero {
   width: 100%;
   min-height: 100vh;
-  background: url("/assets/img/portfolio/portada.jpg") top center;
+  background: url("/assets/img/portfolio/portada.png") top center;
   background-size: cover;
   position: relative;
 }
