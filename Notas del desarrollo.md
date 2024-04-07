@@ -26,21 +26,34 @@ poner barra nav para telefonos  Esn el css del nav
 *--------------------------------------------------*
 TRABAJAR en seccion de preoyectos
 *--------------------------------------------------*
-links en cada logo imagen de institucion
+Hacer .html de Capsulas y 
 *--------------------------------------------------*
 visita a cementerio Disidentes, Comité Gestor de Patrimonio ,Valparaíso Creativo -Corfo Otubre 2023
 *--------------------------------------------------*
+Directiva poner nombres
 
+directiva poner fotos
 *--------------------------------------------------*
+Slider en hero
+*--------------------------------------------------*
+logos actualizar 
+*--------------------------------------------------*
+Iconos en objetivos
+*--------------------------------------------------*
+telefon aditi
+*--------------------------------------------------*
+Seccion testimonios va a ser seccion a
+Ponencias en Blogspot red iberoamericana
+*--------------------------------------------------*
+ubicacion con los cementerios parroquiales para poner en mapa 
+Cementerio Numero Dos calle dinamarca 217
+Cementerio Numero Uno 
+Cementerio Disidentes 
 
+*--------------------------------------------------*\
+TESTIMONIOS DEBAJO DE DIRECTIVA 
+PONER SOCIOS  
 *--------------------------------------------------*
- 
-*--------------------------------------------------*
-
-*--------------------------------------------------*
-
-*--------------------------------------------------*
-
 *--------------------------------------------------*
 # importante 
 10 abril despliegue 
@@ -63,6 +76,8 @@ Quiere que vaya la directiva completa al sitio web?
 Como le gustaria incluir el material audivisual videos?
 Como le gustaria incluir el material del proyecto portico junto a los
 planos en pdf 
+
+alquime de almas coreana
 
 
 
