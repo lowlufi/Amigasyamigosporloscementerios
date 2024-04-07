@@ -1524,8 +1524,10 @@ div.presentacion {
   color: #fff;
   font-size: 14px;
 
+}
 
-
+.img-fluid{
+  height: 300px;
 }
 
 #footer .footer-top {
