@@ -129,7 +129,6 @@ h6 {
   /* Aplicar desenfoque */
   -webkit-backdrop-filter: blur(10px);
   /* Para navegadores webkit como Safari */
-  
 }
 
 #header.header-scrolled,
@@ -138,11 +137,11 @@ h6 {
 }
 
 #header .logo {
-  font-size: 32px;
+  font-size: 28px;
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: 2px;
   text-transform: uppercase;
 
@@ -219,8 +218,8 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 0 10px 30px;
-  font-size: 15px;
+  padding: 10px 0 10px 40px;
+  font-size: 22px;
   font-weight: 600;
   color: #FEF7EF;
   white-space: nowrap;
@@ -753,7 +752,7 @@ body{
 
 }
 
-.image-objetivos {
+/* .image-objetivos {
 
 
 
@@ -761,7 +760,7 @@ body{
 
 .image-objetivos:hover {
 
-}
+} */
 
 
 
