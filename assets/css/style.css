@@ -149,7 +149,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: #FEF7EF;
 }
 
 #header .logo a span {
@@ -164,7 +164,7 @@ h6 {
 #  Get Startet Button
 --------------------------------------------------------------*/
 .get-started-btn {
-  color: #fff;
+  color: #FEF7EF;
   border-radius: 4px;
   padding: 7px 25px 8px 25px;
   white-space: nowrap;
@@ -222,7 +222,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 600;
-  color: #fff;
+  color: #FEF7EF;
   white-space: nowrap;
   transition: 0.3s;
   
@@ -252,7 +252,7 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #FEF7EF;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -315,7 +315,7 @@ h6 {
 * Mobile Navigation
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #FEF7EF;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -359,7 +359,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #FEF7EF;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -391,7 +391,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: #FEF7EF;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -505,7 +505,7 @@ h6 {
   font-size: 56px;
   font-weight: 700;
   line-height: 64px;
-  color: #fff;
+  color: #FEF7EF;
   font-family: "Poppins", sans-serif;
 }
 
@@ -543,7 +543,7 @@ h6 {
 }
 
 #hero .icon-box h3 a {
-  color: #fff;
+  color: #FEF7EF;
   transition: ease-in-out 0.3s;
 }
 
@@ -674,7 +674,7 @@ section {
 .clients .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #FEF7EF;
   opacity: 1;
   background-color: #ddd;
 }
@@ -750,7 +750,7 @@ button{
   margin-top: 20px;
 margin-left: 40%;
 background:#FFC451;
-color:#fff;
+color:#FEF7EF;
 border:none;
 position:relative;
 height:60px;
@@ -762,7 +762,7 @@ outline:none;
 justify-content: center;
 }
 button:hover{
-  background:#fff;
+  background:#FEF7EF;
   color:#FFC451;
 }
 button:before,button:after{
@@ -800,7 +800,7 @@ div.presentacion {
   border: 1px solid #ebebeb;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: #FEF7EF;
 }
 
 .services .icon-box .icon {
@@ -844,7 +844,7 @@ div.presentacion {
 }
 
 .services .icon-box:hover {
-  border-color: #fff;
+  border-color: #FEF7EF;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
 }
@@ -872,13 +872,13 @@ div.presentacion {
 
 
 .cta h3 {
-  color: #fff;
+  color: #FEF7EF;
   font-size: 28px;
   font-weight: 700;
 }
 
 .cta p {
-  color: #fff;
+  color: #FEF7EF;
 }
 
 .cta .cta-btn {
@@ -891,8 +891,8 @@ div.presentacion {
   border-radius: 4px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #FEF7EF;
+  color: #FEF7EF;
 }
 
 .cta .cta-btn:hover {
@@ -982,7 +982,7 @@ div.presentacion {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #fff;
+  color: #FEF7EF;
   font-weight: 600;
 }
 
@@ -1001,7 +1001,7 @@ div.presentacion {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
+  color: #FEF7EF;
   margin: 0 5px 0 0;
   font-size: 28px;
   display: inline-block;
@@ -1043,7 +1043,7 @@ div.presentacion {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #FEF7EF;
   opacity: 1;
   border: 1px solid #ffc451;
 }
@@ -1179,7 +1179,7 @@ div.presentacion {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/fondosocios.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1206,7 +1206,7 @@ div.presentacion {
 
 .testimonials .testimonial-item {
   text-align: center;
-  color: #fff;
+  color: #FEF7EF;
 }
 
 /* se cambio el border radios de 80 o 60 creo y el border de 6 a 0  */
@@ -1222,7 +1222,7 @@ div.presentacion {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #fff;
+  color: #FEF7EF;
 }
 
 .testimonials .testimonial-item h4 {
@@ -1291,7 +1291,7 @@ div.presentacion {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+  background: #FEF7EF;
   padding: 60px 0;
 }
 
@@ -1299,7 +1299,7 @@ div.presentacion {
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 5px;
-  background: #fff;
+  background: #FEF7EF;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -1378,7 +1378,7 @@ div.presentacion {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #FEF7EF;
 }
 
 .contact .info i {
@@ -1417,7 +1417,7 @@ div.presentacion {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: #FEF7EF;
 }
 
 .contact .php-email-form .form-group {
@@ -1426,7 +1426,7 @@ div.presentacion {
 
 .contact .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color: #FEF7EF;
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
@@ -1439,7 +1439,7 @@ div.presentacion {
 
 .contact .php-email-form .sent-message {
   display: none;
-  color: #fff;
+  color: #FEF7EF;
   background: #18d26e;
   text-align: center;
   padding: 15px;
@@ -1448,7 +1448,7 @@ div.presentacion {
 
 .contact .php-email-form .loading {
   display: none;
-  background: #fff;
+  background: #FEF7EF;
   text-align: center;
   padding: 15px;
 }
@@ -1567,7 +1567,7 @@ div.presentacion {
 #footer {
   background: black;
   padding: 0 0 30px 0;
-  color: #fff;
+  color: #FEF7EF;
   font-size: 14px;
 
 }
@@ -1601,14 +1601,14 @@ div.presentacion {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: #FEF7EF;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #292929;
-  color: #fff;
+  color: #FEF7EF;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1628,7 +1628,7 @@ div.presentacion {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: #FEF7EF;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1661,7 +1661,7 @@ div.presentacion {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: #FEF7EF;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1673,7 +1673,7 @@ div.presentacion {
 
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
-  background: #fff;
+  background: #FEF7EF;
   padding: 6px 10px;
   position: relative;
   border-radius: 4px;
@@ -1713,5 +1713,5 @@ div.presentacion {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #fff;
+  color: #FEF7EF;
 }
