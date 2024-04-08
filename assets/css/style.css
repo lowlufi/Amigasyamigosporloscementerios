@@ -744,6 +744,28 @@ body{
 
 }
 
+.features .image-objetivos {
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* se cambio el size antes era cover  */
+  background-size: cover;
+  min-height: 300px;
+
+}
+
+.image-objetivos {
+
+
+
+}
+
+.image-objetivos:hover {
+
+}
+
+
+
+
 .mapaActividad{
   justify-content: center;
   justify-items: center;
