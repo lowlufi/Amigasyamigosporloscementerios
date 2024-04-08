@@ -744,6 +744,12 @@ body{
 
 }
 
+.mapaActividad{
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+}
+
 /* BOTONES */
 
 button{
@@ -853,14 +859,14 @@ div.presentacion {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/cta.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
   padding: 60px 0;
 }
 
-/* .cta::before {
+.cta::before {
   content: "";
   position: absolute;
   left: 0;
@@ -868,7 +874,8 @@ div.presentacion {
   top: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.7);
-} */
+  opacity: 60%;
+}
 
 
 .cta h3 {
@@ -898,7 +905,7 @@ div.presentacion {
 .cta .cta-btn:hover {
   background: #ffc451;
   border-color: #ffc451;
-  color: #151515;
+  color: #FEF7EF;
 }
 
 /*--------------------------------------------------------------
