@@ -290,17 +290,7 @@
    */
   new PureCounter();
 
-  var swiper = new Swiper('.swiper-container', {
-    // Opciones de configuración
-    loop: true, // Repetir el slider
-    autoplay: {
-      delay: 5000, // Tiempo entre cada slide en milisegundos (5 segundos en este caso)
-    },
-    pagination: {
-      el: '.swiper-pagination', // Selector de la paginación
-      clickable: true, // Permite hacer clic en los puntos de paginación para navegar a las diapositivas
-    },
-  });
+
 
 
 })()
