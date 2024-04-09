@@ -223,6 +223,8 @@ style='background-image: url("assets/img/portada.png")' -->
         </div>
 
         <div class="row">
+
+
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-play-btn"></i></div>
@@ -231,10 +233,35 @@ style='background-image: url("assets/img/portada.png")' -->
             </div>
           </div>
 
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+
+
+              <!-- Botón para abrir el modal -->
+              <div class="icon"><i class="bi bi-play-btn"></i></div>
+              <h4><a href="#" id="openVideoModal">Abrir Video</a></h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+          </div>
+
+
+          <!-- Modal para mostrar el video -->
+          <div id="videoModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <video controls id="videoPlayer" style="width: 100%">
+                <source src="assets/img/3d.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+
+
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
             data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bi bi-play-btn"></i></div>
+              <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href="">Sed ut perspiciatis</a></h4>
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
             </div>
@@ -243,7 +270,7 @@ style='background-image: url("assets/img/portada.png")' -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
             data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bi bi-play-btn"></i></div>
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4><a href="">Magni Dolores</a></h4>
               <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
             </div>
@@ -1166,6 +1193,30 @@ style='background-image: url("assets/img/portada.png")' -->
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+  <script>
+    // Obtén el botón y el modal
+    var openVideoModalBtn = document.getElementById("openVideoModal");
+    var videoModal = document.getElementById("videoModal");
+    var videoPlayer = document.getElementById("videoPlayer");
+
+    // Agrega un evento de clic al botón para abrir el modal
+    openVideoModalBtn.addEventListener("click", function () {
+      videoModal.style.display = "block";
+    });
+
+    // Obtén el botón de cerrar y agrega un evento de clic para cerrar el modal
+    var closeModalBtn = document.querySelector(".close");
+    closeModalBtn.addEventListener("click", function () {
+      // Pausa el video
+      videoPlayer.pause();
+      // Limpia el src del video para detener la reproducción
+      videoPlayer.removeAttribute('src');
+      // Oculta el modal
+      videoModal.style.display = "none";
+    });
+  </script>
   <!-- archivo JS -->
   <script src="assets/js/main.js"></script>
 </body>
