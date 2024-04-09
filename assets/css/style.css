@@ -159,11 +159,8 @@ h6 {
 #header .logo img {
   max-height: 40px;
   
-
+  
 }
-
-
-
 
 /*--------------------------------------------------------------
 #  Get Startet Button
@@ -224,20 +221,19 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 0 10px 40px;
-  font-size: 22px;
+  padding: 10px 0 10px 30px;
+  font-size: 20px;
   font-weight: 600;
   color: #FEF7EF;
   white-space: nowrap;
   transition: 0.3s;
-  
 }
 
 .navbar a i,
 .navbar a:focus i {
   font-size: 12px;
   line-height: 0;
-  margin-left: 5px;
+  margin-left: 2px;
 }
 
 .navbar a:hover,
