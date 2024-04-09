@@ -737,10 +737,6 @@ body{
   float: left;
 }
 
-.portfolio-details-slider swiper{
-
-  background-size: contain;
-}
 
 
 
@@ -1002,7 +998,7 @@ div.presentacion {
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
-  position: relative;
+  position: absolute;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
