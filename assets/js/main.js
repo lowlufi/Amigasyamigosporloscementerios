@@ -254,7 +254,6 @@
       clickable: true
     }
   });
-
   /**
    * Testimonials slider
    */
