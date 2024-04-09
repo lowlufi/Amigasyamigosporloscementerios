@@ -158,7 +158,12 @@ h6 {
 
 #header .logo img {
   max-height: 40px;
+  
+
 }
+
+
+
 
 /*--------------------------------------------------------------
 #  Get Startet Button
@@ -1522,6 +1527,7 @@ div.presentacion {
   background: #151515;
   border-bottom: 1px solid #222222;
   padding: 60px 0 30px 0;
+
 }
 
 #footer .footer-top .footer-info {
