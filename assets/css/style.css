@@ -170,7 +170,7 @@ h6 {
   border-radius: 4px;
   padding: 7px 25px 8px 25px;
   white-space: nowrap;
-  transition: 5s;
+  transition: 3s;
   font-size: 14px;
   display: inline-block;
   border: 2px solid #9a6c11;
@@ -226,7 +226,7 @@ h6 {
   font-weight: 600;
   color: #FEF7EF;
   white-space: nowrap;
-  transition: 5s;
+  transition: 3s;
 }
 
 .navbar a i,
@@ -255,7 +255,7 @@ h6 {
   visibility: hidden;
   background: #FEF7EF;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 5s;
+  transition: 3s;
 }
 
 .navbar .dropdown ul li {
@@ -367,7 +367,7 @@ h6 {
   left: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.9);
-  transition: 5s;
+  transition: 3s;
   z-index: 999;
 }
 
@@ -387,7 +387,7 @@ h6 {
   padding: 10px 0;
   background-color: #FEF7EF;
   overflow-y: auto;
-  transition: 5s;
+  transition: 3s;
 }
 
 .navbar-mobile a,
@@ -637,7 +637,7 @@ section {
 
 .clients .swiper-slide img {
   opacity: 0.5;
-  transition: 5s;
+  transition: 3s;
   filter: grayscale(100);
 }
 
@@ -773,7 +773,7 @@ div.presentacion {
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-  transition: 5s;
+  transition: 3s;
 }
 
 .services .icon-box .icon i {
@@ -901,7 +901,7 @@ div.presentacion {
 }
 
 .portfolio .portfolio-wrap {
-  transition: 5s;
+  transition: 3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -966,7 +966,7 @@ div.presentacion {
   margin: 0 5px 0 0;
   font-size: 28px;
   display: inline-block;
-  transition: 5s;
+  transition: 3s;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -1578,7 +1578,7 @@ div.presentacion {
   text-align: center;
   width: 36px;
   height: 36px;
-  transition: 5s;
+  transition: 3s;
 }
 
 #footer .footer-top .social-links a:hover {
@@ -1624,7 +1624,7 @@ div.presentacion {
 
 #footer .footer-top .footer-links ul a {
   color: #FEF7EF;
-  transition: 5s;
+  transition: 3s;
   display: inline-block;
   line-height: 1;
 }
@@ -1658,7 +1658,7 @@ div.presentacion {
   padding: 0 20px;
   background: #ffc451;
   color: #151515;
-  transition: 5s;
+  transition: 3s;
   border-radius: 0 4px 4px 0;
 }
 
