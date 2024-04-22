@@ -158,8 +158,8 @@ h6 {
 
 #header .logo img {
   max-height: 40px;
-  
-  
+
+
 }
 
 /*--------------------------------------------------------------
@@ -199,7 +199,7 @@ h6 {
   padding: 0;
   align-items: center;
   justify-content: center;
-  
+
 }
 
 .navbar ul {
@@ -208,12 +208,12 @@ h6 {
   display: flex;
   list-style: none;
   align-items: center;
-  
+
 }
 
 .navbar li {
   position: relative;
-  
+
 }
 
 .navbar a,
@@ -329,8 +329,10 @@ h6 {
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
-  max-width: 800px; /* Establece un ancho máximo */
-  height: auto; /* Altura automática */
+  max-width: 800px;
+  /* Establece un ancho máximo */
+  height: auto;
+  /* Altura automática */
 }
 
 /**
@@ -558,7 +560,7 @@ h6 {
 --------------------------------------------------------------*/
 /* se cambio pading de 60 a 20 */
 section {
-  padding: 60px ;
+  padding: 60px;
   overflow: hidden;
 }
 
@@ -670,7 +672,7 @@ section {
 
 
 
-body{
+body {
   background-color: #FEF7EF;
 }
 
@@ -679,8 +681,10 @@ body{
 .features {
   padding-top: 50px;
 }
+
 /* slider */
-.g-4, .gy-4 {
+.g-4,
+.gy-4 {
   align-items: center;
   justify-content: center;
 }
@@ -733,14 +737,14 @@ body{
 
 }
 
-.gprev{
+.gprev {
   float: left;
 }
 
 
 
 
-.mapaActividad{
+.mapaActividad {
   justify-content: center;
   justify-items: center;
   display: flex;
@@ -989,8 +993,8 @@ div.presentacion {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-   margin-top: 100px;
-} 
+  margin-top: 100px;
+}
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
@@ -1018,7 +1022,6 @@ div.presentacion {
   /* box-shadow: 0px 0 30px rgba(21, 21, 21, 0.08); */
   align-items: center;
   justify-content: center
-  
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -1245,7 +1248,7 @@ div.presentacion {
     width: 80%;
 
   }
-  
+
 }
 
 /*--------------------------------------------------------------
@@ -1526,29 +1529,36 @@ div.presentacion {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: black;
+
   padding: 0 0 30px 0;
   color: #FEF7EF;
   font-size: 14px;
+
+
+
+  background: url("../img/portfolio/footer.jpg") no-repeat center center;
+  background-size: cover;
+  background-color: #f0f0f0;
+
 
 }
 
 
 #footer .footer-top {
-  background: #151515;
-  border-bottom: 1px solid #222222;
-  padding: 60px 0 30px 0;
+
+
+  padding: 30px 0 0px 0;
 
 }
 
 #footer .footer-top .footer-info {
-  margin-bottom: 30px;
+  margin-bottom: 2cqi;
 }
 
 #footer .footer-top .footer-info h3 {
   font-size: 28px;
-  margin: 0 0 20px 0;
-  padding: 2px 0 2px 0;
+  /* margin: 0 0 20px 0;
+  padding: 2px 0 2px 0; */
   line-height: 1;
   font-weight: 700;
   text-transform: uppercase;
@@ -1559,18 +1569,19 @@ div.presentacion {
 }
 
 #footer .footer-top .footer-info p {
-  font-size: 13px;
+  font-size: 18px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
   color: #FEF7EF;
+
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 20px;
   display: inline-block;
-  background: #292929;
-  color: #FEF7EF;
+  background: #ffc451;
+  color: #151515;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1592,11 +1603,12 @@ div.presentacion {
   font-weight: 600;
   color: #FEF7EF;
   position: relative;
-  padding-bottom: 12px;
+  /* padding-bottom: 12px; */
 }
 
 #footer .footer-top .footer-links {
-  margin-bottom: 30px;
+  /* margin-bottom: 10px; */
+
 }
 
 #footer .footer-top .footer-links ul {
@@ -1613,13 +1625,13 @@ div.presentacion {
 }
 
 #footer .footer-top .footer-links ul li {
-  padding: 10px 0;
+  /* padding: 10px 0; */
   display: flex;
   align-items: center;
 }
 
 #footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
+  /* padding-top: 0; */
 }
 
 #footer .footer-top .footer-links ul a {
@@ -1634,16 +1646,16 @@ div.presentacion {
 }
 
 #footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   background: #FEF7EF;
-  padding: 6px 10px;
+  /* padding: 6px 10px; */
   position: relative;
   border-radius: 4px;
 }
 
 #footer .footer-top .footer-newsletter form input[type=email] {
   border: 0;
-  padding: 4px;
+  /* padding: 4px; */
   width: calc(100% - 110px);
 }
 
@@ -1655,7 +1667,7 @@ div.presentacion {
   border: 0;
   background: none;
   font-size: 16px;
-  padding: 0 20px;
+  /* padding: 0 20px; */
   background: #ffc451;
   color: #151515;
   transition: 3s;
@@ -1668,11 +1680,11 @@ div.presentacion {
 
 #footer .copyright {
   text-align: center;
-  padding-top: 30px;
+  /* padding-top: 30px; */
 }
 
 #footer .credits {
-  padding-top: 10px;
+  /* padding-top: 0px; */
   text-align: center;
   font-size: 13px;
   color: #FEF7EF;
