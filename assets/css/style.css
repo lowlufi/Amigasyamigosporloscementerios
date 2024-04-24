@@ -47,7 +47,7 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  transition: all 0.4s;
+  transition: all 0.3s;
 }
 
 .back-to-top i {
@@ -120,7 +120,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  transition: all 0.5s;
+  transition: all 0.3s;
   z-index: 997;
   padding: 15px 0;
   /* Blurred apliccado en el header */
@@ -348,7 +348,7 @@ h6 {
   cursor: pointer;
   display: none;
   line-height: 0;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 @media (max-width: 991px) {
@@ -560,8 +560,9 @@ h6 {
 --------------------------------------------------------------*/
 /* se cambio pading de 60 a 20 */
 section {
-  padding: 60px;
+  padding: 40px;
   overflow: hidden;
+  margin-top: 20px;
 }
 
 .section-title {
@@ -854,7 +855,7 @@ div.presentacion {
   display: inline-block;
   padding: 8px 28px;
   border-radius: 4px;
-  transition: 0.5s;
+  transition: 0.3s;
   margin-top: 10px;
   border: 2px solid #FEF7EF;
   color: #FEF7EF;
@@ -964,12 +965,13 @@ div.presentacion {
 .portfolio .portfolio-wrap .portfolio-links {
   text-align: center;
   z-index: 4;
+ 
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #FEF7EF;
   margin: 0 5px 0 0;
-  font-size: 28px;
+  font-size: 70px;
   display: inline-block;
   transition: 3s;
 }
@@ -983,8 +985,9 @@ div.presentacion {
 }
 
 .portfolio .portfolio-wrap:hover img {
-  transform: scale(1.2);
+  transform: scaleX(-1);
 }
+
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
@@ -1456,7 +1459,7 @@ div.presentacion {
   border: 0;
   padding: 10px 24px;
   color: #151515;
-  transition: 0.4s;
+  transition: 0.3s;
   border-radius: 4px;
 }
 
