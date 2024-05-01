@@ -875,6 +875,13 @@ div.presentacion {
   margin-bottom: 30px;
 }
 
+/* largo de galeria */
+
+#galería {
+  max-height: 200em;
+}
+
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 20px auto;
