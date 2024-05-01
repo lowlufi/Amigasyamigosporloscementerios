@@ -562,7 +562,7 @@ h6 {
 section {
   padding: 40px;
   overflow: hidden;
-  margin-top: 20px;
+  margin-top: 3px;
 }
 
 .section-title {
@@ -753,8 +753,8 @@ body {
 
 /* BOTONES */
 div.presentacion {
-  padding: 20px;
-
+  /* padding: 20px; */
+  margin-top: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -1269,6 +1269,7 @@ div.presentacion {
   border-radius: 5px;
   background: #FEF7EF;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  
 }
 
 .team .member .member-img {
@@ -1312,7 +1313,8 @@ div.presentacion {
 }
 
 .team .member .member-info {
-  padding: 25px 15px;
+padding: 5%;
+
 }
 
 .team .member .member-info h4 {
@@ -1324,7 +1326,7 @@ div.presentacion {
 
 .team .member .member-info span {
   display: block;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
   color: #aaaaaa;
 }
@@ -1336,10 +1338,7 @@ div.presentacion {
   color: #777777;
 }
 
-.team .member:hover .social {
-  opacity: 1;
-  bottom: 15px;
-}
+
 
 /*--------------------------------------------------------------
 # Contact

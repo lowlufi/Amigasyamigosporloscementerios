@@ -1,83 +1,38 @@
 # Notas del desarrollo
-# Miercoles a las 8 de la tarde  
+# Miércoles a las 8 de la tarde    
 *ENTREGA hoy*
 *--------------------------------------------------*
-dejar imagen en vez de slider en programacoon html
+Revisar código entero 
 *--------------------------------------------------*
 
 *--------------------------------------------------*
-Perzonalizar una pagina y copiarla 
-para solo cambiar el contenido a mostrar
-*--------------------------------------------------*
-ocultar  seccion directiva 
-*--------------------------------------------------*
-slider con boton a 
-La programacion de abril
-Los pdf individual
-Al las capsulas para ver los videio docu
-*--------------------------------------------------*
-poner instagram en cta, buscar el insta
-*--------------------------------------------------*
-efect que le guisto a al aditi
-*--------------------------------------------------*
-ordenar css
-*--------------------------------------------------*
-poner barra nav para telefonos  Esn el css del nav
-*--------------------------------------------------*
-TRABAJAR en seccion de preoyectos
-*--------------------------------------------------*
-Hacer .html de Capsulas y 
-*--------------------------------------------------*
-visita a cementerio Disidentes, Comité Gestor de Patrimonio ,Valparaíso Creativo -Corfo Otubre 2023
-*--------------------------------------------------*
-Directiva poner nombres
 
-directiva poner fotos
 *--------------------------------------------------*
-Slider en hero
+
 *--------------------------------------------------*
-logos actualizar 
+
 *--------------------------------------------------*
-Iconos en objetivos
+
 *--------------------------------------------------*
-telefon aditi
+
 *--------------------------------------------------*
-Seccion testimonios va a ser seccion a
-Ponencias en Blogspot red iberoamericana
+
 *--------------------------------------------------*
-ubicacion con los cementerios parroquiales para poner en mapa 
-Cementerio Numero Dos calle dinamarca 217
-Cementerio Numero Uno 
-Cementerio Disidentes 
+poner barra nav para teléfonos  Esn el css del nav
+*--------------------------------------------------*
+
+Ponencias en Blogs red iberoamericana
+*--------------------------------------------------*
+
 
 *--------------------------------------------------*\
-TESTIMONIOS DEBAJO DE DIRECTIVA 
-PONER SOCIOS  
+
 *--------------------------------------------------*
 *--------------------------------------------------*
 # importante 
-10 abril despliegue 
-subir al servidor 
+ 
 *--------------------------------------------------*
 \\ preguntas
-Galeria de imagenes de instagram 
-
-Con y sin video 
-4ta persona directiva
-Preguntar la direccion para poner en el nav y mapa
-video 
-quiere que vaya la seccion de testimonios?
-me habia mencionado a un hijo ilustre
-
-[directiva con foto grupal debajo] 
-Quiere que vaya la directiva completa al sitio web?
-
-[pensar]
-Como le gustaria incluir el material audivisual videos?
-Como le gustaria incluir el material del proyecto portico junto a los
-planos en pdf 
-
-alquime de almas coreana
 
 
 
