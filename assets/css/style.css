@@ -47,7 +47,7 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  transition: all 0.3s;
+  transition: all 0 1s;
 }
 
 .back-to-top i {
@@ -120,7 +120,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  transition: all 0.3s;
+  transition: all 0 1s;
   z-index: 997;
   padding: 15px 0;
   /* Blurred apliccado en el header */
@@ -170,7 +170,7 @@ h6 {
   border-radius: 4px;
   padding: 7px 25px 8px 25px;
   white-space: nowrap;
-  transition: 3s;
+  transition: 1s;
   font-size: 14px;
   display: inline-block;
   border: 2px solid #9a6c11;
@@ -226,7 +226,7 @@ h6 {
   font-weight: 600;
   color: #FEF7EF;
   white-space: nowrap;
-  transition: 3s;
+  transition: 1s;
 }
 
 .navbar a i,
@@ -255,7 +255,7 @@ h6 {
   visibility: hidden;
   background: #FEF7EF;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 3s;
+  transition: 1s;
 }
 
 .navbar .dropdown ul li {
@@ -348,7 +348,7 @@ h6 {
   cursor: pointer;
   display: none;
   line-height: 0;
-  transition: 0.3s;
+  transition: 0 1s;
 }
 
 @media (max-width: 991px) {
@@ -369,7 +369,7 @@ h6 {
   left: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.9);
-  transition: 3s;
+  transition: 1s;
   z-index: 999;
 }
 
@@ -389,7 +389,7 @@ h6 {
   padding: 10px 0;
   background-color: #FEF7EF;
   overflow-y: auto;
-  transition: 3s;
+  transition: 1s;
 }
 
 .navbar-mobile a,
@@ -503,7 +503,7 @@ h6 {
 
 #hero .icon-box {
   padding: 30px 20px;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0 1s;
   border: 1px solid rgba(255, 255, 255, 0.3);
   height: 100%;
   text-align: center;
@@ -526,7 +526,7 @@ h6 {
 
 #hero .icon-box h3 a {
   color: #FEF7EF;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0 1s;
 }
 
 #hero .icon-box h3 a:hover {
@@ -640,7 +640,7 @@ section {
 
 .clients .swiper-slide img {
   opacity: 0.5;
-  transition: 3s;
+  transition: 1s;
   filter: grayscale(100);
 }
 
@@ -764,7 +764,7 @@ div.presentacion {
   text-align: center;
   border: 1px solid #ebebeb;
   padding: 80px 20px;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0 1s;
   background: #FEF7EF;
 }
 
@@ -778,13 +778,13 @@ div.presentacion {
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-  transition: 3s;
+  transition: 1s;
 }
 
 .services .icon-box .icon i {
   color: #151515;
   font-size: 28px;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0 1s;
 }
 
 .services .icon-box h4 {
@@ -795,7 +795,7 @@ div.presentacion {
 
 .services .icon-box h4 a {
   color: #151515;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0 1s;
 }
 
 .services .icon-box h4 a:hover {
@@ -855,7 +855,7 @@ div.presentacion {
   display: inline-block;
   padding: 8px 28px;
   border-radius: 4px;
-  transition: 0.3s;
+  transition: 0 1s;
   margin-top: 10px;
   border: 2px solid #FEF7EF;
   color: #FEF7EF;
@@ -899,7 +899,7 @@ div.presentacion {
   text-transform: uppercase;
   color: #444444;
   margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0 1s ease-in-out;
   border-radius: 3px;
 }
 
@@ -914,7 +914,7 @@ div.presentacion {
 }
 
 .portfolio .portfolio-wrap {
-  transition: 3s;
+  transition: 1s;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -929,13 +929,13 @@ div.presentacion {
   right: 0;
   top: 0;
   bottom: 0;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0 1s;
   z-index: 2;
   opacity: 0;
 }
 
 .portfolio .portfolio-wrap img {
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0 1s;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
@@ -946,7 +946,7 @@ div.presentacion {
   right: 0;
   bottom: 0;
   z-index: 3;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0 1s;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -980,7 +980,7 @@ div.presentacion {
   margin: 0 5px 0 0;
   font-size: 70px;
   display: inline-block;
-  transition: 3s;
+  transition: 1s;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -1120,7 +1120,7 @@ div.presentacion {
   color: #3b3b3b;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0 1s;
 }
 
 .counts .content .count-box a:hover {
@@ -1276,7 +1276,7 @@ div.presentacion {
   border-radius: 5px;
   background: #FEF7EF;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  max-width: 320px;
+  max-width: 250px;
 }
 
 .team .member .member-img {
@@ -1293,19 +1293,19 @@ div.presentacion {
   bottom: 30px;
   right: 0;
   opacity: 0;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0 1s;
   text-align: center;
 }
 
 .team .member .social a {
-  transition: color 0.3s;
+  transition: color 0 1s;
   color: #151515;
   margin: 0 3px;
   border-radius: 4px;
   width: 36px;
   height: 36px;
   background: rgba(255, 255, 255, 0.8);
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0 1s;
   color: #484848;
   display: inline-flex;
   justify-content: center;
@@ -1330,7 +1330,7 @@ padding: 5%;
 .team .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
-  font-size: 18px;
+  font-size: 11px;
   color: #151515;
 }
 
@@ -1369,7 +1369,7 @@ padding: 5%;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0 1s ease-in-out;
 }
 
 .contact .info h4 {
@@ -1468,7 +1468,7 @@ padding: 5%;
   border: 0;
   padding: 10px 24px;
   color: #151515;
-  transition: 0.3s;
+  transition: 0 1s;
   border-radius: 4px;
 }
 
@@ -1476,7 +1476,7 @@ padding: 5%;
   background: #ffcd6b;
 }
 
-@keyframes animate-loading {
+/* @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
   }
@@ -1484,7 +1484,7 @@ padding: 5%;
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -1602,7 +1602,7 @@ padding: 5%;
   text-align: center;
   width: 36px;
   height: 36px;
-  transition: 3s;
+  transition: 1s;
 }
 
 #footer .footer-top .social-links a:hover {
@@ -1649,7 +1649,7 @@ padding: 5%;
 
 #footer .footer-top .footer-links ul a {
   color: #FEF7EF;
-  transition: 3s;
+  transition: 1s;
   display: inline-block;
   line-height: 1;
 }
@@ -1683,7 +1683,7 @@ padding: 5%;
   /* padding: 0 20px; */
   background: #ffc451;
   color: #151515;
-  transition: 3s;
+  transition: 1s;
   border-radius: 0 4px 4px 0;
 }
 

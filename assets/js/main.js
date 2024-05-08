@@ -1,10 +1,11 @@
 /**
 * Template Name: Gp
-* Updated: Jan 09 2024 with Bootstrap v5.3.2
 * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+* Updated: Mar 17 2024 with Bootstrap v5.3.3
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
 (function() {
   "use strict";
 
@@ -169,7 +170,7 @@
    * Clients Slider
    */
   new Swiper('.clients-slider', {
-    speed: 500,
+    speed: 400,
     loop: true,
     autoplay: {
       delay: 5000,
@@ -231,8 +232,6 @@
 
   });
 
-
-
   /**
    * Initiate portfolio lightbox 
    */
@@ -256,6 +255,7 @@
       clickable: true
     }
   });
+
   /**
    * Testimonials slider
    */
@@ -279,7 +279,7 @@
    */
   window.addEventListener('load', () => {
     AOS.init({
-      duration: 1000,
+      duration: 500,
       easing: "ease-in-out",
       once: true,
       mirror: false
@@ -290,8 +290,5 @@
    * Initiate Pure Counter 
    */
   new PureCounter();
-
-
-
 
 })()
