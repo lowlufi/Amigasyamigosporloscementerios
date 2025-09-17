@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Página Principal -->
+  <url>
+    <loc>https://amigasyamigosporloscementerios.cl/</loc>
+    <lastmod>2024-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Secciones de la página principal -->
+  <url>
+    <loc>https://amigasyamigosporloscementerios.cl/#features</loc>
+    <lastmod>2024-10-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://amigasyamigosporloscementerios.cl/#about</loc>
+    <lastmod>2024-10-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://amigasyamigosporloscementerios.cl/#objetivos</loc>
+    <lastmod>2024-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://amigasyamigosporloscementerios.cl/#portfolio</loc>
+    <lastmod>2024-10-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://amigasyamigosporloscementerios.cl/#socios</loc>
+    <lastmod>2024-10-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Páginas secundarias -->
+  <url>
+    <loc>https://amigasyamigosporloscementerios.cl/Documental.html</loc>
+    <lastmod>2024-08-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://amigasyamigosporloscementerios.cl/Documentos.html</loc>
+    <lastmod>2024-08-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://amigasyamigosporloscementerios.cl/programación.html</loc>
+    <lastmod>2024-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://amigasyamigosporloscementerios.cl/Levantamiento critico.html</loc>
+    <lastmod>2024-08-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://amigasyamigosporloscementerios.cl/portfolio-details.html</loc>
+    <lastmod>2024-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>

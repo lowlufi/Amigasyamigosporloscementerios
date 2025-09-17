@@ -10,6 +10,25 @@
   "use strict";
 
   /**
+   * Lazy loading para imágenes
+   */
+  const lazyLoadImages = () => {
+    const images = document.querySelectorAll('img[data-src]');
+    const imageObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          img.src = img.dataset.src;
+          img.classList.remove('lazy');
+          observer.unobserve(img);
+        }
+      });
+    });
+
+    images.forEach(img => imageObserver.observe(img));
+  };
+
+  /**
    * Easy selector helper function
    */
   const select = (el, all = false) => {
@@ -206,6 +225,9 @@
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
+    // Inicializar lazy loading
+    lazyLoadImages();
+
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {

@@ -1,0 +1,20 @@
+# Redirects para Cloudflare Pages
+# URLs limpias y mejores para SEO
+
+# Redirecciones para páginas específicas
+/nosotros /index.html#features 302
+/mision /index.html#about 302
+/actividades /index.html#objetivos 302
+/galeria /index.html#portfolio 302
+/equipo /index.html#socios 302
+/contacto /index.html#footer 302
+
+# Redirecciones para páginas secundarias (si las tienes)
+/documental /Documental.html 301
+/documentos /Documentos.html 301
+/levantamiento /Levantamiento\ critico.html 301
+/programacion /programación.html 301
+/portfolio /portfolio-details.html 301
+
+# Redirección para archivos no encontrados
+/* /index.html 404

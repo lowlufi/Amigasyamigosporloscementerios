@@ -6,21 +6,44 @@
 */
 
 /*--------------------------------------------------------------
+# CSS Variables
+--------------------------------------------------------------*/
+:root {
+  --primary-color: #ffc451;
+  --primary-hover-color: #ffd584;
+  --dark-color: #151515;
+  --light-color: #FEF7EF;
+  --text-color: #444444;
+  --gray-color: #aaaaaa;
+  --border-color: #ebebeb;
+}
+
+/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
+  font-family: "Poppins", sans-serif;
+  color: var(--text-color);
   padding: 0px;
 }
 
+/* Lazy loading images */
+img.lazy {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+img.lazy.loaded {
+  opacity: 1;
+}
+
 a {
-  color: #ffc451;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
 a:hover {
-  color: #ffd584;
+  color: var(--primary-hover-color);
   text-decoration: none;
 }
 
@@ -30,7 +53,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -43,7 +65,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffc451;
+  background: var(--primary-color);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -52,12 +74,12 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #151515;
+  color: var(--dark-color);
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #151515;
+  background: var(--dark-color);
 }
 
 .back-to-top:hover i {
@@ -72,40 +94,7 @@ h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-/* #preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #151515;
-}
-
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 0px);
-  left: calc(50% - 30px);
-  border: 6px solid #ffffff;
-  border-top-color: #151515;
-  border-bottom-color: #151515;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  animation: animate-preloader 1s linear infinite;
-}
-
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-} */
+/* El preloader fue eliminado del HTML, por lo que se elimina el CSS también */
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
@@ -149,11 +138,11 @@ h6 {
 }
 
 #header .logo a {
-  color: #FEF7EF;
+  color: var(--light-color);
 }
 
 #header .logo a span {
-  color: #ffc451;
+  color: var(--primary-color);
 }
 
 #header .logo img {
@@ -166,7 +155,7 @@ h6 {
 #  Get Startet Button
 --------------------------------------------------------------*/
 .get-started-btn {
-  color: #FEF7EF;
+  color: var(--light-color);
   border-radius: 4px;
   padding: 7px 25px 8px 25px;
   white-space: nowrap;
@@ -224,7 +213,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 20px;
   font-weight: 600;
-  color: #FEF7EF;
+  color: var(--light-color);
   white-space: nowrap;
   transition: 1s;
 }
@@ -240,7 +229,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffc451;
+  color: var(--primary-color);
 }
 
 .navbar .dropdown ul {
@@ -253,7 +242,7 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #FEF7EF;
+  background: var(--light-color);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 1s;
 }
@@ -266,7 +255,7 @@ h6 {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #151515;
+  color: var(--dark-color);
   font-weight: 400;
 }
 
@@ -277,7 +266,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  background-color: #ffc451;
+  background-color: var(--primary-color);
 }
 
 .navbar .dropdown:hover>ul {
@@ -343,7 +332,7 @@ h6 {
 */
 
 .mobile-nav-toggle {
-  color: #FEF7EF;
+  color: var(--light-color);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -387,7 +376,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #FEF7EF;
+  background-color: var(--light-color);
   overflow-y: auto;
   transition: 1s;
 }
@@ -396,14 +385,14 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #151515;
+  color: var(--dark-color);
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #151515;
-  background-color: #ffc451;
+  color: var(--dark-color);
+  background-color: var(--primary-color);
 }
 
 .navbar-mobile .getstarted,
@@ -419,7 +408,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #FEF7EF;
+  background: var(--light-color);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -429,7 +418,7 @@ h6 {
 
 .navbar-mobile .dropdown ul a {
   padding: 10px 20px;
-  color: #151515;
+  color: var(--dark-color);
 }
 
 .navbar-mobile .dropdown ul a i {
@@ -439,7 +428,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  background-color: #ffc451;
+  background-color: var(--primary-color);
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -487,12 +476,11 @@ h6 {
   font-size: 56px;
   font-weight: 700;
   line-height: 64px;
-  color: #FEF7EF;
-  font-family: "Poppins", sans-serif;
+  color: var(--light-color);
 }
 
 #hero h1 span {
-  color: #ffc451;
+  color: var(--primary-color);
 }
 
 #hero h2 {
@@ -512,7 +500,7 @@ h6 {
 #hero .icon-box i {
   font-size: 32px;
   line-height: 1;
-  color: #ffc451;
+  color: var(--primary-color);
 }
 
 #hero .icon-box h3 {
@@ -525,16 +513,16 @@ h6 {
 }
 
 #hero .icon-box h3 a {
-  color: #FEF7EF;
+  color: var(--light-color);
   transition: ease-in-out 0 1s;
 }
 
 #hero .icon-box h3 a:hover {
-  color: #ffc451;
+  color: var(--primary-color);
 }
 
 #hero .icon-box:hover {
-  border-color: #ffc451;
+  border-color: var(--primary-color);
 }
 
 @media (min-width: 1024px) {
@@ -560,13 +548,12 @@ h6 {
 --------------------------------------------------------------*/
 /* se cambio pading de 60 a 20 */
 section {
-  padding: 40px;
+  padding: 60px 0;
   overflow: hidden;
-  margin-top: 3px;
 }
 
 .section-title {
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 .section-title h2 {
@@ -577,8 +564,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  color: var(--gray-color);
 }
 
 .section-title h2::after {
@@ -596,8 +582,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #151515;
+  color: var(--dark-color);
 }
 
 /*--------------------------------------------------------------
@@ -606,7 +591,6 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 28px;
-  font-family: "Poppins", sans-serif;
 }
 
 .about .content ul {
@@ -624,7 +608,7 @@ section {
   font-size: 20px;
   left: 0;
   top: -3px;
-  color: #ffc451;
+  color: var(--primary-color);
 }
 
 .about .content p:last-child {
@@ -657,13 +641,13 @@ section {
 .clients .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #FEF7EF;
+  background-color: var(--light-color);
   opacity: 1;
   background-color: #ddd;
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc451;
+  background-color: var(--primary-color);
 }
 
 /*--------------------------------------------------------------
@@ -674,7 +658,7 @@ section {
 
 
 body {
-  background-color: #FEF7EF;
+  background-color: var(--light-color);
 }
 
 
@@ -694,7 +678,6 @@ body {
 .features .content h3 {
   font-weight: 700;
   font-size: 28px;
-  font-family: "Poppins", sans-serif;
 }
 
 
@@ -711,7 +694,7 @@ body {
 .features .icon-box i {
   font-size: 48px;
   float: left;
-  color: #ffc451;
+  color: var(--primary-color);
 }
 
 .features .icon-box p {
@@ -751,6 +734,11 @@ body {
   display: flex;
 }
 
+.mapaActividad iframe {
+  border: 0;
+  margin-top: 2rem;
+}
+
 /* BOTONES */
 div.presentacion {
   /* padding: 20px; */
@@ -762,17 +750,17 @@ div.presentacion {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  border: 1px solid #ebebeb;
+  border: 1px solid var(--border-color);
   padding: 80px 20px;
   transition: all ease-in-out 0 1s;
-  background: #FEF7EF;
+  background: var(--light-color);
 }
 
 .services .icon-box .icon {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #ffc451;
+  background: var(--primary-color);
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -782,7 +770,7 @@ div.presentacion {
 }
 
 .services .icon-box .icon i {
-  color: #151515;
+  color: var(--dark-color);
   font-size: 28px;
   transition: ease-in-out 0 1s;
 }
@@ -794,12 +782,12 @@ div.presentacion {
 }
 
 .services .icon-box h4 a {
-  color: #151515;
+  color: var(--dark-color);
   transition: ease-in-out 0 1s;
 }
 
 .services .icon-box h4 a:hover {
-  color: #ffc451;
+  color: var(--primary-color);
 }
 
 .services .icon-box p {
@@ -809,7 +797,7 @@ div.presentacion {
 }
 
 .services .icon-box:hover {
-  border-color: #FEF7EF;
+  border-color: var(--light-color);
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
 }
@@ -838,34 +826,33 @@ div.presentacion {
 
 
 .cta h3 {
-  color: #FEF7EF;
+  color: var(--light-color);
   font-size: 28px;
   font-weight: 700;
 }
 
 .cta p {
-  color: #FEF7EF;
+  color: var(--light-color);
 }
 
 .cta .cta-btn {
-  font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 8px 28px;
+  padding: 10px 30px;
   border-radius: 4px;
   transition: 0 1s;
   margin-top: 10px;
-  border: 2px solid #FEF7EF;
-  color: #FEF7EF;
+  border: 2px solid var(--light-color);
+  color: var(--light-color);
 
 }
 
 .cta .cta-btn:hover {
-  background: #ffc451;
-  border-color: #ffc451;
-  color: #FEF7EF;
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--light-color);
 }
 
 /*--------------------------------------------------------------
@@ -892,12 +879,12 @@ div.presentacion {
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
-  padding: 8px 15px 10px 15px;
+  padding: 10px 20px;
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #444444;
+  color: var(--text-color);
   margin-bottom: 5px;
   transition: all 0 1s ease-in-out;
   border-radius: 3px;
@@ -905,8 +892,8 @@ div.presentacion {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #151515;
-  background: #ffc451;
+  color: var(--dark-color);
+  background: var(--primary-color);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -956,7 +943,7 @@ div.presentacion {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #FEF7EF;
+  color: var(--light-color);
   font-weight: 600;
 }
 
@@ -976,7 +963,7 @@ div.presentacion {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #FEF7EF;
+  color: var(--light-color);
   margin: 0 5px 0 0;
   font-size: 70px;
   display: inline-block;
@@ -984,7 +971,7 @@ div.presentacion {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #ffc451;
+  color: var(--primary-color);
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1019,13 +1006,13 @@ div.presentacion {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #FEF7EF;
+  background-color: var(--light-color);
   opacity: 1;
-  border: 1px solid #ffc451;
+  border: 1px solid var(--primary-color);
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc451;
+  background-color: var(--primary-color);
 }
 
 .portfolio-details .portfolio-info {
@@ -1077,7 +1064,7 @@ div.presentacion {
 .counts .content h3 {
   font-weight: 700;
   font-size: 34px;
-  color: #151515;
+  color: var(--dark-color);
 }
 
 .counts .content p {
@@ -1092,7 +1079,7 @@ div.presentacion {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #ffc451;
+  color: var(--primary-color);
   float: left;
 }
 
@@ -1101,14 +1088,13 @@ div.presentacion {
   line-height: 30px;
   display: block;
   font-weight: 700;
-  color: #151515;
+  color: var(--dark-color);
   margin-left: 50px;
 }
 
 .counts .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-  font-family: "Raleway", sans-serif;
   font-size: 14px;
   color: #3b3b3b;
 }
@@ -1119,7 +1105,6 @@ div.presentacion {
   margin-top: 20px;
   color: #3b3b3b;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
   transition: ease-in-out 0 1s;
 }
 
@@ -1181,7 +1166,7 @@ div.presentacion {
 
 .testimonials .testimonial-item {
   text-align: center;
-  color: #FEF7EF;
+  color: var(--light-color);
 }
 
 /* se cambio el border radios de 80 o 60 creo y el border de 6 a 0  */
@@ -1197,7 +1182,7 @@ div.presentacion {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #FEF7EF;
+  color: var(--light-color);
 }
 
 .testimonials .testimonial-item h4 {
@@ -1244,7 +1229,7 @@ div.presentacion {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc451;
+  background-color: var(--primary-color);
   opacity: 1;
 }
 
@@ -1266,7 +1251,7 @@ div.presentacion {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #FEF7EF;
+  background: var(--light-color);
   padding: 60px 0;
 }
 
@@ -1274,7 +1259,7 @@ div.presentacion {
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 5px;
-  background: #FEF7EF;
+  background: var(--light-color);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   max-width: 100%;
 }
@@ -1284,10 +1269,10 @@ div.presentacion {
   overflow: hidden;
   object-fit: cover;
   max-width: 50%;
-
   border-radius: 50%;
-  border: 1px solid #FFC451;
-  margin: 20px 0px 0px 100px;
+  border: 1px solid var(--primary-color);
+  margin: 20px auto 0;
+  display: block;
 }
 
 .team .member .social {
@@ -1302,7 +1287,7 @@ div.presentacion {
 
 .team .member .social a {
   transition: color 0 1s;
-  color: #151515;
+  color: var(--dark-color);
   margin: 0 3px;
   border-radius: 4px;
   width: 36px;
@@ -1316,8 +1301,8 @@ div.presentacion {
 }
 
 .team .member .social a:hover {
-  color: #151515;
-  background: #ffc451;
+  color: var(--dark-color);
+  background: var(--primary-color);
 }
 
 .team .member .social i {
@@ -1326,29 +1311,49 @@ div.presentacion {
 }
 
 .team .member .member-info {
-padding: 5%;
-
+  padding: 25px 15px;
 }
 
 .team .member .member-info h4 {
   font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 11px;
-  color: #151515;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: var(--dark-color);
 }
 
 .team .member .member-info span {
   display: block;
-  font-size: 12px;
-  font-weight: 700;
-  color: #aaaaaa;
+  font-size: 13px;
+  font-weight: 400;
+  color: #777;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .team .member .member-info p {
   font-style: italic;
   font-size: 14px;
-  line-height: 26px;
-  color: #777777;
+  line-height: 22px;
+  color: #444444;
+  margin-bottom: 0;
+}
+
+.team .team-list {
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  border-left: 3px solid var(--primary-color);
+}
+
+.team .team-list h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--dark-color);
+  margin-bottom: 5px;
+}
+
+.team .team-list p {
+  margin-bottom: 0;
+  font-size: 14px;
 }
 
 
@@ -1358,13 +1363,13 @@ padding: 5%;
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #FEF7EF;
+  background: var(--light-color);
 }
 
 .contact .info i {
   font-size: 20px;
-  background: #ffc451;
-  color: #151515;
+  background: var(--primary-color);
+  color: var(--dark-color);
   float: left;
   width: 44px;
   height: 44px;
@@ -1380,7 +1385,7 @@ padding: 5%;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #151515;
+  color: var(--dark-color);
 }
 
 .contact .info p {
@@ -1397,7 +1402,7 @@ padding: 5%;
 
 .contact .php-email-form {
   width: 100%;
-  background: #FEF7EF;
+  background: var(--light-color);
 }
 
 .contact .php-email-form .form-group {
@@ -1406,7 +1411,7 @@ padding: 5%;
 
 .contact .php-email-form .error-message {
   display: none;
-  color: #FEF7EF;
+  color: var(--light-color);
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
@@ -1419,7 +1424,7 @@ padding: 5%;
 
 .contact .php-email-form .sent-message {
   display: none;
-  color: #FEF7EF;
+  color: var(--light-color);
   background: #18d26e;
   text-align: center;
   padding: 15px;
@@ -1428,7 +1433,7 @@ padding: 5%;
 
 .contact .php-email-form .loading {
   display: none;
-  background: #FEF7EF;
+  background: var(--light-color);
   text-align: center;
   padding: 15px;
 }
@@ -1455,7 +1460,7 @@ padding: 5%;
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #ffc451;
+  border-color: var(--primary-color);
 }
 
 .contact .php-email-form input {
@@ -1467,16 +1472,16 @@ padding: 5%;
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #ffc451;
+  background: var(--primary-color);
   border: 0;
-  padding: 10px 24px;
-  color: #151515;
+  padding: 10px 30px;
+  color: var(--dark-color);
   transition: 0 1s;
   border-radius: 4px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ffcd6b;
+  background: var(--primary-hover-color);
 }
 
 /* @keyframes animate-loading {
@@ -1547,7 +1552,7 @@ padding: 5%;
 #footer {
 
   padding: 0 0 30px 0;
-  color: #FEF7EF;
+  color: var(--light-color);
   font-size: 14px;
 
 
@@ -1556,19 +1561,19 @@ padding: 5%;
   background-size: cover;
   background-color: #f0f0f0;
 
-
 }
 
+#footer .footer-logo img {
+  max-width: 200px;
+  margin: 0 auto;
+}
 
 #footer .footer-top {
-
-
-  padding: 70px 0 0px 0;
-
+  padding: 60px 0 30px 0;
 }
 
 #footer .footer-top .footer-info {
-  margin-bottom: 2cqi;
+  margin-bottom: 30px;
 }
 
 #footer .footer-top .footer-info h3 {
@@ -1581,23 +1586,22 @@ padding: 5%;
 }
 
 #footer .footer-top .footer-info h3 span {
-  color: #ffc451;
+  color: var(--primary-color);
 }
 
 #footer .footer-top .footer-info p {
   font-size: 18px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
-  color: #FEF7EF;
+  color: var(--light-color);
 
 }
 
 #footer .footer-top .social-links a {
   font-size: 20px;
   display: inline-block;
-  background: #ffc451;
-  color: #151515;
+  background: var(--primary-color);
+  color: var(--dark-color);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1609,15 +1613,15 @@ padding: 5%;
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #ffc451;
-  color: #151515;
+  background: var(--primary-color);
+  color: var(--dark-color);
   text-decoration: none;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
-  color: #FEF7EF;
+  color: var(--light-color);
   position: relative;
   /* padding-bottom: 12px; */
 }
@@ -1635,7 +1639,7 @@ padding: 5%;
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ffc451;
+  color: var(--primary-color);
   font-size: 18px;
   line-height: 1;
 }
@@ -1651,19 +1655,19 @@ padding: 5%;
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #FEF7EF;
+  color: var(--light-color);
   transition: 1s;
   display: inline-block;
   line-height: 1;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #ffc451;
+  color: var(--primary-color);
 }
 
 #footer .footer-top .footer-newsletter form {
   /* margin-top: 30px; */
-  background: #FEF7EF;
+  background: var(--light-color);
   /* padding: 6px 10px; */
   position: relative;
   border-radius: 4px;
@@ -1684,14 +1688,14 @@ padding: 5%;
   background: none;
   font-size: 16px;
   /* padding: 0 20px; */
-  background: #ffc451;
-  color: #151515;
+  background: var(--primary-color);
+  color: var(--dark-color);
   transition: 1s;
   border-radius: 0 4px 4px 0;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #ffcd6b;
+  background: var(--primary-hover-color);
 }
 
 #footer .copyright {
@@ -1703,5 +1707,5 @@ padding: 5%;
   /* padding-top: 0px; */
   text-align: center;
   font-size: 13px;
-  color: #FEF7EF;
+  color: var(--light-color);
 }
