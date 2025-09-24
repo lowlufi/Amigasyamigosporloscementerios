@@ -1,0 +1,59 @@
+{
+  "name": "amigas-cementerios-website",
+  "version": "2.0.0",
+  "description": "Sitio web oficial de Amigas y Amigos por los Cementerios - Agrupación Cultural de Valparaíso",
+  "main": "index.html",
+  "scripts": {
+    "optimize-images": "node scripts/optimize-images.js",
+    "build": "npm run optimize-images && npm run minify-css && npm run minify-js",
+    "minify-css": "cleancss -o assets/css/style.min.css assets/css/style.css",
+    "minify-js": "uglifyjs assets/js/main.js assets/js/performance-monitor.js -o assets/js/bundle.min.js",
+    "serve": "python -m http.server 8000",
+    "lighthouse": "lighthouse http://localhost:8000 --output html --output-path ./reports/lighthouse-report.html",
+    "perf-test": "npm run serve & sleep 3 && npm run lighthouse",
+    "deploy-check": "npm run build && npm run lighthouse"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "clean-css-cli": "^5.6.2",
+    "uglify-js": "^3.17.4",
+    "lighthouse": "^11.4.0"
+  },
+  "keywords": [
+    "cementerios",
+    "patrimonio",
+    "valparaiso",
+    "cultura",
+    "chile",
+    "pwa",
+    "webp",
+    "performance"
+  ],
+  "author": "Agrupación Cultural Amigas y Amigos por los Cementerios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amigasporloscementerios/website.git"
+  },
+  "homepage": "https://amigasyamigosporloscementerios.cl",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "performance": {
+    "budgets": {
+      "LCP": 2500,
+      "FID": 100,
+      "CLS": 0.1,
+      "TTFB": 800,
+      "FCP": 1800
+    },
+    "thresholds": {
+      "performance": 90,
+      "accessibility": 95,
+      "seo": 100,
+      "pwa": 100
+    }
+  }
+}

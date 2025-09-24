@@ -16,22 +16,95 @@
   <!-- título de la página-->
   <title>AMIGAS & AMIGOS POR LOS CEMENTERIOS</title>
 
-  <!-- Meta tags Open Graph -->
+  <!-- Enhanced Meta tags Open Graph -->
   <meta property="og:title" content="Amigas & Amigos por los Cementerios - Agrupación Cultural Valparaíso">
   <meta property="og:description" content="Agrupación cultural comunitaria sin fines de lucro que resguarda, visibiliza y pone en valor los patrimonios funerarios de Valparaíso y la región.">
-  <meta property="og:image" content="assets/img/portada.png">
+  <meta property="og:image" content="https://amigasyamigosporloscementerios.cl/assets/img/portada.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Portada de Amigas y Amigos por los Cementerios - Patrimonio Funerario de Valparaíso">
   <meta property="og:url" content="https://amigasyamigosporloscementerios.cl">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="es_CL">
+  <meta property="og:site_name" content="Amigas & Amigos por los Cementerios">
+  <meta property="article:author" content="Agrupación Cultural Amigas y Amigos por los Cementerios">
+  <meta property="article:section" content="Cultura y Patrimonio">
+  <meta property="article:tag" content="patrimonio, cementerios, Valparaíso, cultura, historia">
 
-  <!-- Meta tags Twitter -->
+  <!-- Enhanced Meta tags Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Amigas & Amigos por los Cementerios">
-  <meta name="twitter:description" content="Agrupación cultural que preserva el patrimonio funerario de Valparaíso">
-  <meta name="twitter:image" content="assets/img/portada.png">
+  <meta name="twitter:site" content="@amigosporloscementerios">
+  <meta name="twitter:creator" content="@amigosporloscementerios">
+  <meta name="twitter:title" content="Amigas & Amigos por los Cementerios - Patrimonio Funerario de Valparaíso">
+  <meta name="twitter:description" content="Agrupación cultural que preserva el patrimonio funerario de Valparaíso desde 2017. Actividades culturales, recorridos y proyectos de restauración.">
+  <meta name="twitter:image" content="https://amigasyamigosporloscementerios.cl/assets/img/portada.png">
+  <meta name="twitter:image:alt" content="Patrimonio funerario de los cementerios de Valparaíso">
 
-  <!-- Logos -->
+  <!-- Additional Social Meta Tags -->
+  <meta name="theme-color" content="#ffc451">
+  <meta name="msapplication-TileColor" content="#ffc451">
+  <meta name="application-name" content="Amigas & Amigos por los Cementerios">
+
+  <!-- Structured Data - Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Amigas y Amigos por los Cementerios",
+    "alternateName": "Agrupación Cultural Amigas y Amigos por los Cementerios",
+    "description": "Agrupación cultural comunitaria sin fines de lucro que resguarda, visibiliza y pone en valor los patrimonios funerarios de Valparaíso y la región.",
+    "url": "https://amigasyamigosporloscementerios.cl",
+    "logo": "https://amigasyamigosporloscementerios.cl/assets/img/logos/footer.png",
+    "foundingDate": "2017",
+    "foundingLocation": {
+      "@type": "Place",
+      "name": "Cerro Panteón, Valparaíso, Chile"
+    },
+    "areaServed": {
+      "@type": "Place",
+      "name": "Valparaíso, Chile"
+    },
+    "memberOf": {
+      "@type": "Organization",
+      "name": "Red Chilena de Cementerios Patrimoniales"
+    },
+    "sameAs": [
+      "https://www.facebook.com/amigosporloscementerios",
+      "https://www.instagram.com/amigosporloscementerios"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "General Information",
+      "email": "amigasporloscementerios@gmail.com"
+    }
+  }
+  </script>
+
+  <!-- Structured Data - Cultural Activities -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CulturalActivity",
+    "name": "Actividades Patrimoniales en Cementerios",
+    "description": "Realizamos actividades culturales, de difusión, seminarios, publicaciones, libros patrimoniales, recorridos turísticos, investigación y proyectos de restauración.",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Amigas y Amigos por los Cementerios"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Cementerios Patrimoniales de Valparaíso"
+    }
+  }
+  </script>
+
+  <!-- PWA Manifest and Icons -->
+  <link rel="manifest" href="manifest.json">
   <link rel="icon" href="assets/img/pestanna.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="assets/img/logos/icon-192x192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="AmigasCementerios">
 
 
   <!-- Fuentes -->
@@ -47,9 +120,32 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <!-- link al archivo CSS -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/new-gallery.css" rel="stylesheet">
 
   <!-- CSS minificado para producción (comentar línea anterior y descomentar esta) -->
   <!-- <link href="assets/css/style.min.css" rel="stylesheet"> -->
+
+  <!-- Optimized font loading strategy -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"></noscript>
+
+  <!-- Preload critical images -->
+  <link rel="preload" as="image" href="assets/img/portada.png" fetchpriority="high">
+
+  <!-- Critical CSS inline para above-the-fold content -->
+  <style>
+    /* Critical CSS para header y hero */
+    body{font-family:"Poppins",sans-serif;color:#444444;padding:0}
+    #header{transition:all 0 1s;z-index:997;padding:15px 0;background-color:rgba(0,0,0,0.5);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+    #header .logo{font-size:28px;margin:0;padding:0;line-height:1;font-weight:100;letter-spacing:2px;text-transform:uppercase}
+    #header .logo a{color:#FEF7EF}
+    #header .logo a span{color:#ffc451}
+    .navbar{padding:0;align-items:center;justify-content:center}
+    .navbar ul{margin:0;padding:0;display:flex;list-style:none;align-items:center}
+    #hero{width:100%;height:100vh;background:url("assets/img/portada.png") center center;background-size:cover;position:relative}
+  </style>
 
 
   <!-- Web Vitals Tracking -->
@@ -158,6 +254,8 @@
           <li><a class="nav-link scrollto" href="#about" aria-label="Ir a sección Misión y Visión">Misión & Visión</a></li>
           <li><a class="nav-link scrollto" href="#objetivos" aria-label="Ir a sección Actividades">Actividades</a></li>
           <li><a class="nav-link scrollto" href="#portfolio" aria-label="Ir a Galería">Galería</a></li>
+          <li><a class="nav-link scrollto" href="#digital-library" aria-label="Ir a Biblioteca Digital">Biblioteca</a></li>
+          <li><a class="nav-link scrollto" href="#document-repository" aria-label="Ir a Documentación">Documentos</a></li>
           <li><a class="nav-link scrollto" href="#socios" aria-label="Ir a sección Equipo">Equipo</a></li>
           <li><a class="nav-link scrollto" href="#footer" aria-label="Ir a sección Contacto">Contacto</a></li>
         </ul>
@@ -168,7 +266,9 @@
   <!-- ======= Portada  ======= -->
 
 
-  <section id="hero" class="d-flex align-items-center justify-content-center" style='background-image: url("assets/img/portada.png")' role="main" aria-label="Sección principal con portada"'>
+  <main>
+  <section id="hero" class="d-flex align-items-center justify-content-center" style="background-image: url('assets/img/portada.png')" role="banner" aria-label="Sección principal - Amigas y Amigos por los Cementerios">
+    <h1 class="visually-hidden">Amigas y Amigos por los Cementerios - Agrupación Cultural de Valparaíso</h1>
 
 
 
@@ -237,7 +337,16 @@
           <!-- Cuerpo misión y visión -->
 
           <div class="col-lg-6 order-1 order-lg-2 " data-aos="fade-left" data-aos-delay="100">
-            <img src="assets/img/about.png" class="img-fluid" alt="Imagen ilustrativa de la misión y visión de la agrupación">
+            <picture>
+              <source srcset="assets/img/about.webp 800w" type="image/webp" sizes="(max-width: 768px) 100vw, 50vw">
+              <source srcset="assets/img/about.png 800w" type="image/png" sizes="(max-width: 768px) 100vw, 50vw">
+              <img src="assets/img/about.png"
+                   class="img-fluid"
+                   alt="Imagen ilustrativa de la misión y visión de la agrupación"
+                   loading="lazy"
+                   width="800"
+                   height="600">
+            </picture>
           </div>
           <div id="mision" class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right"
             data-aos-delay="100">
@@ -281,28 +390,28 @@
 
 
               <div class="swiper-slide">
-                <img src="assets/img/portfolio/programa/act1.jpg" alt="Actividad cultural en cementerio patrimonial" class="img-fluid">
+                <img src="assets/img/portfolio/programa/act1.jpg" alt="Actividad cultural en cementerio patrimonial" class="img-fluid" loading="lazy">
               </div>
 
               <div class="swiper-slide">
-                <img src="assets/img/portfolio/programa/act2.jpg" alt="Programación de actividades mensuales" class="img-fluid">
+                <img src="assets/img/portfolio/programa/act2.jpg" alt="Programación de actividades mensuales" class="img-fluid" loading="lazy">
               </div>
 <!-- 
               <div class="swiper-slide">
-                <img width="100%" src="assets/img/portfolio/programa/act3.png" alt="Cartel de actividad cultural">
+                <img width="100%" src="assets/img/portfolio/programa/act3.png" alt="Cartel de actividad cultural" class="img-fluid" loading="lazy">
               </div>
 
 
               <div class="swiper-slide">
-                <img width="100%" src="assets/img/portfolio/programa/patri1.png" alt="Patrimonio funerario de Valparaíso">
+                <img width="100%" src="assets/img/portfolio/programa/patri1.png" alt="Patrimonio funerario de Valparaíso" class="img-fluid" loading="lazy">
               </div>
 
               <div class="swiper-slide">
-                <img width="100%" src="assets/img/portfolio/programa/patri2.png" alt="Actividades patrimoniales y culturales">
+                <img width="100%" src="assets/img/portfolio/programa/patri2.png" alt="Actividades patrimoniales y culturales" class="img-fluid" loading="lazy">
               </div>
 
               <div class="swiper-slide">
-                <img width="100%" src="assets/img/portfolio/programa/patri3.png" alt="Eventos y seminarios sobre patrimonio">
+                <img width="100%" src="assets/img/portfolio/programa/patri3.png" alt="Eventos y seminarios sobre patrimonio" class="img-fluid" loading="lazy">
               </div> -->
 
 
@@ -390,34 +499,164 @@
 
 
 
-    <!-- ======= Galería de imágenes ======= -->
-    <section id="portfolio" class="portfolio">
+    <!-- ======= Nueva Galería Patrimonial ======= -->
+    <section id="portfolio" class="modern-gallery">
       <div class="container" data-aos="fade-up">
-        <!-- Título de la Galería -->
-        <div class="section-title">
-          <h2>Proyectos</h2>
-          <p>Galería</p>
+
+        <!-- Header de la Galería -->
+        <div class="gallery-header text-center mb-5">
+          <h2 class="section-title">Archivo Patrimonial Digital</h2>
+          <p class="section-subtitle">Preservando la memoria de los cementerios históricos de Valparaíso</p>
+
+          <!-- Barra de herramientas -->
+          <div class="gallery-tools">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <div class="search-bar">
+                  <input type="text" id="gallery-search" class="form-control" placeholder="Buscar fotografías, lugares, personas...">
+                  <i class="bx bx-search search-icon"></i>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="gallery-actions">
+                  <button class="btn btn-outline-primary" onclick="photoRegistry.openRegistryModal()">
+                    <i class="bx bx-plus"></i> Agregar Foto
+                  </button>
+                  <button class="btn btn-outline-secondary" onclick="newGallery.openMapView()">
+                    <i class="bx bx-map"></i> Vista Mapa
+                  </button>
+                  <button class="btn btn-outline-info" onclick="newGallery.toggleView()">
+                    <i class="bx bx-grid-alt"></i> Cambiar Vista
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- Nombres de álbum -->
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Todos</li>
-              <li data-filter=".filter-videos">Videos</li>
-              <li data-filter=".filter-prensa">Prensa</li>
-              <li data-filter=".filter-documentos">Documentos</li>
-              <li data-filter=".filter-socios">Socios </li>
-              <li data-filter=".filter-cementerio1">Cementerio Nº1 </li>
-              <li data-filter=".filter-cementerio2">Cementerio Nº2 </li>
-              <li data-filter=".filter-disidentes">Cementerio Disidentes </li>
-              <li data-filter=".filter-cementeriosMundo">Cementerios del mundo </li>
-              <li data-filter=".filter-actividades">Actividades </li>
-            </ul>
+        <!-- Filtros Avanzados -->
+        <div class="advanced-filters" data-aos="fade-up" data-aos-delay="100">
+          <div class="filter-tabs">
+            <button class="filter-tab active" data-filter="all">
+              <i class="bx bx-globe"></i>
+              <span>Todos</span>
+              <span class="count" id="count-all">0</span>
+            </button>
+            <button class="filter-tab" data-filter="cementerio1">
+              <i class="bx bx-building"></i>
+              <span>Cementerio N°1</span>
+              <span class="count" id="count-cementerio1">0</span>
+            </button>
+            <button class="filter-tab" data-filter="cementerio2">
+              <i class="bx bx-buildings"></i>
+              <span>Cementerio N°2</span>
+              <span class="count" id="count-cementerio2">0</span>
+            </button>
+            <button class="filter-tab" data-filter="disidentes">
+              <i class="bx bx-church"></i>
+              <span>Disidentes</span>
+              <span class="count" id="count-disidentes">0</span>
+            </button>
+            <button class="filter-tab" data-filter="actividades">
+              <i class="bx bx-calendar-event"></i>
+              <span>Actividades</span>
+              <span class="count" id="count-actividades">0</span>
+            </button>
+            <button class="filter-tab" data-filter="equipo">
+              <i class="bx bx-group"></i>
+              <span>Equipo</span>
+              <span class="count" id="count-equipo">0</span>
+            </button>
+            <button class="filter-tab" data-filter="internacional">
+              <i class="bx bx-world"></i>
+              <span>Internacional</span>
+              <span class="count" id="count-internacional">0</span>
+            </button>
+          </div>
+
+          <!-- Filtros secundarios -->
+          <div class="secondary-filters">
+            <select id="date-filter" class="form-select">
+              <option value="">Todas las fechas</option>
+              <option value="2024">2024</option>
+              <option value="2023">2023</option>
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+              <option value="older">Anteriores</option>
+            </select>
+
+            <select id="photographer-filter" class="form-select">
+              <option value="">Todos los fotógrafos</option>
+              <option value="jaime-flores">Jaime Flores</option>
+              <option value="paula-parada">Paula Parada</option>
+              <option value="pablo-alarcon">Pablo Alarcón</option>
+              <option value="pierre-david">Pierre David</option>
+              <option value="aref-cosma">Aref Cosma</option>
+            </select>
+
+            <select id="sort-filter" class="form-select">
+              <option value="newest">Más recientes</option>
+              <option value="oldest">Más antiguos</option>
+              <option value="alphabetical">Alfabético</option>
+              <option value="location">Por ubicación</option>
+            </select>
           </div>
         </div>
 
-        <div id="galería" class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+        <!-- Grid de Galería -->
+        <div id="gallery-grid" class="gallery-grid" data-aos="fade-up" data-aos-delay="200">
+          <!-- Las imágenes se generarán dinámicamente aquí -->
+        </div>
 
+        <!-- Paginación -->
+        <div class="gallery-pagination">
+          <nav aria-label="Gallery pagination">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <button class="page-link" onclick="newGallery.previousPage()">
+                  <i class="bx bx-chevron-left"></i>
+                </button>
+              </li>
+              <li class="page-item active">
+                <button class="page-link" onclick="newGallery.goToPage(1)">1</button>
+              </li>
+              <li class="page-item">
+                <button class="page-link" onclick="newGallery.nextPage()">
+                  <i class="bx bx-chevron-right"></i>
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Estadísticas de la Galería -->
+        <div class="gallery-stats">
+          <div class="row text-center">
+            <div class="col-md-3">
+              <div class="stat-item">
+                <h3 id="total-photos">0</h3>
+                <p>Fotografías</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="stat-item">
+                <h3 id="total-locations">3</h3>
+                <p>Cementerios</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="stat-item">
+                <h3 id="total-photographers">5</h3>
+                <p>Fotógrafos</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="stat-item">
+                <h3 id="total-events">12</h3>
+                <p>Eventos</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
 
@@ -425,7 +664,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-videos">
             <div id="archivos " class="portfolio-wrap">
-              <img src="assets/img/portfolio/programa/flayer-purutun.png" class="img-fluid" alt="Flyer del evento Purutun">
+              <img src="assets/img/portfolio/programa/flayer-purutun.png" class="img-fluid" alt="Flyer del evento Purutun" loading="lazy">
               <div class="portfolio-info">
                 <h4>Presentación Sobrevuelo Museo Histórico Arqueológico.</h4>
                 <p>Miércoles 24 de Abril 11:00Hrs / Auditorio Municipal Victor Vergara Flores. Maipú #330-2°Piso,
@@ -449,7 +688,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-prensa">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/la calera.png" class="img-fluid" alt="Proyecto en La Calera">
+              <img src="assets/img/portfolio/la calera.png" class="img-fluid" alt="Proyecto patrimonial en La Calera" loading="lazy">
               <div class="portfolio-info">
                 <h4>Diario El Observador.</h4>
                 <p>En La Calera se presentó microdocumental sobre la historia de cinco cementerios patrimoniales de la
@@ -470,7 +709,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-documentos">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/PPT.png" class="img-fluid" alt="Presentación institucional de la agrupación">
+              <img src="assets/img/portfolio/PPT.png" class="img-fluid" alt="Presentación institucional de la agrupación" loading="lazy">
               <div class="portfolio-info">
                 <h4>SALVAGUARDIA CEMENTERIO NUMERO 1 DE VALPARAISO.</h4>
                 <p>Sandra Aliaga.</p> <a
@@ -490,7 +729,7 @@
           
           <div class="col-lg-4 col-md-6 portfolio-item filter-socios">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Paula López, Carolina Miranda, Adolfo López.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/Paula López, Carolina Miranda, Adolfo López.jpg" class="img-fluid" alt="Paula López, Carolina Miranda y Adolfo López en actividad patrimonial" loading="lazy">
               <div class="portfolio-info">
                 <h4>Paula López, Carolina Miranda, Adolfo López.</h4>
                 <p>Cementerio Disidentes</p>
@@ -498,6 +737,8 @@
                   <a href="assets/img/portfolio/Paula López, Carolina Miranda, Adolfo López.jpg"
                     data-gallery="portfolioGallery" class="portfolio-lightbox"
                     title="Cementerio Disidentes, Valparaíso"><i class="bx bx-plus"></i></a>
+                  <a href="#" onclick="photoRegistry.openRegistryModal('Paula López, Carolina Miranda, Adolfo López.')"
+                    title="Registrar fotografía"><i class="bx bx-edit"></i></a>
                 </div>
               </div>
             </div>
@@ -506,7 +747,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-socios">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Aditi Olivera , Romina Care, Valentina Alvarado.jpg" class="img-fluid"
+              <img src="assets/img/portfolio/Aditi Olivera , Romina Care, Valentina Alvarado.jpg" class="img-fluid" alt="Aditi Olivera, Romina Care y Valentina Alvarado en evento cultural" loading="lazy"
                 alt="">
               <div class="portfolio-info">
                 <h4>Aditi Olivera , Romina Care, Valentina Alvarado.</h4>
@@ -524,7 +765,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-socios">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Reunión DIN 399.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/Reunión DIN 399.jpg" class="img-fluid" alt="Reunión de trabajo DIN 399" loading="lazy">
               <div class="portfolio-info">
                 <h4>Reunión DIN 399.</h4>
                 <p>DIN 399.</p>
@@ -540,7 +781,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-socios">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/actividades/20191213_Tania Care , Florencia Alvarado.jpg" class="img-fluid"
+              <img src="assets/img/portfolio/actividades/20191213_Tania Care , Florencia Alvarado.jpg" class="img-fluid" alt="Tania Care y Florencia Alvarado en actividad patrimonial" loading="lazy"
                 alt="">
               <div class="portfolio-info">
                 <h4>Tania Care, Florencia Alvarado.</h4>
@@ -558,7 +799,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-socios">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/actividades/Consejo de la Cultura Equipo de Patrimonio Colaboradores.jpg"
+              <img src="assets/img/portfolio/actividades/Consejo de la Cultura Equipo de Patrimonio Colaboradores.jpg" alt="Equipo de Patrimonio del Consejo de la Cultura" loading="lazy"
                 class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Consejo de la Cultura Equipo de Patrimonio Colaboradores</h4>
@@ -575,7 +816,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-socios">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/actividades/lab. técnico foto.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/actividades/lab. técnico foto.jpg" class="img-fluid" alt="Laboratorio técnico de conservación patrimonial" loading="lazy">
               <div class="portfolio-info">
                 <h4>lab. técnico fotos</h4>
                 <p></p>
@@ -597,7 +838,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio1">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cementerio1/La pietá cementerio n°1.jpg" class="img-fluid" alt="Escultura La Pietá en Cementerio N°1 de Valparaíso">
+              <img src="assets/img/portfolio/cementerio1/La pietá cementerio n°1.jpg"
+                   srcset="assets/img/portfolio/cementerio1/La pietá cementerio n°1.jpg 1200w"
+                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                   class="img-fluid"
+                   alt="Escultura La Pietá en Cementerio N°1 de Valparaíso"
+                   loading="lazy">
               <div class="portfolio-info">
                 <h4>La pietá</h4>
                 <p>Cementerio Nº1, Valparaíso.</p>
@@ -614,7 +860,7 @@
 
           <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio1">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cementerio1/cem-n1-hor1.jpg" class="img-fluid" alt="Vista panorámica del Cementerio N°1">
+              <img src="assets/img/portfolio/cementerio1/cem-n1-hor1.jpg" class="img-fluid" alt="Vista panorámica del Cementerio N°1" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Nº1</h4>
                 <p>Valparaíso</p>
@@ -629,7 +875,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio1">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cementerio1/cem-n1-hor2.jpg" class="img-fluid" alt="Arquitectura funeraria del Cementerio N°1">
+              <img src="assets/img/portfolio/cementerio1/cem-n1-hor2.jpg" class="img-fluid" alt="Arquitectura funeraria del Cementerio N°1" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Nº1</h4>
                 <p>Valparaíso</p>
@@ -644,7 +890,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio1">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cementerio1/cem-n1-hor3.jpg" class="img-fluid" alt="Mausoleos y tumbas históricas">
+              <img src="assets/img/portfolio/cementerio1/cem-n1-hor3.jpg" class="img-fluid" alt="Mausoleos y tumbas históricas" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Nº1</h4>
                 <p>Valparaíso</p>
@@ -658,7 +904,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio1">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cementerio1/cem-n1-ver1.jpg" class="img-fluid" alt="Detalle arquitectónico vertical del cementerio">
+              <img src="assets/img/portfolio/cementerio1/cem-n1-ver1.jpg" class="img-fluid" alt="Detalle arquitectónico vertical del cementerio" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Nº1</h4>
                 <p>Valparaíso</p>
@@ -672,7 +918,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio1">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cementerio1/cem-n1-ver2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/cementerio1/cem-n1-ver2.jpg" class="img-fluid" alt="Arte funerario y esculturas del Cementerio N°1" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Nº1</h4>
                 <p>Valparaíso</p>
@@ -686,7 +932,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio1">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cementerio1/cem-n1-ver3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/cementerio1/cem-n1-ver3.jpg" class="img-fluid" alt="Monumentos funerarios históricos del Cementerio N°1" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Nº1</h4>
                 <p>Valparaíso</p>
@@ -703,7 +949,7 @@
           <!-- CEMENTERIO NUMERO 2 -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio2">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cementerio2/cem-n2-hor1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/cementerio2/cem-n2-hor1.jpg" class="img-fluid" alt="Vista panorámica del Cementerio N°2 de Valparaíso" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Nº2</h4>
                 <p>Valparaíso</p>
@@ -717,7 +963,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio2">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cementerio2/cem-n2-hor3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/cementerio2/cem-n2-hor3.jpg" class="img-fluid" alt="Arquitectura del Cementerio N°2" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Nº2</h4>
                 <p>Valparaíso</p>
@@ -731,7 +977,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio2">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cementerio2/cementerio N°2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/cementerio2/cementerio N°2.jpg" class="img-fluid" alt="Entrada principal del Cementerio N°2" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Nº2</h4>
                 <p>Valparaíso</p>
@@ -745,7 +991,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio2">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cementerio2/cem-n2-ver1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/cementerio2/cem-n2-ver1.jpg" class="img-fluid" alt="Monumentos funerarios verticales del Cementerio N°2" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Nº2</h4>
                 <p>Valparaíso</p>
@@ -760,7 +1006,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio2">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cementerio2/cem-n2-ver2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/cementerio2/cem-n2-ver2.jpg" class="img-fluid" alt="Escultura funeraria en el Cementerio N°2" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Nº2</h4>
                 <p>Valparaíso</p>
@@ -775,7 +1021,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio2">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cementerio2/cem-n2-ver4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/cementerio2/cem-n2-ver4.jpg" class="img-fluid" alt="Arte funerario del Cementerio N°2" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Nº2</h4>
                 <p>Valparaíso</p>
@@ -796,7 +1042,7 @@
           <!-- Disidentes  -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-disidentes">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cementerio2/disi1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/cementerio2/disi1.jpg" class="img-fluid" alt="Cementerio de Disidentes - vista general" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Disidentes</h4>
                 <p>Valparaíso</p>
@@ -810,7 +1056,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-disidentes">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cementerio2/disi2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/cementerio2/disi2.jpg" class="img-fluid" alt="Cementerio de Disidentes - monumentos históricos" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Disidentes</h4>
                 <p>Valparaíso</p>
@@ -824,7 +1070,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-disidentes">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cementerio2/disi3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/cementerio2/disi3.jpg" class="img-fluid" alt="Cementerio de Disidentes - arte funerario" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Disidentes</h4>
                 <p>Valparaíso</p>
@@ -838,7 +1084,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-disidentes">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cementerio2/disi4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/cementerio2/disi4.jpg" class="img-fluid" alt="Cementerio de Disidentes - tumbas patrimoniales" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Disidentes</h4>
                 <p>Valparaíso</p>
@@ -853,7 +1099,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-disidentes">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cementerio2/disi5.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/cementerio2/disi5.jpg" class="img-fluid" alt="Cementerio de Disidentes - arquitectura funeraria" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Disidentes</h4>
                 <p>Valparaíso</p>
@@ -868,7 +1114,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-disidentes">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cementerio2/disi6.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/cementerio2/disi6.jpg" class="img-fluid" alt="Cementerio de Disidentes - patrimonio funerario" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Disidentes</h4>
                 <p>Valparaíso</p>
@@ -890,7 +1136,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementeriosMundo">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Cementerios x el mundo/Pierre-David1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/Cementerios x el mundo/Pierre-David1.jpg" class="img-fluid" alt="Cementerio Père Lachaise - arte funerario internacional" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Europeo</h4>
                 <p>Pierre David</p>
@@ -908,7 +1154,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementeriosMundo">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Cementerios x el mundo/Pierre-David4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/Cementerios x el mundo/Pierre-David4.jpg" class="img-fluid" alt="Cementerio Père Lachaise - monumentos funerarios" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Europeo</h4>
                 <p>Pierre David</p>
@@ -924,7 +1170,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementeriosMundo">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Cementerios x el mundo/Pierre-David5.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/Cementerios x el mundo/Pierre-David5.jpg" class="img-fluid" alt="Cementerio Père Lachaise - esculturas históricas" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Europeo</h4>
                 <p>Pierre David</p>
@@ -941,7 +1187,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementeriosMundo">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Cementerios x el mundo/Pierre-David2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/Cementerios x el mundo/Pierre-David2.jpg" class="img-fluid" alt="Cementerio Père Lachaise - patrimonio funerario" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Europeo</h4>
                 <p>Pierre David</p>
@@ -957,7 +1203,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementeriosMundo">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Cementerios x el mundo/Pierre-David3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/Cementerios x el mundo/Pierre-David3.jpg" class="img-fluid" alt="Cementerio Père Lachaise - arquitectura funeraria" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Europeo</h4>
                 <p>Pierre David</p>
@@ -1308,15 +1554,83 @@
 
 
 
-          <!-- FIN ACTIVIDADES  -->
 
-
-
-
-        </div>
       </div>
     </section>
-    <!-- Fin Sección de galería -->
+
+    <!-- Modales para Nueva Galería -->
+
+    <!-- Modal para Vista Detallada -->
+    <div id="photo-detail-modal" class="modal fade" tabindex="-1">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="photo-title">Detalle de Fotografía</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-8">
+                <img id="photo-detail-image" src="" class="img-fluid" alt="">
+              </div>
+              <div class="col-md-4">
+                <div class="photo-metadata">
+                  <h6>Información</h6>
+                  <p><strong>Ubicación:</strong> <span id="photo-location"></span></p>
+                  <p><strong>Fotógrafo:</strong> <span id="photo-photographer"></span></p>
+                  <p><strong>Fecha:</strong> <span id="photo-date"></span></p>
+                  <p><strong>Descripción:</strong> <span id="photo-description"></span></p>
+
+                  <h6 class="mt-4">Acciones</h6>
+                  <div class="photo-actions">
+                    <button class="btn btn-primary btn-sm" onclick="newGallery.downloadPhoto(newGallery.currentPhoto?.id)">
+                      <i class="bx bx-download"></i> Descargar
+                    </button>
+                    <button class="btn btn-secondary btn-sm" onclick="newGallery.sharePhoto(newGallery.currentPhoto?.id)">
+                      <i class="bx bx-share"></i> Compartir
+                    </button>
+                    <button class="btn btn-info btn-sm" onclick="newGallery.editPhoto(newGallery.currentPhoto?.id)">
+                      <i class="bx bx-edit"></i> Editar Info
+                    </button>
+                  </div>
+
+                  <h6 class="mt-4">Tags</h6>
+                  <div id="photo-tags" class="photo-tags">
+                    <!-- Tags se generarán dinámicamente -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para Vista de Mapa -->
+    <div id="map-view-modal" class="modal fade" tabindex="-1">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Mapa de Ubicaciones</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body p-0">
+            <div id="gallery-map" style="height: 100vh;">
+              <div class="d-flex align-items-center justify-content-center h-100">
+                <div class="text-center">
+                  <i class="bx bx-map-pin" style="font-size: 4rem; color: #ffc451;"></i>
+                  <h4>Vista de Mapa</h4>
+                  <p>Aquí se mostraría un mapa interactivo con las ubicaciones de las fotografías</p>
+                  <button class="btn btn-primary" data-bs-dismiss="modal">Cerrar Mapa</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fin Nueva Galería -->
     <!-- ======= Testimonios ======= -->
     <section id="socios" class="testimonials">
       <div class="container" data-aos="zoom-in">
@@ -1324,7 +1638,7 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/Directiva/florencia alvarado.JPG" class="testimonial-img" alt="">
+                <img src="assets/img/Directiva/florencia alvarado.JPG" class="testimonial-img" alt="Foto de Florencia Alvarado" loading="lazy">
                 <h3>Florencia Alvarado</h3>
                 <h4>Restauradora.</h4>
                 <h4>La Pátina.</h4>
@@ -1338,7 +1652,7 @@
             </div>
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/Directiva/romina care.JPG" class="testimonial-img" alt="">
+                <img src="assets/img/Directiva/romina care.JPG" class="testimonial-img" alt="Foto de Romina Care" loading="lazy">
                 <h3>Romina Care.</h3>
                 <h4>Diseñadora & Restauradora.</h4>
                 <h4>La Pátina.</h4>
@@ -1354,7 +1668,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/Directiva/Bernarda Zuñiga.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/Directiva/Bernarda Zuñiga.jpg" class="testimonial-img" alt="Foto de Bernarda Zuñiga" loading="lazy">
                 <h3>Bernarda Zuñiga.</h3>
                 <h4>Ingeniera Mecánica Universidad Técnica Federico Santa María.</h4>
                 <h4>Profesora Carrera Dibujante Proyectista Universidad de Playa Ancha.</h4>
@@ -1371,7 +1685,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/Directiva/Adolfo López.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/Directiva/Adolfo López.jpg" class="testimonial-img" alt="Foto de Adolfo López" loading="lazy">
                 <h3>Adolfo López.</h3>
                 <h4>Arquitecto.</h4>
                 <!-- <h4>La Pátina.</h4> -->
@@ -1386,7 +1700,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/Directiva/Eduardo Vergara.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/Directiva/Eduardo Vergara.jpg" class="testimonial-img" alt="Foto de Eduardo Vergara" loading="lazy">
                 <h3>Eduardo Vergara</h3>
                 <h4>Psicólogo, Poeta, Cuentista, Escritor & Epitafiógrafo.</h4>
                 <h4>Director & Editor de Editorial Calle Sin Numero.</h4>
@@ -1693,15 +2007,15 @@
         <div class="clients-slider swiper" role="region" aria-label="Carrusel de logos de instituciones colaboradoras">
           <div class="swiper-wrapper align-items-center" role="list">
             <!-- <div class="swiper-slide"><img src="assets/img/logos/Agrupación Cultural Amigas y Amigos por los cementerios.png" class="img-fluid" alt=""></div> -->
-            <div class="swiper-slide" role="listitem"><img src="assets/img/logos/alcaldiavalpo.jpg" class="img-fluid" alt="Logo Alcaldía de Valparaíso"></div>
+            <div class="swiper-slide" role="listitem"><img src="assets/img/logos/alcaldiavalpo.jpg" class="img-fluid" alt="Logo Alcaldía de Valparaíso" loading="lazy"></div>
 
 
 
-            <div class="swiper-slide"><img src="assets/img/logos/Hijuelas.jpeg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/logos/Gobierno regional valparaiso.jpeg" class="img-fluid"
+            <div class="swiper-slide"><img src="assets/img/logos/Hijuelas.jpeg" class="img-fluid" alt="Logo Municipalidad de Hijuelas" loading="lazy"></div>
+            <div class="swiper-slide"><img src="assets/img/logos/Gobierno regional valparaiso.jpeg" class="img-fluid" alt="Logo Gobierno Regional de Valparaíso" loading="lazy"
                 alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/logos/LOGO MUNI LA CRUZ.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/logos/servicio nacional patrimonio cultural.png"
+            <div class="swiper-slide"><img src="assets/img/logos/LOGO MUNI LA CRUZ.png" class="img-fluid" alt="Logo Municipalidad de La Cruz" loading="lazy"></div>
+            <div class="swiper-slide"><img src="assets/img/logos/servicio nacional patrimonio cultural.png" alt="Logo Servicio Nacional del Patrimonio Cultural" loading="lazy"
                 class="img-fluid" alt=""></div>
 
 
@@ -1860,6 +2174,27 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <!-- archivo JS -->
   <script src="assets/js/main.js"></script>
+  <!-- Performance Monitor -->
+  <script src="assets/js/performance-monitor.js"></script>
+  <!-- Cloudflare Integration -->
+  <script src="cloudflare-integration.js"></script>
+  <!-- Nueva Galería -->
+  <script src="assets/js/new-gallery.js"></script>
+
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then((registration) => {
+            console.log('SW registrado con éxito:', registration.scope);
+          })
+          .catch((registrationError) => {
+            console.log('SW registration falló:', registrationError);
+          });
+      });
+    }
+  </script>
 
   <!-- Cloudflare Web Analytics - Token removido por seguridad -->
   <!-- <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "TOKEN_REMOVED"}'></script> -->

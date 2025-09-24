@@ -1,0 +1,146 @@
+{
+  "name": "Amigas y Amigos por los Cementerios",
+  "short_name": "AmigasCementerios",
+  "description": "Agrupación cultural que preserva el patrimonio funerario de Valparaíso",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FEF7EF",
+  "theme_color": "#ffc451",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "es",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "assets/img/logos/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/logos/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/logos/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/logos/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/logos/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/logos/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/logos/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/logos/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["culture", "education", "heritage"],
+  "shortcuts": [
+    {
+      "name": "Galería",
+      "short_name": "Galería",
+      "description": "Ver galería de imágenes patrimoniales",
+      "url": "/#portfolio",
+      "icons": [
+        {
+          "src": "assets/img/logos/icon-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Biblioteca Digital",
+      "short_name": "Biblioteca",
+      "description": "Acceder a libros y recursos digitales",
+      "url": "/#digital-library",
+      "icons": [
+        {
+          "src": "assets/img/logos/icon-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Documentos",
+      "short_name": "Docs",
+      "description": "Repositorio de documentación histórica",
+      "url": "/#document-repository",
+      "icons": [
+        {
+          "src": "assets/img/logos/icon-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Registro Fotográfico",
+      "short_name": "Registro",
+      "description": "Registrar nuevas fotografías",
+      "url": "/#photo-registry",
+      "icons": [
+        {
+          "src": "assets/img/logos/icon-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Equipo",
+      "short_name": "Equipo",
+      "description": "Conocer al equipo directivo",
+      "url": "/#socios",
+      "icons": [
+        {
+          "src": "assets/img/logos/icon-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/img/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Vista de escritorio de la página principal"
+    },
+    {
+      "src": "assets/img/screenshot-mobile.png",
+      "sizes": "375x667",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Vista móvil de la página principal"
+    }
+  ],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}
