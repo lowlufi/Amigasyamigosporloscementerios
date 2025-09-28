@@ -11,7 +11,7 @@ rm -rf dist/
 
 # Instalar dependencias
 echo "📦 Instalando dependencias..."
-npm install
+npm ci
 
 # Crear nuevo build
 echo "🔨 Creando build de producción..."

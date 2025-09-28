@@ -10,7 +10,9 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git push:*)",
-      "WebFetch(domain:amigasyamigosporloscementeriosreact.pages.dev)"
+      "WebFetch(domain:amigasyamigosporloscementeriosreact.pages.dev)",
+      "Bash(npm run dev:*)",
+      "Bash(npx tailwindcss:*)"
     ],
     "deny": [],
     "ask": []

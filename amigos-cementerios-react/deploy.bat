@@ -10,7 +10,7 @@ if exist dist rmdir /s /q dist
 
 REM Instalar dependencias
 echo 📦 Instalando dependencias...
-call npm install
+call npm ci
 
 REM Crear nuevo build
 echo 🔨 Creando build de producción...

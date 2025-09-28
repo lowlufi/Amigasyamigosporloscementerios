@@ -265,6 +265,7 @@ Configura alertas para:
 
 ### Para el Equipo
 - **Acceso Admin**: usuario `admin`, contraseña `cementerios2024`
+- **Acceso Admin**: Las credenciales de acceso se gestionan de forma segura y se comunican al equipo a través de los canales designados.
 - **Documentación**: Este archivo + README.md
 - **Soporte Técnico**: Daniel Aguilera (@lowlufi)
 
