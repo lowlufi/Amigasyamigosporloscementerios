@@ -361,12 +361,13 @@ h6 {
     display: block;
   }
 
-  .navbar ul {
+  .desktop-nav ul {
     display: none;
   }
 }
 
 .navbar-mobile {
+  display: none; /* Oculto por defecto */
   position: fixed;
   overflow: hidden;
   top: 0;
@@ -377,6 +378,11 @@ h6 {
   transition: 1s;
   z-index: 999;
 }
+.navbar-mobile.navbar-mobile-active {
+  display: block; /* Se muestra cuando está activo */
+}
+
+
 
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
