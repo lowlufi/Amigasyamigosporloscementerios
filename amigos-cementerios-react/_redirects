@@ -1,6 +1,0 @@
-# Redirects for SPA (Single Page Application)
-/*    /index.html   200
-
-# Optional: redirect old paths to new ones
-/blog/*   /blog   200
-/admin/*  /admin  200

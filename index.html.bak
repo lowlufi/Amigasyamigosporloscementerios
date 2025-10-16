@@ -1,0 +1,1840 @@
+<!-- ==================================================
+  * Nombre: Amigas y Amigos Por los Cementerios.cl
+  * Actualizado: 7-05-24
+  * Autor: Daniel Aguilera Campusano @lowlufi
+  ------================================================= -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="description"
+    content="Agrupación cultural Amigas y Amigos por los cementerios patrimoniales de Valparaíso chile ">
+  <meta name="keywords"
+    content="Cementerios, Agrupación, Cultural, Amigas , Amigos, Valparaíso, Chile, patrimoniales, patrimonial" />
+  <!-- título de la página-->
+  <title>AMIGAS & AMIGOS POR LOS CEMENTERIOS</title>
+
+  <!-- Logos -->
+  <link rel="icon" href="assets/img/pestanna.ico" type="image/x-icon">
+
+
+  <!-- Fuentes -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <!-- Links CSS bootstrap -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- link al archivo CSS -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+
+</head>
+<!-- Cuerpo de la pagina -->
+
+<body>
+  <!-- ======= Cabecera ======= -->
+
+  <header id="header" class="fixed-top  ">
+    <div class="container d-flex align-items-center justify-content-center">
+      <h1 class="logo me-auto me-lg-0"><a href="#hero">AGRUPACIÓN <span>CULTURAL</span></a></h1>
+
+
+      <!-- Logo en el nav -->
+
+
+      <!-- Navbar -->
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+
+          <li><a class="nav-link scrollto" href="#features">Nosotros</a></li>
+          <li><a class="nav-link scrollto" href="#about">Misión & Visión</a></li>
+          <li><a class="nav-link scrollto" href="#objetivos">Actividades</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Galería</a></li>
+          <li><a class="nav-link scrollto" href="#socios">Equipo</a></li>
+          <li><a class="nav-link scrollto" href="#footer">Contacto</a></li>
+          <a href="#hero" class="logo me-auto me-lg-0"><img src="assets/img/logos/footer.png" alt="Logo Amigas y Amigos por los Cementerios" class="img-fluid nav-logo-img"></a>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+  <!--===== Fin Cabecera y navbar==== -->
+  <!-- ======= Portada  ======= -->
+
+
+  <section id="hero" class="d-flex align-items-center justify-content-center swiper-container"
+    style='background-image: url("assets/img/portada.png")'>
+
+
+
+
+    <div class="container" data-aos="fade-up">
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-6 col-lg-8">
+          <h1>AMIGAS <span>&</span> AMIGOS POR LOS <span>CEMENTERIOS</span></h1>
+          <h2> </h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====Fin Portada==== -->
+
+  <main id="main">
+
+    <!-- ------ Presentación ------ -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <!-- Título Presentación -->
+          <div class="section-title">
+            <h2>Nosotros</h2>
+            <p>Presentación</p>
+          </div>
+          <!-- Imagen de Presentación -->
+          <div class="image-objetivos col-lg-6 presentacion-bg"
+            data-aos="fade-right">
+          </div>
+
+
+          <!-- Cuerpo-texto Presentación -->
+          <div id="presentacion" class="col-lg-6  pt-4 pt-lg-0 order-2 order-lg-1 content presentacion"
+            data-aos="fade-dow" data-aos-delay="500">
+            <h3>¿Qué somos?</h3>
+            <p class="fst-italic">
+              Una Agrupación Cultural Comunitaria sin fines de lucro nacida en el año 2017 en el cerro Panteón de
+              Valparaíso.
+            </p>
+            <h3>¿Cuál es nuestro propósito?</h3>
+            <p class="fst-italic">
+              Reunir a vecinos , gestores e instituciones públicas con el fin de resguardar, visibilizar y poner en
+              valor los patrimonios funerarios de la ciudad de Valparaíso y la región.
+            </p>
+
+            <h3>¿Qué hacemos?</h3>
+
+            <p class="fst-italic">
+              Realizamos actividades culturales, de difusión, seminarios, publicaciones, libros patrimoniales,
+              recorridos turísticos, investigación y proyectos de restauración.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Misión y visión-->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <!-- título misión y visión  -->
+          <div class="section-title">
+            <h2>Misión y Visión </h2>
+          </div>
+          <!-- Cuerpo misión y visión -->
+
+          <div class="col-lg-6 order-1 order-lg-2 " data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/img/about.png" class="img-fluid about-img" alt="Misión y Visión de la agrupación">
+          </div>
+          <div id="mision" class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right"
+            data-aos-delay="100">
+            <h3>Misión</h3>
+            <p>
+              Entendemos los cementerios patrimoniales como espacios de invaluable valor particular qué a través de su
+              arquitectura, obras de arte, flora botánica, historia de la ciudad, ritos funerarios y las tradiciones de
+              la
+              comunidad, configuran un patrimonio material e inmaterial de gran valor para la ciudad y el país.
+              <br>
+              <br>
+            </p>
+            <p>
+            <h3>Visión</h3>
+
+            Salvaguardar los cementerios patrimoniales de Valparaíso, a través de la restauración, protección y puesta
+            en valor de las necrópolis, comprendiéndolos como lugares de encuentro comunitario, cultural, turismo
+            patrimonial y lugares de memoria, donde la participación e integración de la comunidad y su entorno más
+            inmediato es un eje transversal y prioritario en nuestra misión.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin Misión y Visión  -->
+
+    <!-- ======= Objetivos ======= -->
+    <section id="objetivos" class="features objetivos">
+      <div id="container" class="container" data-aos="fade-up">
+        <!--  Título objetivo  -->
+        <div class="section-title">
+          <h2>Programación mensual</h2>
+          <p>Actividades</p>
+          <!-- Cuerpo Objetivo -->
+        </div>
+
+        <div class="row">
+
+          <!-- <div class="image col-lg-6" style='background-image: url("assets/img/objetivos.JPG");' data-aos="fade-right">
+          </div> -->
+
+          <div class="image col-lg-6 portfolio-details-slider swiper data-aos='fade-right'">
+            <div class="swiper-wrapper align-items-center">
+
+
+              <div class="swiper-slide">
+                <img class="actividad-img" src="assets/img/portfolio/programa/act1.jpg" alt="Actividad cultural en cementerio patrimonial">
+              </div>
+
+              <div class="swiper-slide">
+                <img class="actividad-img" src="assets/img/portfolio/programa/act2.jpg" alt="Programación mensual de actividades">
+              </div>
+<!-- 
+              <div class="swiper-slide">
+                <img width="100%" src="assets/img/portfolio/programa/act3.png" alt="">
+              </div>
+
+
+              <div class="swiper-slide">
+                <img width="100%" src="assets/img/portfolio/programa/patri1.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img width="100%" src="assets/img/portfolio/programa/patri2.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img width="100%" src="assets/img/portfolio/programa/patri3.png" alt="">
+              </div> -->
+
+
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bi bi-chevron-down"></i>
+              <h4>Valor histórico y cultural</h4>
+              <p>Motivar la participación de diversos actores sociales, civiles, privados y públicos, en la permanencia
+                de una entidad comunitaria que promueva la responsabilidad por el rescate y visibilización de nuestros
+                cementerios patrimoniales.</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bi bi-chevron-double-down"></i>
+              <h4>Restauración, reflexión y memoria</h4>
+              <p>Desarrollar un macro proyecto de restauración de visión comunitaria y participativa entre la comunidad
+                civil, pública y privada para la salvaguarda y puesta en valor de los cementerios patrimoniales de la
+                región de Valparaíso.</p>
+              <!-- <h2>  Cómo llegar</h2> -->
+              <p>
+              </p>
+              <div id="mapaActividad" class="mapaActividad">
+                <!-- <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.125017281554!2d-71.20354162315988!3d-32.788944263943065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689cb511c7debf1%3A0xc979a59356f57b42!2sMarathon%20312%2C%20La%20Calera%2C%20Calera%2C%20Valpara%C3%ADso!5e0!3m2!1ses-419!2scl!4v1712425337338!5m2!1ses-419!2scl"
+                  width="580" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe> -->
+
+
+                <iframe
+                  src="https://www.google.com/maps/d/u/3/embed?mid=1ERxoUXPzUHMKV_TTuwsg3M6DPfFKigA&ehbc=2E312F&noprof=1"
+                  width="580" height="300" style="border:0; margin-top: 10%;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+              </div>
+            </div>
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+      <div class="text-center">
+      <h3>Visita nuestras actividades en las redes sociales</h3>
+      <p></p>
+      <p style="color: #FFC451;"><strong style="color: #dcdcdc;">#amigasyamigosporloscementerios</strong></p>
+      <a class="cta-btn" href="https://www.instagram.com/valpocementerios/">Instagram</a>
+      
+      <a class="cta-btn" href="https://www.facebook.com/amigasyamigosporloscementerios/photos?locale=es_LA">Facebook</a>
+      </div>
+      </div>
+      </section>
+       -->
+
+
+
+
+    <!-- ======= Botón de acción ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+        <div class="text-center">
+          <h3>Visita las actividades de nuestros asociados</h3>
+          <p></p>
+          <p style="color: #FFC451;"><strong style="color: #dcdcdc;">Blog de Red Iberoamericana de Cementerios
+              Patrimoniales & Canal de  Valparaíso Creativo</strong></p>
+          <a class="cta-btn" href="http://redcementeriospatrimoniales.blogspot.com/" target="_blank">Blog</a>
+          <a class="cta-btn" href="https://www.youtube.com/@valparaisocreativo5143/videos" target="_blank">YouTube</a>
+          <!-- <a class="cta-btn"
+            href="https://www.facebook.com/amigasyamigosporloscementerios/photos?locale=es_LA">Facebook</a> -->
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======= Galería de imágenes ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+        <!-- Título de la Galería -->
+        <div class="section-title">
+          <h2>Proyectos</h2>
+          <p>Galería</p>
+        </div>
+        <!-- Nombres de álbum -->
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">Todos</li>
+              <li data-filter=".filter-videos">Videos</li>
+              <li data-filter=".filter-prensa">Prensa</li>
+              <li data-filter=".filter-documentos">Documentos</li>
+              <li data-filter=".filter-socios">Socios </li>
+              <li data-filter=".filter-cementerio1">Cementerio Nº1 </li>
+              <li data-filter=".filter-cementerio2">Cementerio Nº2 </li>
+              <li data-filter=".filter-disidentes">Cementerio Disidentes </li>
+              <li data-filter=".filter-cementeriosMundo">Cementerios del mundo </li>
+              <li data-filter=".filter-actividades">Actividades </li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="galería" class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+
+
+
+<!-- 
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-videos">
+            <div id="archivos " class="portfolio-wrap">
+              <img src="assets/img/portfolio/programa/flayer-purutun.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Presentación Sobrevuelo Museo Histórico Arqueológico.</h4>
+                <p>Miércoles 24 de Abril 11:00Hrs / Auditorio Municipal Victor Vergara Flores. Maipú #330-2°Piso,
+                  Quillota.</p>
+                <div class="portfolio-links">
+                  <a href="https://drive.google.com/file/d/1s7w5ddifD76dkG0E5urB4I8p80AHvr-d/preview"
+                    class="portfolio-lightbox"><i class='bx bx-play-circle'></i></a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+
+
+
+
+
+          <!-- Prensa -->
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-prensa">
+            <div id="archivos " class="portfolio-wrap">
+              <img src="assets/img/portfolio/la calera.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Diario El Observador.</h4>
+                <p>En La Calera se presentó microdocumental sobre la historia de cinco cementerios patrimoniales de la
+                  región.</p> <a href="https://issuu.com/edicionesespeciales/docs/120424">Diario completo</a>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/la calera.pdf" class="portfolio-lightbox"><i
+                      class='bx bxs-file-pdf'></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <!-- documentos -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-documentos">
+            <div id="archivos " class="portfolio-wrap">
+              <img src="assets/img/portfolio/PPT.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>SALVAGUARDIA CEMENTERIO NUMERO 1 DE VALPARAISO.</h4>
+                <p>Sandra Aliaga.</p> <a
+                  href="https://drive.google.com/file/d/1h0iI3ar81JXXnjDTn2M86_QYYOjnPGiH/preview">Power Point</a>
+                <div class="portfolio-links">
+                  <a href="https://drive.google.com/file/d/1h0iI3ar81JXXnjDTn2M86_QYYOjnPGiH/preview"
+                    class="portfolio-lightbox"><i class='bx bx-slideshow'></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- SOCIOS -->
+
+
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-socios">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Paula López, Carolina Miranda, Adolfo López.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Paula López, Carolina Miranda, Adolfo López.</h4>
+                <p>Cementerio Disidentes</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Paula López, Carolina Miranda, Adolfo López.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Cementerio Disidentes, Valparaíso"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-socios">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Aditi Olivera , Romina Care, Valentina Alvarado.jpg" class="img-fluid"
+                alt="">
+              <div class="portfolio-info">
+                <h4>Aditi Olivera , Romina Care, Valentina Alvarado.</h4>
+                <p>Cementerio Nº1</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Aditi Olivera , Romina Care, Valentina Alvarado.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Jaime Flores."><i
+                      class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-socios">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Reunión DIN 399.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Reunión DIN 399.</h4>
+                <p>DIN 399.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Reunión DIN 399.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="DIN 399."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-socios">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/20191213_Tania Care , Florencia Alvarado.jpg" class="img-fluid"
+                alt="">
+              <div class="portfolio-info">
+                <h4>Tania Care, Florencia Alvarado.</h4>
+                <p></p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/20191213_Tania Care , Florencia Alvarado.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Tania Care, Florencia Alvarado."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-socios">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/Consejo de la Cultura Equipo de Patrimonio Colaboradores.jpg"
+                class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Consejo de la Cultura Equipo de Patrimonio Colaboradores</h4>
+                <p></p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/Consejo de la Cultura Equipo de Patrimonio Colaboradores.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Consejo de la Cultura Equipo de Patrimonio Colaboradores"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-socios">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/lab. técnico foto.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>lab. técnico fotos</h4>
+                <p></p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/lab. técnico foto.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="lab. técnico fotos"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <!-- FIN SOCIOS -->
+
+          <!-- CEMENTERIO NUIMERO 1 -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio1">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio1/La pietá cementerio n°1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>La pietá</h4>
+                <p>Cementerio Nº1, Valparaíso.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio1/La pietá cementerio n°1.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="La pietá, Cementerio Nº1, Valparaíso."><i
+                      class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio1">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio1/cem-n1-hor1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Nº1</h4>
+                <p>Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio1/cem-n1-hor1.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Jaime Flores."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio1">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio1/cem-n1-hor2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Nº1</h4>
+                <p>Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio1/cem-n1-hor2.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Jaime Flores."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio1">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio1/cem-n1-hor3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Nº1</h4>
+                <p>Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio1/cem-n1-hor3.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Jaime Flores."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio1">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio1/cem-n1-ver1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Nº1</h4>
+                <p>Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio1/cem-n1-ver1.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Jaime Flores."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio1">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio1/cem-n1-ver2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Nº1</h4>
+                <p>Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio1/cem-n1-ver2.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Jaime Flores."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio1">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio1/cem-n1-ver3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Nº1</h4>
+                <p>Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio1/cem-n1-ver3.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Jaime Flores."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FIN CEMENTERIO NUIMERO 1 -->
+
+          <!-- CEMENTERIO NUMERO 2 -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio2">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio2/cem-n2-hor1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Nº2</h4>
+                <p>Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio2/cem-n2-hor1.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Jaime Flores."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio2">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio2/cem-n2-hor3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Nº2</h4>
+                <p>Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio2/cem-n2-hor3.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Jaime Flores."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio2">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio2/cementerio N°2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Nº2</h4>
+                <p>Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio2/cementerio N°2.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio2">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio2/cem-n2-ver1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Nº2</h4>
+                <p>Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio2/cem-n2-ver1.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Jaime Flores."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio2">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio2/cem-n2-ver2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Nº2</h4>
+                <p>Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio2/cem-n2-ver2.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Jaime Flores."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio2">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio2/cem-n2-ver4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Nº2</h4>
+                <p>Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio2/cem-n2-ver4.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Jaime Flores."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- FINCEMENTERIO NUMERO 2 -->
+
+
+
+          <!-- Disidentes  -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-disidentes">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio2/disi1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Disidentes</h4>
+                <p>Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio2/disi1.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Paula Parada."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-disidentes">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio2/disi2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Disidentes</h4>
+                <p>Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio2/disi2.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Paula Parada."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-disidentes">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio2/disi3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Disidentes</h4>
+                <p>Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio2/disi3.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Paula Parada."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-disidentes">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio2/disi4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Disidentes</h4>
+                <p>Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio2/disi4.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Paula Parada."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-disidentes">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio2/disi5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Disidentes</h4>
+                <p>Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio2/disi5.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Pablo Alarcón."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-disidentes">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio2/disi6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Disidentes</h4>
+                <p>Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio2/disi6.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Pablo Alarcón."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <!-- FIN Disidentes  -->
+
+
+          <!-- Cementerios por el mundo cementeriosmundo -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cementeriosMundo">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Cementerios x el mundo/Pierre-David1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Europeo</h4>
+                <p>Pierre David</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Cementerios x el mundo/Pierre-David1.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Pierre David"><i
+                      class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cementeriosMundo">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Cementerios x el mundo/Pierre-David4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Europeo</h4>
+                <p>Pierre David</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Cementerios x el mundo/Pierre-David4.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Pierre David"><i
+                      class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cementeriosMundo">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Cementerios x el mundo/Pierre-David5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Europeo</h4>
+                <p>Pierre David</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Cementerios x el mundo/Pierre-David5.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Pierre David"><i
+                      class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cementeriosMundo">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Cementerios x el mundo/Pierre-David2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Europeo</h4>
+                <p>Pierre David</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Cementerios x el mundo/Pierre-David2.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Pierre David"><i
+                      class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cementeriosMundo">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Cementerios x el mundo/Pierre-David3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Europeo</h4>
+                <p>Pierre David</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Cementerios x el mundo/Pierre-David3.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Pierre David"><i
+                      class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cementeriosMundo">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Cementerios x el mundo/Pierre-David6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cementerio Europeo</h4>
+                <p>Pierre David</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Cementerios x el mundo/Pierre-David6.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Pierre David"><i
+                      class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <!-- Fin cementerios x el mundo  -->
+
+          <!-- ACTIVIDADES -->
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/la cruz actividad.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Evento Sobrevuelos Cementerios</h4>
+                <p>La Cruz.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/la cruz actividad.JPG" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="La Cruz"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/la cruz paula.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Evento Sobrevuelos Cementerios Paula Parada</h4>
+                <p>La Cruz.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/la cruz paula.JPG" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Paula Parada."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/la cruz 4.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Evento Sobrevuelos Cementerios.</h4>
+                <p>La Cruz.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/la cruz 4.JPG" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Exposición la Cruz"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/Lanzamiento libro Upla..jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Lanzamiento libro Upla</h4>
+                <p>Universidad de Playa Ancha.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/Lanzamiento libro Upla..jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Lanzamiento libro Upla, Universidad de Playa Ancha."><i
+                      class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/Esteban Jiménez Cementerio Disidentes.jpg" class="img-fluid"
+                alt="">
+              <div class="portfolio-info">
+                <h4>Esteban Jiménez.</h4>
+                <p>Cementerio Disidentes</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/Esteban Jiménez Cementerio Disidentes.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Esteban Jiménez, Cementerio Disidentes."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/Poeta Carlos Smiths Necropoética Cementerio Disidentes.jpg"
+                class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Necropoética. Poeta Carlos Smiths.</h4>
+                <p>Cementerio Disidentes</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/Poeta Carlos Smiths Necropoética Cementerio Disidentes.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Necropoética. Poeta Carlos Smiths, Cementerio Disidentes."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/Eduardo Vergara y Aref Cosma Cementerio N°1.jpg"
+                class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Eduardo Vergara y Aref Cosma.</h4>
+                <p> Cementerio N°1.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/Eduardo Vergara y Aref Cosma Cementerio N°1.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Eduardo Vergara y Aref Cosma, Cementerio N°1."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+ -->
+
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/Visita Guiada Alumnos de Educación Básica y Media de Recoleta Santiago.jpg"
+                class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Visita Guiada Alumnos de Educación Básica y Media de Recoleta Santiago</h4>
+                <p></p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/Visita Guiada Alumnos de Educación Básica y Media de Recoleta Santiago.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Visita Guiada Alumnos de Educación Básica y Media de Recoleta Santiago"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+ -->
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/Libro Sudamerikan Zombie.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Gato, Libro Sudamerikan Zombie</h4>
+                <p>Cementerio Disidentes</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/Libro Sudamerikan Zombie.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox" title=", Cementerio Disidentes."><i
+                      class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/Patricia Cortez -Eduardo Vergara Libro Epitafios Olvidados.jpg"
+                class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Libro Epitafios Olvidados.</h4>
+                <p>Patricia Cortez, Eduardo Vergara.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/Actividad Necropoética Día de los Patrimonios 2022.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Libro Epitafios Olvidados. Patricia Cortez, Eduardo Vergara."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/Actividad Necropoética Día de los Patrimonios 2022.jpg"
+                class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Necropoética Día de los Patrimonios.</h4>
+                <p>2022</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/Actividad Necropoética Día de los Patrimonios 2022.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Necropoética Día de los Patrimonios. 2022"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/Actividad lanzamiento libro Sudamerikan Zombie.jpg"
+                class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Lanzamiento del libro Sudamerikan Zombie</h4>
+                <p>Esteban Jiménez, Eduardo Vergara.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/Actividad lanzamiento libro Sudamerikan Zombie.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Lanzamiento del libro Sudamerikan Zombie, Esteban Jiménez, Eduardo Vergara."><i
+                      class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/portfolio/actividades/2018 Duoc Valparaíso Exposición Fotográfica de Cementerios Aref Cosma.jpg"
+                class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Exposición Fotográfica de Cementerios,Aref Cosma.</h4>
+                <p>Duoc Valparaíso, 2018.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/2018 Duoc Valparaíso Exposición Fotográfica de Cementerios Aref Cosma.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Exposición Fotográfica de Cementerios,Aref Cosma. Duoc Valparaíso, 2018."><i
+                      class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/portfolio/actividades/Necropoética Benjamín Bueno, Eduardo Vergara , Francoise Laly 3.jpg"
+                class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Necropoética Benjamín Bueno, Eduardo Vergara , Francoise Laly</h4>
+                <p></p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/Lanzamiento libro Upla..jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Necropoética Benjamín Bueno, Eduardo Vergara , Francoise Laly"><i
+                      class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/portfolio/actividades/Visita Cementerio Disidentes Valparaíso Creativo-Corfo Comité gestor de Patrimonio Compartiendo.jpg"
+                class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Visita Cementerio Disidentes Valparaíso Creativo-Corfo Comité gestor de Patrimonio</h4>
+                <p>Cementerio Disidentes Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/Visita Cementerio Disidentes Valparaíso Creativo-Corfo Comité gestor de Patrimonio.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Cementerio Disidentes Valparaíso"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/portfolio/actividades/Visita Cementerio Disidentes Valparaíso Creativo-Corfo Comité gestor de Patrimonio.jpg"
+                class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Visita Cementerio Disidentes Valparaíso Creativo-Corfo Comité gestor de Patrimonio</h4>
+                <p>Cementerio Disidentes Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/Visita Cementerio Disidentes Valparaíso Creativo-Corfo Comité gestor de Patrimonio.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Cementerio Disidentes Valparaíso"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/portfolio/actividades/Visita Disidentes, Joaquín Velasco , Denis Madina, Juan José Caro, Aditi Olivera.jpg"
+                class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Visita Disidentes, Joaquín Velasco , Denis Madina, Juan José Caro, Aditi Olivera</h4>
+                <p>Cementerio Disidentes Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/Visita Disidentes, Joaquín Velasco , Denis Madina, Juan José Caro, Aditi Olivera.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Cementerio Disidentes Valparaíso"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/Visita Guiada cementerio Santa Inés.jpg" class="img-fluid"
+                alt="">
+              <div class="portfolio-info">
+                <h4>Visita Guiada Cementerio Santa Inés.</h4>
+                <p>Cementerio Santa Inés Viña Del Mar</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/Visita Guiada cementerio Santa Inés.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Cementerio Santa Inés Viña Del Mar"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+          <!-- FIN ACTIVIDADES  -->
+
+
+
+
+        </div>
+      </div>
+    </section>
+    <!-- Fin Sección de galería -->
+    <!-- ======= Testimonios ======= -->
+    <section id="socios" class="testimonials">
+      <div class="container" data-aos="zoom-in">
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/Directiva/florencia alvarado.JPG" class="testimonial-img" alt="">
+                <h3>Florencia Alvarado</h3>
+                <h4>Restauradora.</h4>
+                <h4>La Pátina.</h4>
+                <!-- <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p> -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/Directiva/romina care.JPG" class="testimonial-img" alt="">
+                <h3>Romina Care.</h3>
+                <h4>Diseñadora & Restauradora.</h4>
+                <h4>La Pátina.</h4>
+                <!-- <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p> -->
+              </div>
+            </div>
+
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/Directiva/Bernarda Zuñiga.jpg" class="testimonial-img" alt="">
+                <h3>Bernarda Zuñiga.</h3>
+                <h4>Ingeniera Mecánica Universidad Técnica Federico Santa María.</h4>
+                <h4>Profesora Carrera Dibujante Proyectista Universidad de Playa Ancha.</h4>
+                <!-- <h4>La Pátina.</h4> -->
+                <!-- <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p> -->
+              </div>
+            </div>
+
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/Directiva/Adolfo López.jpg" class="testimonial-img" alt="">
+                <h3>Adolfo López.</h3>
+                <h4>Arquitecto.</h4>
+                <!-- <h4>La Pátina.</h4> -->
+                <!-- <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p> -->
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/Directiva/Eduardo Vergara.jpg" class="testimonial-img" alt="">
+                <h3>Eduardo Vergara</h3>
+                <h4>Psicólogo, Poeta, Cuentista, Escritor & Epitafiógrafo.</h4>
+                <h4>Director & Editor de Editorial Calle Sin Numero.</h4>
+                <!-- <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p> -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/Directiva/cristina guerra.jpg" class="testimonial-img" alt="">
+                <h3>Cristina Guerra.</h3>
+                <h4>Antropóloga.</h4>
+                <!-- <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p> -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/Directiva/Sandra Aliaga.jpg" class="testimonial-img" alt="">
+                <h3>Sandra Aliaga</h3>
+                <h4>Arquitecta.</h4>
+                <!-- <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p> -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/Directiva/valentina alvarado.jpg" class="testimonial-img" alt="">
+                <h3>Valentina Alvarado</h3>
+                <h4>Historiadora del Arte & Restauradora.</h4>
+                <h4>La Pátina.</h4>
+                <!-- <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p> -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/Directiva/Sidhartha Corvalán.jpg" class="testimonial-img" alt="">
+                <h3>Sidhartha Corvalán</h3>
+                <h4>Actor & Gestor Cultural.</h4>
+                <!-- <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p> -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/Directiva/Carolina MIranda 1.jpg" class="testimonial-img" alt="">
+                <h3>Carolina Miranda</h3>
+                <h4>Investigadora e Historiadora.</h4>
+                <h4>Magíster en Historia por la Pontificia Universidad Católica de Valparaíso.</h4>
+                <h4>Pedagogia en Historia y Geografía.</h4>
+                <h4>Licenciada en Educación por la Universidad Marítima de Chile.</h4>
+                <!-- <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p> -->
+              </div>
+            </div>
+
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/Directiva/Ingrid Díaz  Investigadora y Recreadora histórica de la Guerra del Pacífico.jpg" class="testimonial-img" alt="">
+                <h3>Ingrid Díaz</h3>
+                <h4>Investigadora y Recreadora histórica de la Guerra del Pacífico.</h4>
+                <!-- <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p> -->
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/Directiva/Joaquín Velasco.jpg" class="testimonial-img" alt="">
+                <h3>Joaquín Velasco</h3>
+                <h4>Arquitecto.</h4>
+                <!-- <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p> -->
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/Directiva/Katherine Charpentier.jpg" class="testimonial-img" alt="">
+                <h3>Katherine Charpentier</h3>
+                <h4>Restauradora.</h4>
+                <!-- <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p> -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/Directiva/Aref cosma.jpg" class="testimonial-img" alt="">
+                <h3>Aref Cosma</h3>
+                <h4>Artista Excelencia & Maestro de la Federacion Chilena de Fotografia.</h4>
+                <h4>Artista Maestro & Excelencia de la Federación Nacional e Internacional de L'Art Photografique.</h4>
+                <!-- <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
+                  quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p> -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/Directiva/alvaro riquelme.jpg" class="testimonial-img" alt="">
+                <h3>Alvaro Riquelme</h3>
+                <h4>Arquitecto.</h4>
+                <h4>Xiloscopio.</h4>
+                <!-- <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
+                  tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p> -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/Directiva/María José Larrondo.jpeg" class="testimonial-img" alt="">
+                <h3>María José Larrondo</h3>
+                <h4>Arquitecta.</h4>
+                <!-- <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p> -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/Directiva/tania care-1.jpg" class="testimonial-img" alt="">
+                <h3>Tania Care</h3>
+                <h4>Arquitecta.</h4>
+                <h4>La Pátina.</h4>
+                <!-- <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p> -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/Directiva/Diego Rodríguez.jpg" class="testimonial-img" alt="">
+                <h3>Diego Rodríguez</h3>
+                <h4>Restaurador & Profesor DUOC.</h4>
+                <!-- <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
+                  minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p> -->
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin sección testimonios -->
+    <!-- ======= Equipo y Directiva ======= -->
+
+
+
+
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+        <!-- Titulo equipos -->
+        <div class="section-title">
+          <h2>Equipos</h2>
+          <p>Directiva</p>
+        </div>
+        <!-- cuerpo equipo -->
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/Directiva/foto Aditi.JPG" class="img-fluid" alt="Aditi Olivera - Presidenta">
+                <!-- <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div> -->
+              </div>
+              <div class="member-info">
+                <h4>Aditi Olivera</h4>
+                <span>Presidenta.</span>
+                <span>Actriz.</span>
+                <span>Artista Visual.</span>
+                <span>Terapeuta Holística .</span>
+                <span>Gestora Cultural.</span>
+                <span>Directora Ejecutiva Editorial Calle Sin Número.</span>
+                <span>Diplomada en Cultura , Memoria y Patrimonio en la</span>
+                <span>Facultad de Humanidades de la Universidad de Valparaíso.</span>
+                <span>Estudios en patrimonio Arquitectónico  Argentino, dictado por </span>
+                <span>la Comisión Nacional de Monumentos , de lugares y de Bienes Históricos Ministerio de Cultura. Argentina 2022.</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/Directiva/paula parada secretaria 2024.jpg" class="img-fluid" alt="Paula Parada - Secretaria">
+              </div>
+              <div class="member-info">
+                <h4>Paula Parada</h4>
+                <span class="role">Secretaria</span>
+                <span>Historiadora del Arte</span>
+                <span>Conservadora & Restauradora de Bienes Culturales</span>
+                <span>Fotógrafa & Gestora Cultural</span>
+                <span>Presidenta Red Chilena de Gestión y Valoración de Cementerios Patrimoniales</span>
+                <span>Secretaria General Red Iberoamericana de Gestión y Valoración de Cementerios Patrimoniales</span>
+                <span>Vice Decana - Saint Michael Archangel International University</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/Directiva/juan josé Caro Tesorero 2024.jpg" class="img-fluid" alt="Juan José Caro - Tesorero">
+              </div>
+              <div class="member-info">
+                <h4>Juan José Caro</h4>
+                <span class="role">Tesorero</span>
+                <span>Marmolero</span>
+                <span>Administrador Cementerio Disidentes</span>
+                <span>Diplomado en Cultura, Memoria y Patrimonio - Universidad de Valparaíso</span>
+              </div>
+            </div>
+          </div>
+          <h5>Equipo de Investigación</h5>
+          <p>
+            <strong>Aditi Olivera,</strong>
+            <strong>Eduardo Vergara,</strong>
+            <strong>Carolina Miranda.</strong>
+            <!-- 
+            <strong>Romina Care,</strong> Restauradora Duoc.
+            <strong>Valentina Alvarado,</strong> Restauradora Duoc.
+            <strong>Florencia Alvarado,</strong> Restauradora Duoc.
+            <strong>Verónica Paiva,</strong> Ingeniero Comercial, Sub directora de Cementerios.
+            <strong>Joaquín Velasco,</strong> Arquitecto. -->
+          </p>
+          <div class="additional-teams" data-aos="fade-up">
+            <div class="team-category" data-aos="fade-up" data-aos-delay="100">
+              <h5>Equipo de Investigación</h5>
+              <p>
+                <strong>Aditi Olivera</strong>,
+                <strong>Eduardo Vergara</strong>,
+                <strong>Carolina Miranda</strong>
+              </p>
+            </div>
+
+            <div class="team-category" data-aos="fade-up" data-aos-delay="200">
+              <h5>Equipo de Gestión</h5>
+              <p>
+                <strong>Sidhartha Corvalán</strong>,
+                <strong>Paula Parada</strong>,
+                <strong>María José Larrondo</strong>,
+                <strong>Juan José Caro</strong>,
+                <strong>Diego Rodríguez</strong>
+              </p>
+            </div>
+
+            <div class="team-category" data-aos="fade-up" data-aos-delay="300">
+              <h5>Diseño y Fotografía</h5>
+              <p>
+                <strong>Romina Care</strong>,
+                <strong>Aref Cosma</strong>,
+                <strong>Paula Parada</strong>,
+                <strong>Pablo Alarcón</strong>,
+                <strong>Jaime Flores</strong>
+              </p>
+            </div>
+
+            <div class="team-category" data-aos="fade-up" data-aos-delay="400">
+              <h5>Equipo Editorial</h5>
+              <p>
+                <strong>Adolfo Lopez</strong>
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Fin equipos -->
+    <!-- Logos e Instituciones -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+        <div id="colaboradores" class="section-title">
+          <h2>
+            Instituciones colaboradoras
+          </h2>
+          <p></p>
+        </div>
+        <!-- slider  -->
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <!-- <div class="swiper-slide"><img src="assets/img/logos/Agrupación Cultural Amigas y Amigos por los cementerios.png" class="img-fluid" alt=""></div> -->
+            <div class="swiper-slide"><img src="assets/img/logos/alcaldiavalpo.jpg" class="img-fluid" alt=""></div>
+
+
+
+            <div class="swiper-slide"><img src="assets/img/logos/Hijuelas.jpeg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logos/Gobierno regional valparaiso.jpeg" class="img-fluid"
+                alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logos/LOGO MUNI LA CRUZ.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logos/servicio nacional patrimonio cultural.png"
+                class="img-fluid" alt=""></div>
+
+
+
+
+            <!-- <div class="swiper-slide"><img src="assets/img/logos/bomberos.jpg" class="img-fluid" alt=""></div> -->
+            <div class="swiper-slide"><img src="assets/img/logos/calera.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logos/din399.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logos/duoc.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logos/favicon.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logos/Parquecultural.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logos/patina.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logos/cápsula patrimonial.png" class="img-fluid" alt="">
+            </div>
+            <div class="swiper-slide"><img src="assets/img/logos/Valparaíso creativo -Corfo.png" class="img-fluid"
+                alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logos/Valparaíso Creativo.png" class="img-fluid" alt="">
+            </div>
+            <div class="swiper-slide"><img src="assets/img/logos/Logo blanco.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logos/logo museo histórico..jpg" class="img-fluid" alt="">
+            </div>
+            <div class="swiper-slide"><img src="assets/img/logos/logo purutun_page-0001.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="swiper-slide"><img src="assets/img/logos/corporacion patrimonial la calera.jpg"
+                class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logos/logo cormuval.jpeg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logos/redchilena.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logos/rediberoamericana.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logos/Xiloscopio.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logos/Disidentes.png" class="img-fluid" alt=""></div>
+
+
+
+
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+
+
+      </div>
+
+
+    </section>
+
+
+    <!-- Fin Logos e Instituciones -->
+    <!--  ======= SECCIÓN CONTACTO ======= -->
+    <!-- <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Contáctanos</h2>
+          <p>Contacto</p>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-pin-map"></i>
+                <h4>Ubicación:</h4>
+                <p>Valparaíso</p>
+              </div>
+              <div class="email">
+                <i class="bi bi-envelope-paper"></i>
+                <h4>Email:</h4>
+                <p>amigasyamigosporcementerio@gmail.com</p>
+              </div>
+              <div class="phone">
+                <i class="bi bi-telephone-inbound"></i>
+                <h4>Teléfono:</h4>
+                <p>+56 9 8623 285</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section> -->
+  </main>
+  <!-- Fin cuerpo página -->
+  <!-- ======= Footer pie de pagina ======= -->
+  <footer id="footer">
+    <div class="footer-top ">
+      <div class="container">
+        <div class="row ">
+
+          <!-- <div class="col-lg-3 col-md-6 footer-links mx-auto">
+            <h1 class="logo me-auto me-lg-0" max-width:30px><img src="assets/img/logos/footer.png" class="img-fluid"
+                alt="" style="float: left; max-width: 200px;">
+          </div> -->
+          <div class="col-lg-3 col-md-6 footer-links mx-auto">
+            <div class="footer-info" style="text-align: center;">
+              <h3>Contacto</h3>
+              <!-- <p>
+                Valparaíso, Chile <br>
+                <strong></strong> <br> -->
+              <!-- <strong>+56 9 8623 2852 </strong><br> -->
+              </p>
+              <!-- iconos de las rrss -->
+              <div class="social-links mt-3">
+                <a href="https://api.whatsapp.com/send/?phone=986232852" target="_blank" class="whatsapp"><i
+                    class="bx bxl-whatsapp"></i></a>
+                <a href="https://www.facebook.com/amigasyamigosporloscementerios/?locale=es_LA" target="_blank"
+                  class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/valpocementerios/" target="_blank" class="instagram"><i
+                    class="bx bxl-instagram"></i></a>
+                <a href="mailto:amigasyamigosporloscementerios@gmail.com?Subject=Interesado%20en%20el%20curso"
+                  target="_blank" class="google-plus"><i class="bx bxl-gmail"></i></a>
+
+                <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+              </div>
+
+            </div>
+          </div>
+          <!-- <div class="col-lg-3 col-md-6 footer-links mx-auto">
+            <h1 class="logo me-auto me-lg-0" max-width:30px><img src="assets/img/logos/footer.png" class="img-fluid"
+                alt="" style="float: left; max-width: 200px;">
+          </div> -->
+
+
+          <!-- <div class="col-lg-4 col-md-6 footer-info" > -->
+
+          <!-- <h3>Qué hacemos</h3>
+            <p>Reunir a gestores y actorías
+              culturales de la región de Valparaíso que trabajan en torno a los cementerios
+              patrimoniales para apoyar y difundir en sus actividades con productos turísticos
+              llamados cápsulas Patrimoniales.</p> -->
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- creditos -->
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span><a href="https://www.amigasyamigosporloscementerios.cl/">AMIGAS Y
+              AMIGOS POR LOS
+              CEMENTERIOS</a></span></strong>.
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- Final Footer pie de pagina -->
+  <!-- <div id="preloader" class="tumba"></div> -->
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+  <!-- Archivos js -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+  <script>
+    // Obtén el botón y el modal
+    var openVideoModalBtn = document.getElementById("openVideoModal");
+    var videoModal = document.getElementById("videoModal");
+    var videoPlayer = document.getElementById("videoPlayer");
+
+    // Agrega un evento de clic al botón para abrir el modal
+    openVideoModalBtn.addEventListener("click", function () {
+      videoModal.style.display = "block";
+    });
+
+    // Obtén el botón de cerrar y agrega un evento de clic para cerrar el modal
+    var closeModalBtn = document.querySelector(".close");
+    closeModalBtn.addEventListener("click", function () {
+      // Pausa el video
+      videoPlayer.pause();
+      // Limpia el src del video para detener la reproducción
+      videoPlayer.removeAttribute('src');
+      // Oculta el modal
+      videoModal.style.display = "none";
+    });
+  </script>
+  <!-- archivo JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
