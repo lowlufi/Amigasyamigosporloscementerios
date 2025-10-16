@@ -109,16 +109,30 @@
   }
 
   /**
-   * Mobile nav toggle
+   * Mobile nav toggle & clone
    */
+  const mobileNavContainer = select('#mobile-nav-container');
+  if (mobileNavContainer) {
+    const desktopNav = select('#navbar');
+    if (desktopNav) {
+      const mobileNav = desktopNav.cloneNode(true);
+      mobileNav.id = 'navbar-mobile';
+      mobileNav.classList.remove('desktop-nav');
+      mobileNav.classList.add('navbar-mobile');
+      mobileNavContainer.innerHTML = '';
+      mobileNavContainer.appendChild(mobileNav);
+    }
+  }
+
   on('click', '.mobile-nav-toggle', function(e) {
-    select('#navbar').classList.toggle('navbar-mobile')
+    const mobileNav = select('#navbar-mobile');
+    if (mobileNav) mobileNav.classList.toggle('navbar-mobile-active');
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
   })
 
   /**
-   * Mobile nav dropdowns activate
+   * Mobile nav dropdowns activate (for the cloned nav)
    */
   on('click', '.navbar .dropdown > a', function(e) {
     if (select('#navbar').classList.contains('navbar-mobile')) {
@@ -127,16 +141,22 @@
     }
   }, true)
 
+  on('click', '#navbar-mobile .dropdown > a', function(e) {
+    e.preventDefault();
+    this.nextElementSibling.classList.toggle('dropdown-active');
+  }, true);
+
   /**
    * Scrool with ofset on links with a class name .scrollto
    */
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
       e.preventDefault()
-
-      let navbar = select('#navbar')
-      if (navbar.classList.contains('navbar-mobile')) {
-        navbar.classList.remove('navbar-mobile')
+      
+      // Close mobile nav if open
+      let mobileNav = select('#navbar-mobile');
+      if (mobileNav && mobileNav.classList.contains('navbar-mobile-active')) {
+        mobileNav.classList.remove('navbar-mobile-active');
         let navbarToggle = select('.mobile-nav-toggle')
         navbarToggle.classList.toggle('bi-list')
         navbarToggle.classList.toggle('bi-x')
