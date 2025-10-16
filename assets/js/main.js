@@ -170,35 +170,39 @@
    * Clients Slider
    */
   new Swiper('.clients-slider', {
-    speed: 4000,
+    speed: 600,
     loop: true,
     autoplay: {
-      delay: 1,
+      delay: 3000,
       disableOnInteraction: false,
       pauseOnMouseEnter: true
     },
     slidesPerView: 'auto',
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
     pagination: {
       el: '.swiper-pagination',
       type: 'bullets',
       clickable: true
     },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
     breakpoints: {
       320: {
         slidesPerView: 2,
-        spaceBetween: 40
-      },
-      480: {
-        slidesPerView: 3,
-        spaceBetween: 60
-      },
-      640: {
-        slidesPerView: 4,
-        spaceBetween: 80
       },
       992: {
-        slidesPerView: 6,
-        spaceBetween: 120
+        slidesPerView: 4,
       }
     }
   });

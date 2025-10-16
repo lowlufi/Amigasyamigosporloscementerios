@@ -629,7 +629,7 @@ section:nth-child(even) {
 .about .content h3 {
   font-weight: 700;
   font-size: 28px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif; 
   color: #151515;
   margin-bottom: 20px;
   position: relative;
@@ -671,7 +671,7 @@ section:nth-child(even) {
 .about .content p {
   font-size: 16px;
   line-height: 1.8;
-  color: #666;
+  color: #666; 
   margin-bottom: 20px;
 }
 
@@ -694,35 +694,91 @@ section:nth-child(even) {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  padding-top: 20px;
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f9f9f9 0%, #FEF7EF 100%);
+}
+
+.clients .section-title h2 {
+  color: #999999;
+}
+
+.clients .section-title p {
+  color: #151515;
+}
+
+.clients .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  transition: all 0.3s ease;
 }
 
 .clients .swiper-slide img {
-  opacity: 0.5;
-  transition: 1s;
-  filter: grayscale(100);
+  opacity: 0.7;
+  transition: all 0.4s ease;
+  filter: grayscale(100%) brightness(1.2);
+  max-height: 120px;
+  width: auto;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 196, 81, 0.1);
 }
 
 .clients .swiper-slide img:hover {
   filter: none;
   opacity: 1;
+  transform: scale(1.1);
+  background: rgba(255, 196, 81, 0.1);
+  border-color: rgba(255, 196, 81, 0.4);
+  box-shadow: 0 8px 25px rgba(255, 196, 81, 0.3);
 }
 
 .clients .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 30px;
   position: relative;
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #FEF7EF;
+  background-color: rgba(255, 255, 255, 0.3);
   opacity: 1;
-  background-color: #ddd;
+  transition: all 0.3s ease;
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #ffc451;
+  width: 30px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(255, 196, 81, 0.5);
+}
+
+.clients .swiper-button-next,
+.clients .swiper-button-prev {
+  color: #ffc451;
+  transition: all 0.3s ease;
+}
+
+.clients .swiper-button-next:hover,
+.clients .swiper-button-prev:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+.clients .swiper-button-next::after,
+.clients .swiper-button-prev::after {
+  font-size: 32px;
+  font-weight: 900;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 767px) {
+
+  .clients .swiper-button-next,
+  .clients .swiper-button-prev {
+    display: none;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -753,7 +809,7 @@ body {
 .features .content h3 {
   font-weight: 700;
   font-size: 28px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif; 
   color: #151515;
   margin-bottom: 20px;
   position: relative;
@@ -775,7 +831,7 @@ body {
 .features .content p {
   font-size: 16px;
   line-height: 1.8;
-  color: #666;
+  color: #666; 
   margin-bottom: 15px;
 }
 
@@ -1591,6 +1647,40 @@ div.presentacion {
   margin-top: 15px;
 }
 
+.footer-info .info {
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.footer-info .info i {
+  font-size: 24px;
+  color: #ffc451;
+  float: left;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-info .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #FEF7EF;
+}
+
+.footer-info .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #ebebeb;
+}
+
+
 /* Equipos adicionales */
 .team .additional-teams {
   margin-top: 80px;
@@ -1654,56 +1744,6 @@ div.presentacion {
 
 /*--------------------------------------------------------------
 # Contact
---------------------------------------------------------------*/
-.contact .info {
-  width: 100%;
-  background: #FEF7EF;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
-}
-
-.contact .info:hover {
-  box-shadow: 0 5px 35px rgba(255, 196, 81, 0.15);
-  transform: translateY(-5px);
-}
-
-.contact .info i {
-  font-size: 24px;
-  background: linear-gradient(135deg, #ffc451 0%, #ffb020 100%);
-  color: #151515;
-  float: left;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(255, 196, 81, 0.3);
-}
-
-.contact .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #151515;
-}
-
-.contact .info p {
-  padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #484848;
-}
-
-.contact .info .email,
-.contact .info .phone {
-  margin-top: 40px;
-}
-
 .contact .php-email-form {
   width: 100%;
   background: #FEF7EF;
