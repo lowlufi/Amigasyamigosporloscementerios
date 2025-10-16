@@ -14,7 +14,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #2b2b2b;
+  color: #666;
   padding: 0px;
   overflow-x: hidden;
 }
@@ -671,7 +671,7 @@ section:nth-child(even) {
 .about .content p {
   font-size: 16px;
   line-height: 1.8;
-  color: #4a4a4a;
+  color: #666;
   margin-bottom: 20px;
 }
 
@@ -1643,7 +1643,7 @@ div.presentacion {
   font-style: normal;
   font-size: 14px;
   line-height: 1.8;
-  color: #777777;
+  color: #666;
   margin-top: 15px;
 }
 
@@ -1936,11 +1936,12 @@ div.presentacion {
 
 #footer .footer-top .footer-info h3 {
   font-size: 28px;
-  /* margin: 0 0 20px 0;
-  padding: 2px 0 2px 0; */
   line-height: 1;
   font-weight: 700;
   text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 30px;
+  color: #ffc451;
 }
 
 #footer .footer-top .footer-info h3 span {
@@ -1953,7 +1954,6 @@ div.presentacion {
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
   color: #FEF7EF;
-
 }
 
 #footer .footer-top .social-links a {
@@ -2070,6 +2070,32 @@ div.presentacion {
   text-align: center;
   font-size: 13px;
   color: #FEF7EF;
+}
+
+#footer .footer-info .footer-contact-item {
+  margin-bottom: 25px;
+}
+
+#footer .footer-info .footer-contact-item i {
+  font-size: 1.5rem;
+  color: #ffc451;
+}
+
+#footer .footer-info .footer-contact-item p {
+  margin-top: 10px;
+  color: #FEF7EF;
+  font-size: 16px;
+}
+
+#footer .footer-bottom-container {
+  padding: 20px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 30px;
+}
+
+#footer .copyright a {
+  color: #ffc451;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
