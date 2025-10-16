@@ -1311,8 +1311,8 @@ div.presentacion {
 .testimonials .testimonial-item {
   box-sizing: content-box;
   padding: 30px;
-  margin: 100px 15px;
-  min-height: 360px;
+  margin: 0 15px;
+  min-height: 420px;
   box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.06);
   border-radius: 20px;
   position: relative;
@@ -1320,6 +1320,7 @@ div.presentacion {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -1352,9 +1353,7 @@ div.presentacion {
   height: 140px;
   border-radius: 50%;
   border: 5px solid #ffc451;
-  margin: -70px auto 0;
-  position: relative;
-  z-index: 2;
+  margin: 0 auto 20px auto;
   object-fit: cover;
   background: #fff;
   box-shadow: 0 8px 25px rgba(255, 196, 81, 0.3);
@@ -1369,7 +1368,7 @@ div.presentacion {
 
 .testimonials .testimonial-item h3 {
   font-weight: 700;
-  margin: 20px 0 5px 0;
+  margin: 25px 0 8px 0;
   font-size: 20px;
   color: #151515;
   font-family: "Poppins", sans-serif;
@@ -1468,7 +1467,7 @@ div.presentacion {
 
 .team .member.member-main .member-info {
   text-align: left;
-  padding: 30px 30px 30px 0;
+  padding: 40px 30px 30px 0;
 }
 
 .team .member.member-main .member-info p {

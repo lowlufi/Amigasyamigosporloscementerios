@@ -4,7 +4,8 @@
       "Bash(dir:*)",
       "Bash(find:*)",
       "Bash(awk:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(git rm:*)"
     ],
     "deny": [],
     "ask": []

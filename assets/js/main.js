@@ -170,11 +170,12 @@
    * Clients Slider
    */
   new Swiper('.clients-slider', {
-    speed: 400,
+    speed: 4000,
     loop: true,
     autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
+      delay: 1,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true
     },
     slidesPerView: 'auto',
     pagination: {
