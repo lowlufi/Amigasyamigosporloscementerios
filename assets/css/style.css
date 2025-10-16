@@ -1073,12 +1073,13 @@ div.presentacion {
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
+  position: relative;
 }
 
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 0; /* El padding se moverá al span */
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
@@ -1088,14 +1089,39 @@ div.presentacion {
   transition: all 0.3s ease;
   border-radius: 25px;
   border: 2px solid transparent;
+  position: relative;
+  z-index: 2;
+}
+
+.portfolio #portfolio-flters li span {
+  padding: 10px 20px;
+  display: block;
+}
+
+.portfolio #portfolio-flters li:hover span {
+  color: #151515;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #151515;
-  background: #ffc451;
-  border-color: #ffc451;
   transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 196, 81, 0.3);
+}
+
+.portfolio #portfolio-flters li.filter-active span {
+  color: #151515;
+}
+
+.portfolio #portfolio-flters .filter-indicator {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #ffc451;
+  border-radius: 25px;
+  z-index: 1;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   box-shadow: 0 4px 12px rgba(255, 196, 81, 0.3);
 }
 
@@ -2113,12 +2139,13 @@ div.presentacion {
 @media (max-width: 768px) {
 
   /* Títulos más pequeños en móvil */
-  .section-title h2 {
+  .section-title p {
     font-size: 28px;
   }
 
-  .section-title p {
-    font-size: 16px;
+  .section-title h2 {
+    font-size: 14px;
+    letter-spacing: 2px;
   }
 
   /* Espaciado optimizado */
@@ -2155,7 +2182,7 @@ div.presentacion {
   /* Actividades slider móvil */
   .actividad-img {
     max-height: 300px;
-    object-fit: contain;
+    object-fit: cover;
   }
 
   /* Carrusel de logos móvil */
@@ -2170,11 +2197,24 @@ div.presentacion {
   }
 
   /* Team cards móvil */
-  .member {
+  .team .member {
     margin-bottom: 30px;
   }
 
-  .member-info h4 {
+  .team .member.member-main {
+    flex-direction: column;
+  }
+
+  .team .member.member-main .member-img {
+    padding: 30px 30px 0;
+  }
+
+  .team .member.member-main .member-info {
+    text-align: center;
+    padding: 25px 30px 30px;
+  }
+
+  .team .member-info h4 {
     font-size: 18px;
   }
 
@@ -2187,7 +2227,7 @@ div.presentacion {
 
   /* Footer móvil */
   #footer {
-    padding: 30px 0;
+    padding: 40px 0 30px 0;
   }
 
   .footer-info h3 {
