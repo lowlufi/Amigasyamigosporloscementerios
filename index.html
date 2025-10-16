@@ -40,34 +40,34 @@
 <!-- Cuerpo de la pagina -->
 
 <body>
-  <!-- Contenedor para el menú móvil (se llenará con JS) -->
-  <div id="mobile-nav-container"></div>
 
   <!-- ======= Cabecera ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
 
-  <header id="header" class="fixed-top  ">
-    <div class="container d-flex align-items-center justify-content-lg-between">
-      <h1 class="logo me-auto me-lg-0"><a href="#hero">AGRUPACIÓN <span>CULTURAL</span></a></h1>
+      <!-- Logo de texto -->
+      <h1 class="logo me-auto"><a href="#hero">AGRUPACIÓN <span>CULTURAL</span></a></h1>
 
-
-      <!-- Logo en el nav -->
-
-
-      <!-- Navbar -->
-      <nav id="navbar" class="desktop-nav">
+      <!-- Navegación Desktop -->
+      <nav id="navbar" class="navbar">
         <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
           <li><a class="nav-link scrollto" href="#features">Nosotros</a></li>
           <li><a class="nav-link scrollto" href="#about">Misión & Visión</a></li>
           <li><a class="nav-link scrollto" href="#objetivos">Actividades</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">Galería</a></li>
           <li><a class="nav-link scrollto" href="#team">Equipo</a></li>
           <li><a class="nav-link scrollto" href="#footer">Contacto</a></li>
-          <a href="#hero" class="logo me-auto me-lg-0"><img src="assets/img/navicon.png" alt="Logo Amigas y Amigos por los Cementerios" class="img-fluid nav-logo-img"></a>
         </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
-      <i class="bi bi-list mobile-nav-toggle"></i>
-    </div>
 
+      <!-- Logo icono -->
+      <a href="#hero" class="header-logo-img">
+        <img src="assets/img/navicon.png" alt="Logo Amigas y Amigos por los Cementerios">
+      </a>
+
+    </div>
   </header>
   <!--===== Fin Cabecera y navbar==== -->
   <!-- ======= Portada  ======= -->
