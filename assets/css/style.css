@@ -1908,26 +1908,31 @@ div.presentacion {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-
   padding: 0 0 30px 0;
   color: #FEF7EF;
   font-size: 14px;
-
-
-
-  background: url("../img/portfolio/footer.jpg") no-repeat center center;
-  background-size: cover;
-  background-color: #f0f0f0;
-
-
+  position: relative;
+  overflow: hidden;
 }
 
+#footer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("../img/portfolio/footer.jpg") no-repeat center center;
+  background-size: cover;
+  filter: blur(5px);
+  transform: scale(1.1); /* Evita bordes vacíos por el blur */
+  z-index: -1;
+}
 
 #footer .footer-top {
-
-
   padding: 70px 0 0px 0;
-
+  position: relative; /* Asegura que el contenido esté sobre el fondo */
+  z-index: 1;
 }
 
 #footer .footer-top .footer-info {
@@ -2091,6 +2096,8 @@ div.presentacion {
   padding: 20px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   margin-top: 30px;
+  position: relative; /* Asegura que el contenido esté sobre el fondo */
+  z-index: 1;
 }
 
 #footer .copyright a {
