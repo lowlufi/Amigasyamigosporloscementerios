@@ -14,7 +14,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #2b2b2b;
   padding: 0px;
   overflow-x: hidden;
 }
@@ -671,7 +671,7 @@ section:nth-child(even) {
 .about .content p {
   font-size: 16px;
   line-height: 1.8;
-  color: #666; 
+  color: #4a4a4a;
   margin-bottom: 20px;
 }
 
@@ -2070,4 +2070,221 @@ div.presentacion {
   text-align: center;
   font-size: 13px;
   color: #FEF7EF;
+}
+
+/*--------------------------------------------------------------
+# Mobile Optimizations
+--------------------------------------------------------------*/
+
+/* Mejoras generales para móvil */
+@media (max-width: 768px) {
+
+  /* Títulos más pequeños en móvil */
+  .section-title h2 {
+    font-size: 28px;
+  }
+
+  .section-title p {
+    font-size: 16px;
+  }
+
+  /* Espaciado optimizado */
+  section {
+    padding: 40px 0;
+  }
+
+  /* Header responsive */
+  #header {
+    padding: 10px 0;
+    height: 60px;
+  }
+
+  #header .logo {
+    font-size: 22px;
+  }
+
+  /* Hero section móvil */
+  #hero {
+    height: 70vh;
+    min-height: 500px;
+  }
+
+  #hero h1 {
+    font-size: 24px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+  }
+
+  #hero h2 {
+    font-size: 16px;
+  }
+
+  /* Actividades slider móvil */
+  .actividad-img {
+    max-height: 300px;
+    object-fit: contain;
+  }
+
+  /* Carrusel de logos móvil */
+  .clients .swiper-slide img {
+    max-height: 60px;
+    padding: 10px;
+  }
+
+  /* Portfolio grid móvil */
+  .portfolio-item {
+    margin-bottom: 20px;
+  }
+
+  /* Team cards móvil */
+  .member {
+    margin-bottom: 30px;
+  }
+
+  .member-info h4 {
+    font-size: 18px;
+  }
+
+  /* Mapa responsive */
+  .mapaActividad iframe {
+    width: 100% !important;
+    height: 250px !important;
+    margin-top: 5% !important;
+  }
+
+  /* Footer móvil */
+  #footer {
+    padding: 30px 0;
+  }
+
+  .footer-info h3 {
+    font-size: 20px;
+  }
+
+  .social-links a {
+    font-size: 28px;
+    width: 45px;
+    height: 45px;
+  }
+
+  /* Botón back to top móvil */
+  .back-to-top {
+    width: 45px;
+    height: 45px;
+    right: 15px;
+    bottom: 15px;
+  }
+
+  .back-to-top i {
+    font-size: 22px;
+  }
+
+  /* Icon boxes móvil */
+  .icon-box {
+    padding: 20px;
+  }
+
+  .icon-box h4 {
+    font-size: 18px;
+  }
+
+  .icon-box p {
+    font-size: 14px;
+  }
+}
+
+/* Optimizaciones para pantallas muy pequeñas */
+@media (max-width: 480px) {
+
+  #hero h1 {
+    font-size: 20px;
+  }
+
+  .section-title h2 {
+    font-size: 24px;
+  }
+
+  .clients .swiper-slide img {
+    max-height: 50px;
+    padding: 8px;
+  }
+
+  .member-info h4 {
+    font-size: 16px;
+  }
+
+  .member-info span {
+    font-size: 13px;
+  }
+
+  .social-links a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+  }
+
+  .mapaActividad iframe {
+    height: 200px !important;
+  }
+}
+
+/* Landscape móvil */
+@media (max-width: 896px) and (orientation: landscape) {
+
+  #hero {
+    height: 100vh;
+  }
+
+  #hero h1 {
+    font-size: 22px;
+  }
+
+  section {
+    padding: 30px 0;
+  }
+}
+
+/* Touch optimizations */
+@media (hover: none) and (pointer: coarse) {
+
+  /* Áreas de toque más grandes */
+  .navbar a {
+    padding: 15px 20px;
+  }
+
+  .portfolio-links a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+  }
+
+  /* Remover efectos hover en touch */
+  .portfolio-wrap:hover .portfolio-info {
+    opacity: 1;
+  }
+
+  .clients .swiper-slide img:hover {
+    transform: none;
+  }
+}
+
+/* Tablet optimizations */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .section-title h2 {
+    font-size: 32px;
+  }
+
+  #hero h1 {
+    font-size: 32px;
+  }
+
+  .clients .swiper-slide img {
+    max-height: 70px;
+  }
+
+  .actividad-img {
+    max-height: 400px;
+  }
 }

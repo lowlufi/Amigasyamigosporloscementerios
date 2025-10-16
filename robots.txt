@@ -1,0 +1,15 @@
+# robots.txt para Amigas y Amigos por los Cementerios
+# https://www.amigasyamigosporloscementerios.cl
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.amigasyamigosporloscementerios.cl/sitemap.xml
+
+# Disallow access to certain directories
+Disallow: /assets/vendor/
+Disallow: /*.bak$
+
+# Crawl-delay (opcional, para ser amigable con los bots)
+Crawl-delay: 1

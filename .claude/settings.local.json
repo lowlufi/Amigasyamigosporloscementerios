@@ -5,7 +5,14 @@
       "Bash(find:*)",
       "Bash(awk:*)",
       "Bash(cat:*)",
-      "Bash(git rm:*)"
+      "Bash(git rm:*)",
+      "Bash(while read file)",
+      "Bash(do if [ ! -f \"$file\" ])",
+      "Bash(then echo \"FALTANTE: $file\")",
+      "Bash(fi)",
+      "Bash(done)",
+      "Bash(do [ ! -f \"$file\" ])",
+      "Bash(echo \"$file\")"
     ],
     "deny": [],
     "ask": []
