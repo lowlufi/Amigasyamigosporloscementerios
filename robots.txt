@@ -1,0 +1,18 @@
+# robots.txt para amigasyamigosporloscementerios.cl
+
+User-agent: *
+Allow: /
+
+# Directorios a permitir
+Allow: /assets/
+Allow: /assets/img/
+Allow: /assets/css/
+Allow: /assets/js/
+
+# Directorios a bloquear (si existen)
+Disallow: /backup/
+Disallow: /cgi-bin/
+Disallow: *.bak$
+
+# Sitemap
+Sitemap: https://amigasyamigosporloscementerios.cl/sitemap.xml

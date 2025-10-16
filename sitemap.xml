@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Página principal -->
+  <url>
+    <loc>https://amigasyamigosporloscementerios.cl/</loc>
+    <lastmod>2024-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://amigasyamigosporloscementerios.cl/assets/img/portada.png</image:loc>
+      <image:title>Amigas y Amigos por los Cementerios</image:title>
+      <image:caption>Agrupación Cultural Valparaíso</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Sección Nosotros -->
+  <url>
+    <loc>https://amigasyamigosporloscementerios.cl/#features</loc>
+    <lastmod>2024-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Sección Misión y Visión -->
+  <url>
+    <loc>https://amigasyamigosporloscementerios.cl/#about</loc>
+    <lastmod>2024-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Sección Actividades -->
+  <url>
+    <loc>https://amigasyamigosporloscementerios.cl/#objetivos</loc>
+    <lastmod>2024-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Sección Galería -->
+  <url>
+    <loc>https://amigasyamigosporloscementerios.cl/#portfolio</loc>
+    <lastmod>2024-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Sección Equipo -->
+  <url>
+    <loc>https://amigasyamigosporloscementerios.cl/#socios</loc>
+    <lastmod>2024-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Sección Contacto -->
+  <url>
+    <loc>https://amigasyamigosporloscementerios.cl/#footer</loc>
+    <lastmod>2024-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
