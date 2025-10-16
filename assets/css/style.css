@@ -1291,25 +1291,16 @@ div.presentacion {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
+  background: linear-gradient(135deg, #f9f9f9 0%, #FEF7EF 100%);
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
-  background-position: center center;
-  background-size: cover;
-  position: relative;
-}
-
-.testimonials::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
 }
 
 .testimonials .section-header {
   margin-bottom: 40px;
+}
+
+.testimonials .section-title p {
+  color: #151515;
 }
 
 .testimonials .testimonials-carousel,
@@ -1318,55 +1309,92 @@ div.presentacion {
 }
 
 .testimonials .testimonial-item {
-  text-align: center;
-  color: #FEF7EF;
+  box-sizing: content-box;
+  padding: 30px;
+  margin: 100px 15px;
+  min-height: 360px;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+  position: relative;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-/* se cambio el border radios de 80 o 60 creo y el border de 6 a 0  */
+.testimonials .testimonial-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #ffc451 0%, #ffb020 100%);
+  transform: scaleX(0);
+  transition: transform 0.4s ease;
+  border-radius: 20px 20px 0 0;
+}
+
+.testimonials .swiper-slide-active .testimonial-item,
+.testimonials .testimonial-item:hover {
+  transform: translateY(-12px);
+  box-shadow: 0px 20px 50px rgba(255, 196, 81, 0.3);
+}
+
+.testimonials .swiper-slide-active .testimonial-item::before,
+.testimonials .testimonial-item:hover::before {
+  transform: scaleX(1);
+}
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 100px;
-  border-radius: 60%;
-  border: 0px solid rgba(255, 255, 255, 0.15);
-  margin: 0 auto;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 5px solid #ffc451;
+  margin: -70px auto 0;
+  position: relative;
+  z-index: 2;
+  object-fit: cover;
+  background: #fff;
+  box-shadow: 0 8px 25px rgba(255, 196, 81, 0.3);
+  transition: all 0.3s ease;
+}
+
+.testimonials .testimonial-item:hover .testimonial-img {
+  border-color: #ffb020;
+  transform: scale(1.05);
+  box-shadow: 0 12px 35px rgba(255, 196, 81, 0.5);
 }
 
 .testimonials .testimonial-item h3 {
+  font-weight: 700;
+  margin: 20px 0 5px 0;
   font-size: 20px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #FEF7EF;
+  color: #151515;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #ddd;
-  margin: 0 0 15px 0;
+  font-weight: 400;
+  color: #666;
+  margin: 0 auto 6px auto;
+  text-align: center;
+  line-height: 1.6;
+  display: block;
 }
 
-.testimonials .testimonial-item .quote-icon-left,
-.testimonials .testimonial-item .quote-icon-right {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 26px;
-}
-
-.testimonials .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-
-.testimonials .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-}
-
-.testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 auto 15px auto;
-  color: #eee;
+.testimonials .testimonial-item .role {
+  color: #ffc451;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 auto 12px auto;
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .testimonials .swiper-pagination {
@@ -1377,27 +1405,18 @@ div.presentacion {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: rgba(255, 255, 255, 0.4);
-  opacity: 0.5;
+  background-color: #ddd;
+  opacity: 1;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #ffc451;
-  opacity: 1;
 }
 
 @media (min-width: 1024px) {
   .testimonials {
     background-attachment: fixed;
   }
-}
-
-@media (min-width: 992px) {
-  .testimonials .testimonial-item p {
-    width: 80%;
-
-  }
-
 }
 
 /*--------------------------------------------------------------
@@ -1436,6 +1455,26 @@ div.presentacion {
 
 .team .member:hover::before {
   transform: scaleX(1);
+}
+
+.team .member.member-main {
+  flex-direction: row;
+}
+
+.team .member.member-main .member-img {
+  padding: 30px;
+  flex-shrink: 0;
+}
+
+.team .member.member-main .member-info {
+  text-align: left;
+  padding: 30px 30px 30px 0;
+}
+
+.team .member.member-main .member-info p {
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1.8;
 }
 
 .team .member:hover {
@@ -1555,7 +1594,7 @@ div.presentacion {
 
 /* Equipos adicionales */
 .team .additional-teams {
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .team .additional-teams .team-category {
