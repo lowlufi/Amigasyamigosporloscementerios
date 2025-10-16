@@ -186,25 +186,7 @@
           <div class="image col-lg-6 portfolio-details-slider swiper data-aos='fade-right'">
             <div class="swiper-wrapper align-items-center">
 
-              <div class="swiper-slide">
-                <img class="actividad-img" src="assets/img/Actprogramas/actividad1.jpg" alt="Actividad cultural en cementerio patrimonial" loading="lazy">
-              </div>
 
-              <div class="swiper-slide">
-                <img class="actividad-img" src="assets/img/Actprogramas/actividad2.jpg" alt="Programación mensual de actividades" loading="lazy">
-              </div>
-
-              <div class="swiper-slide">
-                <img class="actividad-img" src="assets/img/Actprogramas/actividad3.jpg" alt="Programa de actividades" loading="lazy">
-              </div>
-
-              <div class="swiper-slide">
-                <img class="actividad-img" src="assets/img/Actprogramas/actividad4.jpg" alt="Actividades culturales" loading="lazy">
-              </div>
-
-              <div class="swiper-slide">
-                <img class="actividad-img" src="assets/img/Actprogramas/actividad5.jpg" alt="Eventos cementerios patrimoniales" loading="lazy">
-              </div>
 
               <div class="swiper-slide">
                 <video class="actividad-img" src="assets/img/Actprogramas/actividadvideo.mp4" autoplay loop muted playsinline loading="lazy"></video>
@@ -1292,41 +1274,33 @@
   </main>
   <!-- ======= Footer pie de pagina ======= -->
   <footer id="footer">
-    <div class="footer-top ">
+    <div class="footer-top">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-6 col-md-8">
+          <div class="col-lg-8 col-md-10">
             <div class="footer-info" style="text-align: center;">
-              <h3>Contacto</h3>
-              <div class="info">
-                <div class="address">
-                  <i class="bi bi-pin-map"></i>
-                  <h4>Ubicación:</h4>
-                  <p>Valparaíso, Chile</p>
+              <h3 style="font-weight: 300; margin-bottom: 30px;">Contacto</h3>
+
+              <div class="row justify-content-center" style="margin-bottom: 25px;">
+                <div class="col-md-4 mb-3">
+                  <i class="bi bi-geo-alt" style="font-size: 1.5rem; color: #a0a0a0;"></i>
+                  <p style="margin-top: 10px; color: #666;">Valparaíso, Chile</p>
                 </div>
-                <div class="email">
-                  <i class="bi bi-envelope-paper"></i>
-                  <h4>Email:</h4>
-                  <p>amigasyamigosporcementerio@gmail.com</p>
+                <div class="col-md-4 mb-3">
+                  <i class="bi bi-envelope" style="font-size: 1.5rem; color: #a0a0a0;"></i>
+                  <p style="margin-top: 10px; color: #666;">amigasyamigosporcementerio@gmail.com</p>
                 </div>
-                <div class="phone">
-                  <i class="bi bi-telephone-inbound"></i>
-                  <h4>Teléfono:</h4>
-                  <p>+56 9 8623 2852</p>
+                <div class="col-md-4 mb-3">
+                  <i class="bi bi-phone" style="font-size: 1.5rem; color: #a0a0a0;"></i>
+                  <p style="margin-top: 10px; color: #666;">+56 9 8623 2852</p>
                 </div>
               </div>
-              <!-- iconos de las rrss -->
-              <div class="social-links mt-3">
-                <a href="https://api.whatsapp.com/send/?phone=986232852" target="_blank" class="whatsapp"><i
-                    class="bx bxl-whatsapp"></i></a>
-                <a href="https://www.facebook.com/amigasyamigosporloscementerios/?locale=es_LA" target="_blank"
-                  class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.instagram.com/valpocementerios/" target="_blank" class="instagram"><i
-                    class="bx bxl-instagram"></i></a>
-                <a href="mailto:amigasyamigosporloscementerios@gmail.com?Subject=Interesado%20en%20el%20curso"
-                  target="_blank" class="google-plus"><i class="bx bxl-gmail"></i></a>
 
-                <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+              <div class="social-links mt-4">
+                <a href="https://api.whatsapp.com/send/?phone=986232852" target="_blank" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+                <a href="https://www.facebook.com/amigasyamigosporloscementerios/?locale=es_LA" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/valpocementerios/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="mailto:amigasyamigosporloscementerios@gmail.com?Subject=Interesado%20en%20el%20curso" target="_blank" class="google-plus"><i class="bx bxl-gmail"></i></a>
               </div>
 
             </div>
@@ -1334,17 +1308,16 @@
         </div>
       </div>
     </div>
-    <!-- creditos -->
 
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span><a href="https://www.amigasyamigosporloscementerios.cl/">AMIGAS Y
-              AMIGOS POR LOS
-              CEMENTERIOS</a></span></strong>.
+    <div class="container" style="padding: 20px 0; border-top: 1px solid #e0e0e0; margin-top: 30px;">
+      <div class="copyright" style="text-align: center; color: #888; font-size: 0.9rem;">
+        &copy; <span id="current-year"></span> <a href="https://www.amigasyamigosporloscementerios.cl/" style="color: #666; text-decoration: none;">Amigas y Amigos por los Cementerios</a>
       </div>
     </div>
-    </div>
   </footer>
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
   <!-- Final Footer pie de pagina -->
   <!-- <div id="preloader" class="tumba"></div> -->
 
