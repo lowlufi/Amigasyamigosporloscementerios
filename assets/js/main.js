@@ -219,6 +219,14 @@
 
       let portfolioFilters = select('#portfolio-flters li', true);
 
+      // Aplicar filtro inicial basado en el elemento activo
+      let activeFilter = select('#portfolio-flters .filter-active');
+      if (activeFilter) {
+        portfolioIsotope.arrange({
+          filter: activeFilter.getAttribute('data-filter')
+        });
+      }
+
       on('click', '#portfolio-flters li', function(e) {
         e.preventDefault();
         portfolioFilters.forEach(function(el) {
