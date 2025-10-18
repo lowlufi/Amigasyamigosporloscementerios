@@ -674,14 +674,39 @@ section {
   position: relative;
 }
 
-section:nth-child(even) {
-  background: #f9f9f9;
+/* Patrón de colores alternado para secciones */
+#features {
+  background: #ffffff;
+}
+
+#about {
+  background: #f8f9fa;
+}
+
+#objetivos {
+  background: #ffffff;
+}
+
+#portfolio {
+  background: #f8f9fa;
+}
+
+#team {
+  background: #ffffff;
+}
+
+#clients {
+  background: #f8f9fa;
+}
+
+#facebook {
+  background: #ffffff;
 }
 
 .section-title {
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .section-title h2 {
@@ -787,7 +812,6 @@ section:nth-child(even) {
 --------------------------------------------------------------*/
 .clients {
   padding: 80px 0;
-  background: linear-gradient(135deg, #f9f9f9 0%, #FEF7EF 100%);
 }
 
 .clients .section-title h2 {
@@ -896,9 +920,6 @@ body {
 
 
 
-.features {
-  padding-top: 50px;
-}
 
 /* slider */
 .g-4,
@@ -1161,6 +1182,33 @@ div.presentacion {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+}
+
+.portfolio .portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  align-items: stretch;
+}
+
+.portfolio .portfolio-container .portfolio-item {
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 991px) {
+  .portfolio .portfolio-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .portfolio .portfolio-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 }
 
 /* largo de galeria */
@@ -1549,7 +1597,6 @@ div.presentacion {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
-  background: linear-gradient(135deg, #f9f9f9 0%, #FEF7EF 100%);
   padding: 80px 0;
 }
 
@@ -2453,6 +2500,72 @@ div.presentacion {
 #footer .copyright a {
   color: #ffc451;
   text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Facebook Section
+--------------------------------------------------------------*/
+.facebook {
+  padding: 80px 0;
+}
+
+.facebook .section-title h2 {
+  color: #151515;
+}
+
+.facebook .section-title p {
+  color: #151515;
+}
+
+.facebook-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.btn-facebook {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 35px;
+  background: #1877f2;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(24, 119, 242, 0.3);
+}
+
+.btn-facebook:hover {
+  background: #0d65d9;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(24, 119, 242, 0.4);
+}
+
+.btn-facebook i {
+  font-size: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .facebook-container {
+    padding: 20px;
+    min-height: auto;
+  }
+
+  .btn-facebook {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+  }
 }
 
 /*--------------------------------------------------------------
