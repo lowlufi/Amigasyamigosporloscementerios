@@ -12,7 +12,8 @@
       "Bash(fi)",
       "Bash(done)",
       "Bash(do [ ! -f \"$file\" ])",
-      "Bash(echo \"$file\")"
+      "Bash(echo \"$file\")",
+      "Bash(python:*)"
     ],
     "deny": [],
     "ask": []

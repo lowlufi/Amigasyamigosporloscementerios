@@ -1047,12 +1047,16 @@ div.presentacion {
 }
 
 .portfolio .portfolio-wrap {
-  transition: all 0.4s ease;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(21, 21, 21, 0.6);
-  border-radius: 8px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -1068,12 +1072,64 @@ div.presentacion {
   opacity: 0;
 }
 
-.portfolio .portfolio-wrap img {
-  transition: all 0.4s ease;
-  border-radius: 8px;
+.portfolio .portfolio-wrap::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #ffc451 0%, #ffb020 100%);
+  transform: scaleX(0);
+  transition: transform 0.4s ease;
+  z-index: 3;
+  border-radius: 15px 15px 0 0;
 }
 
+.portfolio .portfolio-wrap img {
+  transition: all 0.4s ease;
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Información visible siempre (debajo de la imagen) */
 .portfolio .portfolio-wrap .portfolio-info {
+  padding: 20px;
+  background: #ffffff;
+  position: relative;
+  z-index: 1;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+}
+
+.portfolio .portfolio-wrap .portfolio-info h4 {
+  font-size: 18px;
+  color: #151515;
+  font-weight: 700;
+  margin-bottom: 8px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.3;
+  transition: color 0.3s ease;
+}
+
+.portfolio .portfolio-wrap .portfolio-info p {
+  color: #666;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+/* Overlay que aparece al hacer hover */
+.portfolio .portfolio-wrap .portfolio-overlay {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -1084,57 +1140,75 @@ div.presentacion {
   transition: all 0.4s ease;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   padding: 25px;
+  background: linear-gradient(135deg, rgba(21, 21, 21, 0.9) 0%, rgba(255, 196, 81, 0.3) 100%);
+  border-radius: 15px;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 22px;
+.portfolio .portfolio-wrap .portfolio-overlay h4 {
+  font-size: 24px;
   color: #FEF7EF;
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
-.portfolio .portfolio-wrap .portfolio-info p {
+.portfolio .portfolio-wrap .portfolio-overlay p {
   color: rgba(255, 255, 255, 0.9);
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
-  margin: 0;
+  margin: 0 0 20px 0;
   font-style: italic;
   letter-spacing: 1px;
+  text-align: center;
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
   text-align: center;
   z-index: 4;
- 
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #FEF7EF;
-  margin: 0 5px 0 0;
+  margin: 0 5px;
   font-size: 70px;
   display: inline-block;
-  transition: 1s;
+  transition: all 0.3s ease;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   color: #ffc451;
-}
-
-.portfolio .portfolio-wrap:hover::before {
-  opacity: 1;
-}
-
-.portfolio .portfolio-wrap:hover img {
   transform: scale(1.1);
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info {
+.portfolio .portfolio-wrap:hover::before {
+  opacity: 0;
+}
+
+.portfolio .portfolio-wrap:hover::after {
+  transform: scaleX(1);
+}
+
+.portfolio .portfolio-wrap:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(255, 196, 81, 0.25);
+}
+
+.portfolio .portfolio-wrap:hover img {
+  transform: scale(1.05);
+  filter: brightness(1.05);
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-overlay {
   opacity: 1;
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-info h4 {
+  color: #ffc451;
 }
 
 /*--------------------------------------------------------------

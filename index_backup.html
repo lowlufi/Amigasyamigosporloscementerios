@@ -300,12 +300,12 @@
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*"><span>Todos</span></li>
+              <li data-filter="*" class="filter-active"><span>Todos</span></li>
               <li data-filter=".filter-actividades"><span>Actividades</span></li>
               <li data-filter=".filter-cementerio1"><span>Cementerio Nº1</span></li>
               <li data-filter=".filter-cementerio2"><span>Cementerio Nº2</span></li>
               <li data-filter=".filter-disidentes"><span>Cementerio Disidentes</span></li>
-              <li data-filter=".filter-cementeriosMundo" class="filter-active"><span>Cementerios del Mundo</span></li>
+              <li data-filter=".filter-cementeriosMundo"><span>Cementerios del Mundo</span></li>
               <li data-filter=".filter-socios"><span>Socios</span></li>
               <li data-filter=".filter-prensa"><span>Prensa</span></li>
               <li data-filter=".filter-documentos"><span>Documentos</span></li>
@@ -316,124 +316,155 @@
         <!-- Contenedor de la galería -->
         <div id="galeria" class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-          <!-- ========== PRENSA ========== -->
+
+
+
+
+
+          <!-- Prensa -->
+
+
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-prensa">
-            <div class="portfolio-wrap">
+            <div id="archivos " class="portfolio-wrap">
               <img src="assets/img/portfolio/la calera.png" class="img-fluid" alt="Artículo de prensa sobre microdocumental en La Calera" loading="lazy">
               <div class="portfolio-info">
-                <h4>Diario El Observador</h4>
-                <p>Prensa</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Diario El Observador</h4>
-                <p>Microdocumental sobre cinco cementerios</p>
+                <h4>Diario El Observador.</h4>
+                <p>En La Calera se presentó microdocumental sobre la historia de cinco cementerios patrimoniales de la
+                  región.</p> <a href="https://issuu.com/edicionesespeciales/docs/120424">Diario completo</a>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/la calera.pdf" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Diario El Observador"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/la calera.pdf" class="portfolio-lightbox"><i
+                      class='bx bxs-file-pdf'></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- ========== DOCUMENTOS ========== -->
+
+
+
+
+          <!-- documentos -->
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-documentos">
-            <div class="portfolio-wrap">
+            <div id="archivos " class="portfolio-wrap">
               <img src="assets/img/portfolio/PPT.png" class="img-fluid" alt="Presentación sobre la salvaguardia del Cementerio N°1 de Valparaíso" loading="lazy">
               <div class="portfolio-info">
-                <h4>Salvaguardia Cementerio N°1</h4>
-                <p>Documentos</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Salvaguardia Cementerio N°1</h4>
-                <p>Documentos</p>
+                <h4>SALVAGUARDIA CEMENTERIO NUMERO 1 DE VALPARAISO.</h4>
+                <p>Sandra Aliaga.</p> <a
+                  href="https://drive.google.com/file/d/1h0iI3ar81JXXnjDTn2M86_QYYOjnPGiH/preview">Power Point</a>
                 <div class="portfolio-links">
-                  <a href="https://drive.google.com/file/d/1h0iI3ar81JXXnjDTn2M86_QYYOjnPGiH/preview" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Presentación Salvaguardia Cementerio N°1"><i class="bx bx-plus"></i></a>
+                  <a href="https://drive.google.com/file/d/1h0iI3ar81JXXnjDTn2M86_QYYOjnPGiH/preview"
+                    class="portfolio-lightbox"><i class='bx bx-slideshow'></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- ========== SOCIOS ========== -->
+
+          <!-- SOCIOS -->
+
+
+          
           <div class="col-lg-4 col-md-6 portfolio-item filter-socios">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/Paula López, Carolina Miranda, Adolfo López.jpg" class="img-fluid" alt="Paula López, Carolina Miranda y Adolfo López en el Cementerio Disidentes" loading="lazy">
               <div class="portfolio-info">
-                <h4>Paula López, Carolina Miranda, Adolfo López</h4>
-                <p>Socios</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Paula López, Carolina Miranda, Adolfo López</h4>
+                <h4>Paula López, Carolina Miranda, Adolfo López.</h4>
                 <p>Cementerio Disidentes</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/Paula López, Carolina Miranda, Adolfo López.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cementerio Disidentes, Valparaíso"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/Paula López, Carolina Miranda, Adolfo López.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Cementerio Disidentes, Valparaíso"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
+
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-socios">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/Aditi Olivera , Romina Care, Valentina Alvarado.jpg" class="img-fluid" alt="Aditi Olivera, Romina Care y Valentina Alvarado en el Cementerio N°1" loading="lazy">
               <div class="portfolio-info">
-                <h4>Aditi Olivera, Romina Care, Valentina Alvarado</h4>
-                <p>Socios</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Aditi Olivera, Romina Care, Valentina Alvarado</h4>
+                <h4>Aditi Olivera , Romina Care, Valentina Alvarado.</h4>
                 <p>Cementerio Nº1</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/Aditi Olivera , Romina Care, Valentina Alvarado.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cementerio Nº1"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/Aditi Olivera , Romina Care, Valentina Alvarado.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Jaime Flores."><i
+                      class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
+
+
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-socios">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/Reunión DIN 399.jpg" class="img-fluid" alt="Reunión del equipo DIN 399" loading="lazy">
               <div class="portfolio-info">
-                <h4>Reunión DIN 399</h4>
-                <p>Socios</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Reunión DIN 399</h4>
-                <p>Equipo DIN 399</p>
+                <h4>Reunión DIN 399.</h4>
+                <p>DIN 399.</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/Reunión DIN 399.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="DIN 399"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/Reunión DIN 399.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="DIN 399."><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- ========== CEMENTERIO N°1 ========== -->
+
+
+
+
+
+
+
+          <!-- FIN SOCIOS -->
+
+          <!-- CEMENTERIO NUIMERO 1 -->
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio1">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/cementerio1/La pietá cementerio n°1.jpg" class="img-fluid" alt="Escultura 'La Pietà' en el Cementerio N°1 de Valparaíso" loading="lazy">
               <div class="portfolio-info">
-                <h4>La Pietà</h4>
-                <p>Cementerio Nº1</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>La Pietà</h4>
-                <p>Cementerio Nº1, Valparaíso</p>
+                <h4>La pietá</h4>
+                <p>Cementerio Nº1, Valparaíso.</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/cementerio1/La pietá cementerio n°1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="La Pietà, Cementerio Nº1"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/cementerio1/La pietá cementerio n°1.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="La pietá, Cementerio Nº1, Valparaíso."><i
+                      class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
+
+
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio1">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cementerio1/cem-n1-hor1.jpg" class="img-fluid" alt="Vista panorámica del Cementerio N°1 de Valparaíso">
+              <div class="portfolio-info">
+                <h4>Cementerio Nº1</h4>
+                <p>Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cementerio1/cem-n1-hor1.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Jaime Flores."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio1">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/cementerio1/cem-n1-hor3.jpg" class="img-fluid" alt="Mausoleos en el Cementerio N°1 de Valparaíso" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Nº1</h4>
-                <p>Cementerio Nº1</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Cementerio Nº1</h4>
                 <p>Valparaíso</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/cementerio1/cem-n1-hor3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cementerio Nº1, Valparaíso"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/cementerio1/cem-n1-hor3.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Jaime Flores."><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -444,31 +475,26 @@
               <img src="assets/img/portfolio/cementerio1/cem-n1-ver3.jpg" class="img-fluid" alt="Escultura de ángel en el Cementerio N°1" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Nº1</h4>
-                <p>Cementerio Nº1</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Cementerio Nº1</h4>
                 <p>Valparaíso</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/cementerio1/cem-n1-ver3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cementerio Nº1, Valparaíso"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/cementerio1/cem-n1-ver3.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Jaime Flores."><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- ========== CEMENTERIO N°2 ========== -->
+          <!-- FIN CEMENTERIO NUIMERO 1 -->
+
+          <!-- CEMENTERIO NUMERO 2 -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio2">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/cementerio2/cementerio N°2.jpg" class="img-fluid" alt="Entrada del Cementerio N°2 de Valparaíso" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Nº2</h4>
-                <p>Cementerio Nº2</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Cementerio Nº2</h4>
                 <p>Valparaíso</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/cementerio2/cementerio N°2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cementerio N°2, Valparaíso"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/cementerio2/cementerio N°2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cementerio N°2 de Valparaíso"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -479,48 +505,46 @@
               <img src="assets/img/portfolio/cementerio2/cem-n2-ver2.jpg" class="img-fluid" alt="Detalle de tumba en Cementerio N°2" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Nº2</h4>
-                <p>Cementerio Nº2</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Cementerio Nº2</h4>
                 <p>Valparaíso</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/cementerio2/cem-n2-ver2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cementerio Nº2, Valparaíso"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/cementerio2/cem-n2-ver2.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Jaime Flores."><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
+
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementerio2">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/cementerio2/cem-n2-ver4.jpg" class="img-fluid" alt="Vista panorámica del Cementerio N°2" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Nº2</h4>
-                <p>Cementerio Nº2</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Cementerio Nº2</h4>
                 <p>Valparaíso</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/cementerio2/cem-n2-ver4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cementerio Nº2, Valparaíso"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/cementerio2/cem-n2-ver4.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Jaime Flores."><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- ========== CEMENTERIO DISIDENTES ========== -->
+
+
+          <!-- FINCEMENTERIO NUMERO 2 -->
+
+
+
+          <!-- Disidentes  -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-disidentes">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/cementerio2/disi1.jpg" class="img-fluid" alt="Cementerio de Disidentes de Valparaíso" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Disidentes</h4>
-                <p>Cementerio Disidentes</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Cementerio Disidentes</h4>
                 <p>Valparaíso</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/cementerio2/disi1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cementerio Disidentes, Valparaíso"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/cementerio2/disi1.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Paula Parada."><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -531,13 +555,10 @@
               <img src="assets/img/portfolio/cementerio2/disi2.jpg" class="img-fluid" alt="Tumbas en el Cementerio de Disidentes" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Disidentes</h4>
-                <p>Cementerio Disidentes</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Cementerio Disidentes</h4>
                 <p>Valparaíso</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/cementerio2/disi2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cementerio Disidentes, Valparaíso"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/cementerio2/disi2.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Paula Parada."><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -548,13 +569,10 @@
               <img src="assets/img/portfolio/cementerio2/disi3.jpg" class="img-fluid" alt="Lápida antigua en el Cementerio de Disidentes" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Disidentes</h4>
-                <p>Cementerio Disidentes</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Cementerio Disidentes</h4>
                 <p>Valparaíso</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/cementerio2/disi3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cementerio Disidentes, Valparaíso"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/cementerio2/disi3.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Paula Parada."><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -565,82 +583,81 @@
               <img src="assets/img/portfolio/cementerio2/disi4.jpg" class="img-fluid" alt="Vista general del Cementerio de Disidentes" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Disidentes</h4>
-                <p>Cementerio Disidentes</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Cementerio Disidentes</h4>
                 <p>Valparaíso</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/cementerio2/disi4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cementerio Disidentes, Valparaíso"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/cementerio2/disi4.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Paula Parada."><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
+
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-disidentes">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/cementerio2/disi5.jpg" class="img-fluid" alt="Fotografía artística del Cementerio de Disidentes" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Disidentes</h4>
-                <p>Cementerio Disidentes</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Cementerio Disidentes</h4>
                 <p>Valparaíso</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/cementerio2/disi5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cementerio Disidentes, Valparaíso"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/cementerio2/disi5.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Pablo Alarcón."><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
+
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-disidentes">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/cementerio2/disi6.jpg" class="img-fluid" alt="Cruz en el Cementerio de Disidentes" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Disidentes</h4>
-                <p>Cementerio Disidentes</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Cementerio Disidentes</h4>
                 <p>Valparaíso</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/cementerio2/disi6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cementerio Disidentes, Valparaíso"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/cementerio2/disi6.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Pablo Alarcón."><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- ========== CEMENTERIOS DEL MUNDO ========== -->
+
+
+
+          <!-- FIN Disidentes  -->
+
+
+          <!-- Cementerios por el mundo cementeriosmundo -->
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementeriosMundo">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/Cementerios x el mundo/Pierre-David1.jpg" class="img-fluid" alt="Cementerio Europeo por Pierre David" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Europeo</h4>
-                <p>Cementerios del Mundo</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Cementerio Europeo</h4>
                 <p>Pierre David</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/Cementerios x el mundo/Pierre-David1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cementerio Europeo - Pierre David"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/Cementerios x el mundo/Pierre-David1.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Pierre David"><i
+                      class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
+
+
+
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-cementeriosMundo">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/Cementerios x el mundo/Pierre-David4.jpg" class="img-fluid" alt="Fotografía de un cementerio europeo por Pierre David" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Europeo</h4>
-                <p>Cementerios del Mundo</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Cementerio Europeo</h4>
                 <p>Pierre David</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/Cementerios x el mundo/Pierre-David4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cementerio Europeo - Pierre David"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/Cementerios x el mundo/Pierre-David4.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Pierre David"><i
+                      class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -651,31 +668,34 @@
               <img src="assets/img/portfolio/Cementerios x el mundo/Pierre-David5.jpg" class="img-fluid" alt="Escultura en cementerio europeo por Pierre David" loading="lazy">
               <div class="portfolio-info">
                 <h4>Cementerio Europeo</h4>
-                <p>Cementerios del Mundo</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Cementerio Europeo</h4>
                 <p>Pierre David</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/Cementerios x el mundo/Pierre-David5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cementerio Europeo - Pierre David"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/Cementerios x el mundo/Pierre-David5.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Pierre David"><i
+                      class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- ========== ACTIVIDADES ========== -->
+
+
+
+          <!-- Fin cementerios x el mundo  -->
+
+          <!-- ACTIVIDADES -->
+
+
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/actividades/la cruz actividad.JPG" class="img-fluid" alt="Evento 'Sobrevuelos Cementerios' en La Cruz" loading="lazy">
               <div class="portfolio-info">
                 <h4>Evento Sobrevuelos Cementerios</h4>
-                <p>Actividades</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Evento Sobrevuelos Cementerios</h4>
-                <p>La Cruz</p>
+                <p>La Cruz.</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/actividades/la cruz actividad.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Evento Sobrevuelos Cementerios - La Cruz"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/actividades/la cruz actividad.JPG" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="La Cruz"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -685,14 +705,12 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/actividades/Lanzamiento libro Upla..jpg" class="img-fluid" alt="Lanzamiento de libro en la Universidad de Playa Ancha (UPLA)" loading="lazy">
               <div class="portfolio-info">
-                <h4>Lanzamiento libro UPLA</h4>
-                <p>Actividades</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Lanzamiento libro UPLA</h4>
-                <p>Universidad de Playa Ancha</p>
+                <h4>Lanzamiento libro Upla</h4>
+                <p>Universidad de Playa Ancha.</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/actividades/Lanzamiento libro Upla..jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Lanzamiento libro - Universidad de Playa Ancha"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/actividades/Lanzamiento libro Upla..jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Lanzamiento libro Upla, Universidad de Playa Ancha."><i
+                      class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -702,14 +720,11 @@
             <div class="portfolio-wrap">
               <img src="assets/img/Actprogramas/acto.jpg" class="img-fluid" alt="Actividad de la agrupación" loading="lazy">
               <div class="portfolio-info">
-                <h4>Actividad Cultural</h4>
-                <p>Actividades</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Actividad Cultural</h4>
+                <h4>Actividad</h4>
                 <p>Acto</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/Actprogramas/acto.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Actividad Cultural"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/Actprogramas/acto.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Acto"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -719,116 +734,165 @@
             <div class="portfolio-wrap">
               <img src="assets/img/Actprogramas/acto1.jpg" class="img-fluid" alt="Actividad de la agrupación" loading="lazy">
               <div class="portfolio-info">
-                <h4>Actividad Cultural</h4>
-                <p>Actividades</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Actividad Cultural</h4>
+                <h4>Actividad</h4>
                 <p>Acto</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/Actprogramas/acto1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Actividad Cultural"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/Actprogramas/acto1.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Acto"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/Esteban Jiménez Cementerio Disidentes.jpg" class="img-fluid"
+                alt="Esteban Jiménez en Cementerio de Disidentes Valparaíso">
+              <div class="portfolio-info">
+                <h4>Esteban Jiménez.</h4>
+                <p>Cementerio Disidentes</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/Esteban Jiménez Cementerio Disidentes.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Esteban Jiménez, Cementerio Disidentes."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/actividades/Poeta Carlos Smiths Necropoética Cementerio Disidentes.jpg" class="img-fluid" alt="Poeta Carlos Smiths en actividad de Necropoética en el Cementerio de Disidentes" loading="lazy">
               <div class="portfolio-info">
-                <h4>Necropoética - Poeta Carlos Smiths</h4>
-                <p>Actividades</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Necropoética - Poeta Carlos Smiths</h4>
+                <h4>Necropoética. Poeta Carlos Smiths.</h4>
                 <p>Cementerio Disidentes</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/actividades/Poeta Carlos Smiths Necropoética Cementerio Disidentes.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Necropoética - Poeta Carlos Smiths"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/actividades/Poeta Carlos Smiths Necropoética Cementerio Disidentes.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Necropoética. Poeta Carlos Smiths, Cementerio Disidentes."><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/Eduardo Vergara y Aref Cosma Cementerio N°1.jpg"
+                class="img-fluid" alt="Eduardo Vergara y Aref Cosma en actividad cultural Cementerio N°1">
+              <div class="portfolio-info">
+                <h4>Eduardo Vergara y Aref Cosma.</h4>
+                <p> Cementerio N°1.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/Eduardo Vergara y Aref Cosma Cementerio N°1.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Eduardo Vergara y Aref Cosma, Cementerio N°1."><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+ -->
+
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/Visita Guiada Alumnos de Educación Básica y Media de Recoleta Santiago.jpg"
+                class="img-fluid" alt="Visita guiada educacional con alumnos de Recoleta Santiago en cementerio patrimonial">
+              <div class="portfolio-info">
+                <h4>Visita Guiada Alumnos de Educación Básica y Media de Recoleta Santiago</h4>
+                <p></p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/Visita Guiada Alumnos de Educación Básica y Media de Recoleta Santiago.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Visita Guiada Alumnos de Educación Básica y Media de Recoleta Santiago"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+ -->
+
+
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/actividades/Libro Sudamerikan Zombie.jpg" class="img-fluid" alt="Presentación del libro 'Sudamerikan Zombie' en el Cementerio de Disidentes" loading="lazy">
               <div class="portfolio-info">
-                <h4>Libro Sudamerikan Zombie</h4>
-                <p>Actividades</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Libro Sudamerikan Zombie</h4>
+                <h4>Gato, Libro Sudamerikan Zombie</h4>
                 <p>Cementerio Disidentes</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/actividades/Libro Sudamerikan Zombie.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Libro Sudamerikan Zombie"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/actividades/Libro Sudamerikan Zombie.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox" title=", Cementerio Disidentes."><i
+                      class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
+
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/actividades/Patricia Cortez -Eduardo Vergara Libro Epitafios Olvidados.jpg" class="img-fluid" alt="Patricia Cortez y Eduardo Vergara con el libro 'Epitafios Olvidados'" loading="lazy">
               <div class="portfolio-info">
-                <h4>Libro Epitafios Olvidados</h4>
-                <p>Actividades</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Libro Epitafios Olvidados</h4>
-                <p>Patricia Cortez, Eduardo Vergara</p>
+                <h4>Libro Epitafios Olvidados.</h4>
+                <p>Patricia Cortez, Eduardo Vergara.</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/actividades/Patricia Cortez -Eduardo Vergara Libro Epitafios Olvidados.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Libro Epitafios Olvidados - Patricia Cortez, Eduardo Vergara"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/actividades/Actividad Necropoética Día de los Patrimonios 2022.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Libro Epitafios Olvidados. Patricia Cortez, Eduardo Vergara."><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
+
+
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/actividades/Actividad Necropoética Día de los Patrimonios 2022.jpg" class="img-fluid" alt="Actividad de Necropoética durante el Día de los Patrimonios 2022" loading="lazy">
               <div class="portfolio-info">
-                <h4>Necropoética Día de los Patrimonios</h4>
-                <p>Actividades</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Necropoética Día de los Patrimonios</h4>
+                <h4>Necropoética Día de los Patrimonios.</h4>
                 <p>2022</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/actividades/Actividad Necropoética Día de los Patrimonios 2022.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Necropoética Día de los Patrimonios 2022"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/actividades/Actividad Necropoética Día de los Patrimonios 2022.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Necropoética Día de los Patrimonios. 2022"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
+
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/actividades/Actividad lanzamiento libro Sudamerikan Zombie.jpg" class="img-fluid" alt="Lanzamiento del libro 'Sudamerikan Zombie' con Esteban Jiménez y Eduardo Vergara" loading="lazy">
               <div class="portfolio-info">
-                <h4>Lanzamiento Libro Sudamerikan Zombie</h4>
-                <p>Actividades</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Lanzamiento Libro Sudamerikan Zombie</h4>
-                <p>Esteban Jiménez, Eduardo Vergara</p>
+                <h4>Lanzamiento del libro Sudamerikan Zombie</h4>
+                <p>Esteban Jiménez, Eduardo Vergara.</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/actividades/Actividad lanzamiento libro Sudamerikan Zombie.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Lanzamiento Libro Sudamerikan Zombie - Esteban Jiménez, Eduardo Vergara"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/actividades/Actividad lanzamiento libro Sudamerikan Zombie.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Lanzamiento del libro Sudamerikan Zombie, Esteban Jiménez, Eduardo Vergara."><i
+                      class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
+
+
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/actividades/2018 Duoc Valparaíso Exposición Fotográfica de Cementerios Aref Cosma.jpg" class="img-fluid" alt="Exposición fotográfica de Aref Cosma en Duoc Valparaíso, 2018" loading="lazy">
               <div class="portfolio-info">
-                <h4>Exposición Fotográfica de Cementerios</h4>
-                <p>Actividades</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Exposición Fotográfica de Cementerios</h4>
-                <p>Aref Cosma - Duoc Valparaíso, 2018</p>
+                <h4>Exposición Fotográfica de Cementerios,Aref Cosma.</h4>
+                <p>Duoc Valparaíso, 2018.</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/actividades/2018 Duoc Valparaíso Exposición Fotográfica de Cementerios Aref Cosma.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Exposición Fotográfica de Cementerios - Aref Cosma, Duoc Valparaíso 2018"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/actividades/2018 Duoc Valparaíso Exposición Fotográfica de Cementerios Aref Cosma.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Exposición Fotográfica de Cementerios,Aref Cosma. Duoc Valparaíso, 2018."><i
+                      class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -838,14 +902,29 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/actividades/Necropoética Benjamín Bueno, Eduardo Vergara , Francoise Laly 3.jpg" class="img-fluid" alt="Actividad de Necropoética con Benjamín Bueno, Eduardo Vergara y Francoise Laly" loading="lazy">
               <div class="portfolio-info">
-                <h4>Necropoética</h4>
-                <p>Actividades</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Necropoética</h4>
-                <p>Benjamín Bueno, Eduardo Vergara, Francoise Laly</p>
+                <h4>Necropoética Benjamín Bueno, Eduardo Vergara , Francoise Laly</h4>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/actividades/Necropoética Benjamín Bueno, Eduardo Vergara , Francoise Laly 3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Necropoética - Benjamín Bueno, Eduardo Vergara, Francoise Laly"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/actividades/Lanzamiento libro Upla..jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Necropoética Benjamín Bueno, Eduardo Vergara , Francoise Laly"><i
+                      class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/actividades/Visita Cementerio Disidentes Valparaíso Creativo-Corfo Comité gestor de Patrimonio Compartiendo.jpg" class="img-fluid" alt="Visita al Cementerio de Disidentes con Valparaíso Creativo-Corfo" loading="lazy">
+              <div class="portfolio-info">
+                <h4>Visita Cementerio Disidentes Valparaíso Creativo-Corfo Comité gestor de Patrimonio</h4>
+                <p>Cementerio Disidentes Valparaíso</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/actividades/Visita Cementerio Disidentes Valparaíso Creativo-Corfo Comité gestor de Patrimonio.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Cementerio Disidentes Valparaíso"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -853,16 +932,14 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/actividades/Visita Cementerio Disidentes Valparaíso Creativo-Corfo Comité gestor de Patrimonio Compartiendo.jpg" class="img-fluid" alt="Visita al Cementerio de Disidentes con Valparaíso Creativo-Corfo" loading="lazy">
+              <img src="assets/img/portfolio/actividades/Visita Cementerio Disidentes Valparaíso Creativo-Corfo Comité gestor de Patrimonio.jpg" class="img-fluid" alt="Comité gestor de Patrimonio en el Cementerio de Disidentes" loading="lazy">
               <div class="portfolio-info">
-                <h4>Visita Cementerio Disidentes</h4>
-                <p>Actividades</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Visita Cementerio Disidentes</h4>
-                <p>Valparaíso Creativo-Corfo Comité Gestor de Patrimonio</p>
+                <h4>Visita Cementerio Disidentes Valparaíso Creativo-Corfo Comité gestor de Patrimonio</h4>
+                <p>Cementerio Disidentes Valparaíso</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/actividades/Visita Cementerio Disidentes Valparaíso Creativo-Corfo Comité gestor de Patrimonio.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Visita Cementerio Disidentes - Valparaíso Creativo-Corfo"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/actividades/Visita Cementerio Disidentes Valparaíso Creativo-Corfo Comité gestor de Patrimonio.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Cementerio Disidentes Valparaíso"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -872,14 +949,12 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/actividades/Visita Disidentes, Joaquín Velasco , Denis Madina, Juan José Caro, Aditi Olivera.jpg" class="img-fluid" alt="Visita al Cementerio de Disidentes con Joaquín Velasco, Denis Madina, Juan José Caro y Aditi Olivera" loading="lazy">
               <div class="portfolio-info">
-                <h4>Visita Cementerio Disidentes</h4>
-                <p>Actividades</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Visita Cementerio Disidentes</h4>
-                <p>Joaquín Velasco, Denis Madina, Juan José Caro, Aditi Olivera</p>
+                <h4>Visita Disidentes, Joaquín Velasco , Denis Madina, Juan José Caro, Aditi Olivera</h4>
+                <p>Cementerio Disidentes Valparaíso</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/actividades/Visita Disidentes, Joaquín Velasco , Denis Madina, Juan José Caro, Aditi Olivera.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Visita Cementerio Disidentes"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/actividades/Visita Disidentes, Joaquín Velasco , Denis Madina, Juan José Caro, Aditi Olivera.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Cementerio Disidentes Valparaíso"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -889,24 +964,37 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/actividades/Visita Guiada cementerio Santa Inés.jpg" class="img-fluid" alt="Visita guiada al Cementerio Santa Inés en Viña del Mar" loading="lazy">
               <div class="portfolio-info">
-                <h4>Visita Guiada Cementerio Santa Inés</h4>
-                <p>Actividades</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Visita Guiada Cementerio Santa Inés</h4>
-                <p>Cementerio Santa Inés, Viña del Mar</p>
+                <h4>Visita Guiada Cementerio Santa Inés.</h4>
+                <p>Cementerio Santa Inés Viña Del Mar</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/actividades/Visita Guiada cementerio Santa Inés.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Visita Guiada Cementerio Santa Inés, Viña del Mar"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/actividades/Visita Guiada cementerio Santa Inés.jpg"
+                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Cementerio Santa Inés Viña Del Mar"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
+
+
+
+
+
+
+
+
+
+
+          <!-- FIN ACTIVIDADES  -->
+
+
+
+
         </div>
       </div>
     </section>
     <!-- Fin Sección de galería -->
-
+ 
     <!-- ======= Equipo y Directiva ======= -->
 
 
@@ -1030,7 +1118,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/Directiva/Paula López.jpg" class="testimonial-img" alt="Retrato de Paula López" loading="lazy">
+                <img src="assets/img/Directiva/Paula Lopez.jpg" class="testimonial-img" alt="Retrato de Paula López" loading="lazy">
                 <h3>Paula López</h3>
                 <span class="role">Periodista</span>
               </div>
