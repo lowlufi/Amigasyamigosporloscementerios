@@ -76,15 +76,35 @@
   <section id="hero" class="d-flex align-items-center justify-content-center swiper-container"
     style='background-image: url("assets/img/portada.webp")'>
 
-
-
-
     <div class="container" data-aos="fade-up">
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
-        <div class="col-xl-6 col-lg-8">
+        <div class="col-xl-8 col-lg-10">
           <h1>AMIGAS <span>&</span> AMIGOS POR LOS <span>CEMENTERIOS</span></h1>
-          <h2> </h2>
+          <h2>Salvaguardando el patrimonio funerario de Valparaíso desde 2017</h2>
+          <div class="hero-cta" data-aos="fade-up" data-aos-delay="300">
+            <a href="#portfolio" class="btn-hero btn-primary">Conoce Nuestro Trabajo</a>
+            <a href="#footer" class="btn-hero btn-secondary">Contáctanos</a>
+          </div>
+          <div class="hero-stats" data-aos="fade-up" data-aos-delay="450">
+            <div class="stat-item">
+              <span class="stat-number">8</span>
+              <span class="stat-label">Años de Historia</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">3</span>
+              <span class="stat-label">Cementerios Patrimoniales</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">Visitas Guiadas</span>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="600">
+        <a href="#features">
+          <i class="bi bi-chevron-down"></i>
+        </a>
       </div>
     </div>
   </section>
@@ -700,40 +720,6 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
             <div class="portfolio-wrap">
-              <img src="assets/img/Actprogramas/acto.jpg" class="img-fluid" alt="Actividad de la agrupación" loading="lazy">
-              <div class="portfolio-info">
-                <h4>Actividad Cultural</h4>
-                <p>Actividades</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Actividad Cultural</h4>
-                <p>Acto</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/Actprogramas/acto.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Actividad Cultural"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Actprogramas/acto1.jpg" class="img-fluid" alt="Actividad de la agrupación" loading="lazy">
-              <div class="portfolio-info">
-                <h4>Actividad Cultural</h4>
-                <p>Actividades</p>
-              </div>
-              <div class="portfolio-overlay">
-                <h4>Actividad Cultural</h4>
-                <p>Acto</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/Actprogramas/acto1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Actividad Cultural"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-actividades">
-            <div class="portfolio-wrap">
               <img src="assets/img/portfolio/actividades/Poeta Carlos Smiths Necropoética Cementerio Disidentes.jpg" class="img-fluid" alt="Poeta Carlos Smiths en actividad de Necropoética en el Cementerio de Disidentes" loading="lazy">
               <div class="portfolio-info">
                 <h4>Necropoética - Poeta Carlos Smiths</h4>
@@ -1273,6 +1259,31 @@
   </script>
   <!-- archivo JS -->
   <script src="assets/js/main.js?v=1.1"></script>
+  <script src="assets/js/instituciones-urls.js?v=1.1"></script>
+
+  <!-- Smooth scroll fix -->
+  <script>
+    // Smooth scroll para todos los enlaces de ancla
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const href = this.getAttribute('href');
+        if (href !== '#' && href !== '#!') {
+          e.preventDefault();
+          const target = document.querySelector(href);
+          if (target) {
+            const headerOffset = 80;
+            const elementPosition = target.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth'
+            });
+          }
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>

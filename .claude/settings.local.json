@@ -13,7 +13,9 @@
       "Bash(done)",
       "Bash(do [ ! -f \"$file\" ])",
       "Bash(echo \"$file\")",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(start index.html)",
+      "Bash(test:*)"
     ],
     "deny": [],
     "ask": []
