@@ -14,7 +14,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #666;
+  color: #555;
   padding: 0px;
   overflow-x: hidden;
 }
@@ -375,10 +375,13 @@ h6 {
 
 #hero {
   width: 100%;
-  min-height: 100vh;
+  min-height: 70vh;
   /* background: url("/assets/img/portada.png") top center; */
   background-size: cover;
   position: relative;
+  display: flex;
+  align-items: center;
+  padding: 100px 0 80px 0;
 }
 
 #background-video {
@@ -446,7 +449,7 @@ h6 {
   gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 30px 0;
+  margin: 30px 0 60px 0;
 }
 
 .btn-hero {
@@ -530,7 +533,7 @@ h6 {
 
 .scroll-indicator {
   position: absolute;
-  bottom: 30px;
+  bottom: -100px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
@@ -538,23 +541,28 @@ h6 {
 
 .scroll-indicator a {
   display: block;
-  width: 40px;
-  height: 40px;
-  border: 2px solid rgba(255, 196, 81, 0.8);
+  width: 50px;
+  height: 50px;
+  border: 3px solid #ffffff;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ffc451;
+  color: #ffffff;
   font-size: 24px;
   transition: all 0.3s ease;
   animation: bounce 2s infinite;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .scroll-indicator a:hover {
-  background: rgba(255, 196, 81, 0.2);
+  background: #ffc451;
   border-color: #ffc451;
+  color: #151515;
   transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(255, 196, 81, 0.5);
 }
 
 @keyframes bounce {
@@ -655,7 +663,7 @@ h6 {
   }
 
   .scroll-indicator {
-    bottom: 20px;
+    bottom: -60px;
   }
 
   .scroll-indicator a {
@@ -714,7 +722,7 @@ section {
   font-weight: 500;
   padding: 0;
   line-height: 1px;
-  margin: 0 0 10px 0;
+  margin: 0 0 20px 0;
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #999999;
@@ -788,7 +796,7 @@ section {
 .about .content p {
   font-size: 16px;
   line-height: 1.8;
-  color: #666;
+  color: #555;
   margin-bottom: 20px;
 }
 
@@ -843,12 +851,15 @@ section {
   opacity: 1;
   transition: all 0.4s ease;
   filter: none;
-  max-height: 120px;
+  max-height: 100px;
+  height: 100px;
   width: auto;
+  max-width: 180px;
+  object-fit: contain;
   background: rgba(255, 255, 255, 0.08);
   border-radius: 10px;
   border: 1px solid rgba(255, 196, 81, 0.15);
-  padding: 10px;
+  padding: 15px;
 }
 
 .clients .swiper-slide a:hover img,
@@ -954,7 +965,7 @@ body {
 .features .content p {
   font-size: 16px;
   line-height: 1.8;
-  color: #666; 
+  color: #555; 
   margin-bottom: 15px;
 }
 
@@ -977,7 +988,7 @@ body {
 
 .features .icon-box p {
   font-size: 15px;
-  color: #848484;
+  color: #666;
   margin-left: 60px;
 }
 
@@ -1056,8 +1067,26 @@ body {
 
 /* BOTONES */
 div.presentacion {
-  /* padding: 20px; */
-  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+div.presentacion h3 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+div.presentacion p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  div.presentacion {
+    margin-top: 30px;
+    padding: 0;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1141,8 +1170,8 @@ div.presentacion {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
-  opacity: 60%;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 50%;
 }
 
 
@@ -1351,7 +1380,7 @@ div.presentacion {
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #666;
+  color: #555;
   font-size: 13px;
   text-transform: uppercase;
   padding: 0;
@@ -1683,7 +1712,7 @@ div.presentacion {
 .testimonials .testimonial-item h4 {
   font-size: 14px;
   font-weight: 400;
-  color: #666;
+  color: #555;
   margin: 0 auto 6px auto;
   text-align: center;
   line-height: 1.6;
@@ -1883,7 +1912,7 @@ div.presentacion {
   display: block;
   font-size: 14px;
   font-weight: 400;
-  color: #666;
+  color: #555;
   line-height: 1.6;
   margin-bottom: 6px;
 }
@@ -1892,7 +1921,7 @@ div.presentacion {
   font-style: normal;
   font-size: 14px;
   line-height: 1.8;
-  color: #666;
+  color: #555;
   margin-top: 15px;
 }
 
@@ -1974,7 +2003,7 @@ div.presentacion {
 .team .additional-teams p {
   font-size: 15px;
   line-height: 1.8;
-  color: #666;
+  color: #555;
   margin: 0;
 }
 
@@ -2487,6 +2516,18 @@ div.presentacion {
   margin-top: 10px;
   color: #FEF7EF;
   font-size: 16px;
+  word-break: break-word;
+}
+
+#footer .footer-info .footer-contact-item p a {
+  color: #FEF7EF;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+#footer .footer-info .footer-contact-item p a:hover {
+  color: #ffc451;
+  text-decoration: underline;
 }
 
 #footer .footer-bottom-container {
@@ -2521,7 +2562,7 @@ div.presentacion {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 600px;
+  min-height: 500px;
   background: #ffffff;
   border-radius: 15px;
   padding: 30px;
