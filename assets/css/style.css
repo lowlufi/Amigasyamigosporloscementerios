@@ -537,6 +537,9 @@ h6 {
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .scroll-indicator a {
@@ -625,20 +628,29 @@ h6 {
     padding: 100px 0 50px;
   }
 
+  #hero .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   #hero h1 {
     font-size: 24px;
     line-height: 32px;
+    text-align: center;
   }
 
   #hero h2 {
     font-size: 16px;
     line-height: 24px;
     margin: 15px 0 25px 0;
+    text-align: center;
   }
 
   .hero-cta {
     flex-direction: column;
     gap: 15px;
+    align-items: center;
+    margin: 30px auto;
   }
 
   .btn-hero {
@@ -646,6 +658,7 @@ h6 {
     max-width: 300px;
     padding: 12px 25px;
     font-size: 14px;
+    text-align: center;
   }
 
   .hero-stats {
@@ -663,7 +676,9 @@ h6 {
   }
 
   .scroll-indicator {
-    bottom: -60px;
+    bottom: -34px;
+    left: 0;
+    transform: none;
   }
 
   .scroll-indicator a {
@@ -2779,6 +2794,28 @@ div.presentacion p {
 
   #hero h1 {
     font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .hero-cta {
+    margin: 25px auto;
+  }
+
+  .btn-hero {
+    max-width: 280px;
+    padding: 11px 20px;
+    font-size: 13px;
+  }
+
+  .scroll-indicator {
+    bottom: -30px;
+  }
+
+  .scroll-indicator a {
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
   }
 
   .section-title h2 {
