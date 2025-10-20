@@ -8,25 +8,64 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+/* Variables CSS para consistencia */
+:root {
+  --color-primary: #ffc451;
+  --color-primary-dark: #ffb020;
+  --color-primary-light: #ffd584;
+  --color-dark: #151515;
+  --color-light: #FEF7EF;
+  --color-text: #555;
+  --color-text-light: #999999;
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 15px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 25px rgba(0, 0, 0, 0.12);
+  --shadow-xl: 0 15px 40px rgba(0, 0, 0, 0.15);
+
+  --shadow-primary: 0 4px 15px rgba(255, 196, 81, 0.3);
+  --shadow-primary-hover: 0 6px 20px rgba(255, 196, 81, 0.4);
+
+  --radius-sm: 8px;
+  --radius-md: 15px;
+  --radius-lg: 20px;
+  --radius-full: 50%;
+
+  --transition-fast: all 0.2s ease;
+  --transition-normal: all 0.3s ease;
+  --transition-slow: all 0.4s ease;
+}
+
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #555;
+  color: var(--color-text);
   padding: 0px;
   overflow-x: hidden;
 }
 
 a {
-  color: #ffc451;
+  color: var(--color-primary);
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: var(--transition-normal);
 }
 
 a:hover {
-  color: #ffd584;
+  color: var(--color-primary-light);
   text-decoration: none;
 }
 
@@ -49,12 +88,12 @@ h6 {
   right: 20px;
   bottom: 20px;
   z-index: 996;
-  background: #ffc451;
+  background: var(--color-primary);
   width: 50px;
   height: 50px;
-  border-radius: 50%;
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0 4px 15px rgba(255, 196, 81, 0.4);
+  border-radius: var(--radius-full);
+  transition: var(--transition-normal);
+  box-shadow: var(--shadow-primary);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,18 +101,18 @@ h6 {
 
 .back-to-top i {
   font-size: 24px;
-  color: #151515;
+  color: var(--color-dark);
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #151515;
+  background: var(--color-dark);
   transform: translateY(-5px);
-  box-shadow: 0 6px 25px rgba(21, 21, 21, 0.5);
+  box-shadow: var(--shadow-lg);
 }
 
 .back-to-top:hover i {
-  color: #ffc451;
+  color: var(--color-primary);
 }
 
 .back-to-top.active {
@@ -457,37 +496,57 @@ h6 {
   font-size: 16px;
   font-weight: 600;
   border-radius: 30px;
-  transition: all 0.3s ease;
+  transition: var(--transition-normal);
   text-transform: uppercase;
   letter-spacing: 1px;
   display: inline-block;
   text-decoration: none;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-hero::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s ease, height 0.6s ease;
+}
+
+.btn-hero:hover::before {
+  width: 300px;
+  height: 300px;
 }
 
 .btn-hero.btn-primary {
-  background: linear-gradient(135deg, #ffc451 0%, #ffb020 100%);
-  color: #151515;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  color: var(--color-dark);
   border: 2px solid transparent;
 }
 
 .btn-hero.btn-primary:hover {
-  background: linear-gradient(135deg, #ffb020 0%, #ffc451 100%);
+  background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%);
   transform: translateY(-3px);
-  box-shadow: 0 6px 25px rgba(255, 196, 81, 0.4);
+  box-shadow: var(--shadow-primary-hover);
 }
 
 .btn-hero.btn-secondary {
   background: transparent;
-  color: #FEF7EF;
-  border: 2px solid #FEF7EF;
+  color: var(--color-light);
+  border: 2px solid var(--color-light);
 }
 
 .btn-hero.btn-secondary:hover {
-  background: #FEF7EF;
-  color: #151515;
+  background: var(--color-light);
+  color: var(--color-dark);
   transform: translateY(-3px);
-  box-shadow: 0 6px 25px rgba(254, 247, 239, 0.3);
+  box-shadow: var(--shadow-md);
 }
 
 /* Estadísticas en Hero */
@@ -538,7 +597,7 @@ h6 {
   transform: translateX(-50%);
   z-index: 10;
   width: 100%;
-  display: flex;
+  display: none;
   justify-content: center;
 }
 
@@ -547,25 +606,42 @@ h6 {
   width: 50px;
   height: 50px;
   border: 3px solid #ffffff;
-  border-radius: 50%;
+  border-radius: var(--radius-full);
   display: flex;
   align-items: center;
   justify-content: center;
   color: #ffffff;
   font-size: 24px;
-  transition: all 0.3s ease;
-  animation: bounce 2s infinite;
+  transition: var(--transition-normal);
+  animation: bounce 2s ease-in-out infinite;
   background: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(5px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow-md);
+  position: relative;
+}
+
+.scroll-indicator a::after {
+  content: '';
+  position: absolute;
+  inset: -5px;
+  border: 2px solid var(--color-primary);
+  border-radius: var(--radius-full);
+  opacity: 0;
+  transition: var(--transition-normal);
 }
 
 .scroll-indicator a:hover {
-  background: #ffc451;
-  border-color: #ffc451;
-  color: #151515;
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-dark);
   transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(255, 196, 81, 0.5);
+  box-shadow: var(--shadow-primary-hover);
+  animation-play-state: paused;
+}
+
+.scroll-indicator a:hover::after {
+  opacity: 0.5;
+  inset: -8px;
 }
 
 @keyframes bounce {
@@ -734,23 +810,24 @@ section {
 
 .section-title h2 {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 0;
   line-height: 1px;
   margin: 0 0 20px 0;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #999999;
+  color: var(--color-text-light);
   font-family: "Poppins", sans-serif;
 }
 
 .section-title h2::after {
   content: "";
   width: 120px;
-  height: 2px;
+  height: 3px;
   display: inline-block;
-  background: linear-gradient(90deg, #ffc451 0%, #ffde9e 100%);
+  background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
   margin: 4px 10px;
+  border-radius: 2px;
 }
 
 .section-title p {
@@ -759,8 +836,9 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #151515;
+  color: var(--color-dark);
   letter-spacing: 1px;
+  line-height: 1.2;
 }
 
 /*--------------------------------------------------------------
@@ -1324,13 +1402,13 @@ div.presentacion p {
 }
 
 .portfolio .portfolio-wrap {
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: var(--transition-slow) cubic-bezier(0.175, 0.885, 0.32, 1.275);
   position: relative;
   overflow: hidden;
   z-index: 1;
   background: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -1779,14 +1857,15 @@ div.presentacion p {
 .team .member {
   margin-bottom: 30px;
   overflow: hidden;
-  border-radius: 20px;
+  border-radius: var(--radius-lg);
   background: #ffffff;
-  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.06);
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition-slow) cubic-bezier(0.175, 0.885, 0.32, 1.275);
   height: 100%;
   display: flex;
   flex-direction: column;
   position: relative;
+  border: 1px solid rgba(255, 196, 81, 0.1);
 }
 
 .team .member::before {
@@ -1795,10 +1874,11 @@ div.presentacion p {
   top: 0;
   left: 0;
   right: 0;
-  height: 5px;
-  background: linear-gradient(90deg, #ffc451 0%, #ffb020 100%);
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
   transform: scaleX(0);
-  transition: transform 0.4s ease;
+  transform-origin: left;
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .team .member:hover::before {
